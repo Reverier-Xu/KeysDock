@@ -3,7 +3,7 @@
 The high performance, feature riched, minimal keyboard!
 
 > [!WARNING]
-> STILL IN EARLY DEVELOPMENT!
+> **STILL IN EARLY DEVELOPMENT!**
 >
 > - [ ] PCB design
 > - [x] Suitkit design
