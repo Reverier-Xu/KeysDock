@@ -23,6 +23,11 @@ Designed use FreeCAD for 3D modeling and QCAD for nameplate drawn.
 
 ![suitkits](arts/suitkits.webp)
 
+Fonts used in design:
+
+- [Iosevka](https://typeof.net/Iosevka/): An elegant monospace coding font;
+- [Hershey Fonts](https://en.wikipedia.org/wiki/Hershey_fonts): a collection of vector fonts originally designed to be rendered using vectors on early cathode ray tube displays.
+
 ## Hardware design
 
 Designed use [LCEDA](https://lceda.cn/), thanks for the awesome and free EDA design software.
