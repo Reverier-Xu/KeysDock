@@ -1,0 +1,141 @@
+[
+  {
+    "backcolor": "#a19c9c",
+    "name": "KeysDock65",
+    "author": "Reverier-Xu",
+    "background": {
+      "name": "Steel brushed dark",
+      "style": "background-image: url('/bg/metal/iron_texture1745.jpg');"
+    },
+    "plate": true
+  },
+  [
+    "Esc\n`\n\n\n\n\n~",
+    "!\n1",
+    "@\n2",
+    "#\n3",
+    "$\n4",
+    "%\n5",
+    "^\n6",
+    "&\n7",
+    "*\n8",
+    "(\n9",
+    ")\n0",
+    "_\n-",
+    "+\n=",
+    {
+      "w": 2
+    },
+    "Backspace\n2u",
+    "Delete"
+  ],
+  [
+    {
+      "w": 1.5
+    },
+    "Tab\n1.5u",
+    "Q",
+    "W",
+    "E",
+    "R",
+    "T",
+    "Y",
+    "U",
+    "I",
+    "O",
+    "P",
+    "{\n[",
+    "}\n]",
+    {
+      "w": 1.5
+    },
+    "|\n\\\n\n1.5u",
+    "Insert"
+  ],
+  [
+    {
+      "w": 1.75
+    },
+    "Caps Lock\n1.75u",
+    "A",
+    "S",
+    "D",
+    {
+      "n": true
+    },
+    "F",
+    "G",
+    "H",
+    {
+      "n": true
+    },
+    "J",
+    "K",
+    "L",
+    ":\n;",
+    "\"\n'",
+    {
+      "w": 2.25
+    },
+    "Enter\n2.25u",
+    "Home"
+  ],
+  [
+    {
+      "w": 2.25
+    },
+    "Shift\n2.25u",
+    "Z",
+    "X",
+    "C",
+    "V",
+    "B",
+    "N",
+    "M",
+    "<\n,",
+    ">\n.",
+    "?\n/",
+    {
+      "w": 1.75
+    },
+    "Shift\n1.75u",
+    {
+      "n": true
+    },
+    "↑",
+    "End"
+  ],
+  [
+    {
+      "w": 1.25
+    },
+    "Ctrl\n1.25u",
+    {
+      "w": 1.25
+    },
+    "Win\n1.25u",
+    {
+      "w": 1.25
+    },
+    "Alt\n1.25u",
+    {
+      "w": 6.25
+    },
+    "\n6.25u",
+    "Alt",
+    "Fn",
+    "Ctrl",
+    {
+      "n": true
+    },
+    "←",
+    {
+      "n": true
+    },
+    "↓",
+    {
+      "n": true
+    },
+    "→"
+  ]
+]
