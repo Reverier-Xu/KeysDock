@@ -19,7 +19,7 @@ KeysDock uses 67-keys ISO layout.
 
 ## Suitkit design
 
-Designed use FreeCAD for 3D modeling and QCAD for nameplate drawn.
+Designed use [FreeCAD](https://www.freecad.org/) for 3D modeling and [QCAD](https://www.qcad.org/) for nameplate drawn.
 
 ![suitkits](arts/suitkits.webp)
 
