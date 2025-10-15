@@ -1,4 +1,4 @@
-# Keys Dock
+# ![Keys Dock](arts/keysdock.svg)
 
 The high performance, feature riched, minimal keyboard!
 
