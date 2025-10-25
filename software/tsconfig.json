@@ -1,0 +1,66 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "es2022",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": [
+      "vite/client"
+    ],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@routes/*": [
+        "src/routes/*"
+      ],
+      "@assets": [
+        "src/lib/assets"
+      ],
+      "@assets/*": [
+        "src/lib/assets/*"
+      ],
+      "@blocks": [
+        "src/lib/blocks"
+      ],
+      "@blocks/*": [
+        "src/lib/blocks/*"
+      ],
+      "@models": [
+        "src/lib/models"
+      ],
+      "@models/*": [
+        "src/lib/models/*"
+      ],
+      "@storage": [
+        "src/lib/storage"
+      ],
+      "@storage/*": [
+        "src/lib/storage/*"
+      ],
+      "@widgets": [
+        "src/lib/widgets"
+      ],
+      "@widgets/*": [
+        "src/lib/widgets/*"
+      ],
+      "@lib/*": [
+        "src/lib/*"
+      ],
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "tailwind.config.mts",
+    "vite.config.mts"
+  ]
+}

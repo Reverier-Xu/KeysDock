@@ -1,0 +1,254 @@
+{
+  "general": {
+    "network": {
+      "status": {
+        "400": {
+          "title": "请求参数错误",
+          "message": "这个 exp 看起来不太对劲"
+        },
+        "401": {
+          "title": "请先登录",
+          "message": "嘿客也得有个名字"
+        },
+        "403": {
+          "title": "权限不足，拒绝访问",
+          "message": "总有一扇门是对你关闭的"
+        },
+        "404": {
+          "title": "资源不存在",
+          "message": "生活总归带点荒谬"
+        },
+        "412": {
+          "title": "前置条件出错",
+          "message": "也许你漏掉了什么东西？"
+        },
+        "418": {
+          "title": "我是个茶壶",
+          "message": "用茶壶泡咖啡真的不会串味吗"
+        },
+        "500": {
+          "title": "服务器内部错误",
+          "message": "给服务器干冒烟了"
+        },
+        "502": {
+          "title": "系统宕机",
+          "message": "随机挑一个运维祭天"
+        }
+      },
+      "unknown": {
+        "title": "未知错误",
+        "message": "你坠入了虚空"
+      },
+      "gotoDocs": "如果你是运维，可以查看"
+    },
+    "loading": {
+      "10": "正在使用放大镜与铅笔抢救数据...",
+      "11": "正在将 emacs 和 vim 软链接到 ed...",
+      "12": "正在训练分支预测算法...",
+      "13": "正在命中定时缓存...",
+      "14": "正在执行投机取巧算法...",
+      "15": "正在加入大语言模型幻觉...",
+      "short": "少女祈祷中...",
+      "00": "正在修复宇宙射线引发的比特翻转...",
+      "01": "正在试图证明 P != NP...",
+      "02": "正在试图分解 RSA 4096...",
+      "03": "正在除以 0...",
+      "04": "正在联网下载更多的物理内存...",
+      "05": "正在排序 1 和 0...",
+      "06": "正在枚举机器学习网络...",
+      "07": "正在导入人工智障...",
+      "08": "正在破解 Alice 与 Bob 的 one-time pads...",
+      "09": "正在试图退出 VIM..."
+    },
+    "actions": {
+      "ok": {
+        "title": "好的"
+      },
+      "yes": {
+        "title": "确定"
+      },
+      "no": {
+        "title": "不行"
+      },
+      "cancel": {
+        "title": "取消"
+      },
+      "confirm": {
+        "title": "确认",
+        "message": "你确定要继续吗？",
+        "status": {
+          "success": "操作成功",
+          "fail": "操作失败"
+        }
+      },
+      "send": {
+        "title": "发送",
+        "message": "你确定要发送吗？",
+        "status": {
+          "success": "发送成功",
+          "fail": "发送失败"
+        }
+      },
+      "delete": {
+        "title": "删除",
+        "message": "你确定要删除吗？我们不卖后悔药！",
+        "status": {
+          "success": "删除成功",
+          "fail": "删除失败"
+        }
+      },
+      "edit": {
+        "title": "编辑"
+      },
+      "save": {
+        "title": "保存",
+        "message": "你确定要保存吗？",
+        "status": {
+          "success": "保存成功",
+          "fail": "保存失败"
+        }
+      },
+      "add": {
+        "title": "添加",
+        "message": "你确定要添加吗？",
+        "status": {
+          "success": "添加成功",
+          "fail": "添加失败"
+        }
+      },
+      "create": {
+        "title": "创建",
+        "message": "你确定要创建吗？",
+        "status": {
+          "success": "创建成功",
+          "fail": "创建失败"
+        }
+      },
+      "update": {
+        "title": "更新",
+        "message": "你确定要更新吗？",
+        "status": {
+          "success": "更新成功",
+          "fail": "更新失败"
+        }
+      },
+      "reset": {
+        "title": "重置",
+        "message": "你确定要重置吗？",
+        "status": {
+          "success": "重置成功",
+          "fail": "重置失败"
+        }
+      },
+      "search": {
+        "title": "搜索"
+      },
+      "refresh": {
+        "title": "刷新",
+        "status": {
+          "success": "刷新成功",
+          "fail": "刷新失败"
+        }
+      },
+      "leave": {
+        "title": "离开",
+        "message": "你确定要离开吗？",
+        "status": {
+          "success": "离开成功",
+          "fail": "离开失败"
+        }
+      },
+      "loadMore": {
+        "title": "加载更多"
+      },
+      "load": {
+        "title": "加载"
+      },
+      "close": {
+        "title": "关闭"
+      },
+      "open": {
+        "title": "打开"
+      },
+      "compile": {
+        "title": "编译"
+      },
+      "next": {
+        "title": "下一步"
+      },
+      "prev": {
+        "title": "上一步"
+      },
+      "back": {
+        "title": "返回"
+      },
+      "copy": {
+        "title": "复制"
+      },
+      "paste": {
+        "title": "粘贴"
+      },
+      "cut": {
+        "title": "剪切"
+      },
+      "select": {
+        "title": "选择"
+      },
+      "selectAll": {
+        "title": "全选"
+      },
+      "selectNone": {
+        "title": "全不选"
+      },
+      "exit": {
+        "title": "退出"
+      },
+      "clear": {
+        "title": "清除",
+        "message": "你确定要清除吗？",
+        "status": {
+          "success": "清除成功",
+          "fail": "清除失败"
+        }
+      },
+      "upload": {
+        "title": "上传",
+        "status": {
+          "pending": "正在上传...",
+          "success": "上传成功",
+          "fail": "上传失败",
+          "invalidFileType": "文件类型不合法",
+          "fileTooLarge": "文件过大，最大支持 {{ size }} MB",
+          "fileTooSmall": "文件过小，最小支持 {{ size }} MB",
+          "inProcess": "上传中..."
+        }
+      },
+      "download": {
+        "title": "下载",
+        "status": {
+          "pending": "正在下载...",
+          "success": "下载成功",
+          "fail": "下载失败"
+        }
+      },
+      "goto": {
+        "title": "前往"
+      },
+      "generate": {
+        "title": "生成"
+      },
+      "start": {
+        "title": "启动"
+      },
+      "stop": {
+        "title": "停止"
+      },
+      "print": {
+        "title": "打印"
+      },
+      "accept": {
+        "title": "接受"
+      }
+    }
+  }
+}

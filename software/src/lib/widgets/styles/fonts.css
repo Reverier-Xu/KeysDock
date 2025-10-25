@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Reverier Mono";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("../../assets/fonts/reverier-mono.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Reverier Mono";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("../../assets/fonts/reverier-mono-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Reverier Mono";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("../../assets/fonts/reverier-mono-bold.woff2") format("woff2");
+}

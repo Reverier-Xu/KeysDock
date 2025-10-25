@@ -1,0 +1,254 @@
+{
+  "general": {
+    "network": {
+      "status": {
+        "400": {
+          "title": "Bad request",
+          "message": "This exp seems incorrect"
+        },
+        "401": {
+          "title": "Log in first",
+          "message": "Hackers also should have an account"
+        },
+        "403": {
+          "title": "Access denied",
+          "message": "There is always a door closed to you"
+        },
+        "404": {
+          "title": "Not found",
+          "message": "Life is always a bit ridiculous"
+        },
+        "412": {
+          "title": "Precondition failed",
+          "message": "Did you miss something?"
+        },
+        "418": {
+          "title": "I'm a teapot",
+          "message": "Does brewing coffee with a teapot really not cause flavor transfer"
+        },
+        "500": {
+          "title": "Internal server error",
+          "message": "The server is on fire"
+        },
+        "502": {
+          "title": "System offline",
+          "message": "Pick a random operation to sacrifice"
+        }
+      },
+      "unknown": {
+        "title": "Unknown error",
+        "message": "You fell into the void"
+      },
+      "gotoDocs": "If you are an operator, you can view"
+    },
+    "loading": {
+      "10": "Using pencil and magnifier to rescue data...",
+      "11": "Linking emacs and vim to ed...",
+      "12": "Training branch prediction algorithm...",
+      "13": "Hit the scheduled cache...",
+      "14": "Executing the shortcut algorithm...",
+      "15": "Adding large language model hallucination...",
+      "short": "Shoujo praying...",
+      "00": "Trying to prove P != NP...",
+      "01": "Trying to prove P != NP...",
+      "02": "Trying to factor RSA 4096...",
+      "03": "Dividing by 0...",
+      "04": "Downloading more RAM from Internet...",
+      "05": "Sorting 1 and 0...",
+      "06": "Enumerating ML neural network...",
+      "07": "Importing artificial intelligence...",
+      "08": "Cracking Alice and Bob's one-time pads...",
+      "09": "Trying to exit from VIM..."
+    },
+    "actions": {
+      "ok": {
+        "title": "Okay"
+      },
+      "yes": {
+        "title": "Yes"
+      },
+      "no": {
+        "title": "No"
+      },
+      "cancel": {
+        "title": "Cancel"
+      },
+      "confirm": {
+        "title": "Confirm",
+        "message": "Are you sure to continue?",
+        "status": {
+          "success": "Successfully executed",
+          "fail": "Failed to execute"
+        }
+      },
+      "send": {
+        "title": "Send",
+        "message": "Are you sure to send?",
+        "status": {
+          "success": "Successfully sent",
+          "fail": "Failed to send"
+        }
+      },
+      "delete": {
+        "title": "Delete",
+        "message": "Are you sure you want to delete it? We don't sell regret!",
+        "status": {
+          "success": "Successfully deleted",
+          "fail": "Failed to delete"
+        }
+      },
+      "edit": {
+        "title": "Edit"
+      },
+      "save": {
+        "title": "Save",
+        "message": "Are you sure to save?",
+        "status": {
+          "success": "Successfully saved",
+          "fail": "Failed to save"
+        }
+      },
+      "add": {
+        "title": "Add",
+        "message": "Are you sure to add?",
+        "status": {
+          "success": "Successfully added",
+          "fail": "Failed to add"
+        }
+      },
+      "create": {
+        "title": "Create",
+        "message": "Are you sure to create?",
+        "status": {
+          "success": "Successfully created",
+          "fail": "Failed to create"
+        }
+      },
+      "update": {
+        "title": "Update",
+        "message": "Are you sure to update?",
+        "status": {
+          "success": "Successfully updated",
+          "fail": "Failed to update"
+        }
+      },
+      "reset": {
+        "title": "Reset",
+        "message": "Are you sure to reset?",
+        "status": {
+          "success": "Successfully reset",
+          "fail": "Failed to reset"
+        }
+      },
+      "search": {
+        "title": "Search"
+      },
+      "refresh": {
+        "title": "Refresh",
+        "status": {
+          "success": "Successfully refreshed",
+          "fail": "Failed to refresh"
+        }
+      },
+      "leave": {
+        "title": "Leave",
+        "message": "Are you sure to leave?",
+        "status": {
+          "success": "Leaved successfully",
+          "fail": "Failed to leave"
+        }
+      },
+      "loadMore": {
+        "title": "Load more"
+      },
+      "load": {
+        "title": "Load"
+      },
+      "close": {
+        "title": "Close"
+      },
+      "open": {
+        "title": "Open"
+      },
+      "compile": {
+        "title": "Compile"
+      },
+      "next": {
+        "title": "Next"
+      },
+      "prev": {
+        "title": "Previous"
+      },
+      "back": {
+        "title": "Back"
+      },
+      "copy": {
+        "title": "Copy"
+      },
+      "paste": {
+        "title": "Paste"
+      },
+      "cut": {
+        "title": "Cut"
+      },
+      "select": {
+        "title": "Select"
+      },
+      "selectAll": {
+        "title": "Select all"
+      },
+      "selectNone": {
+        "title": "Unselect all"
+      },
+      "exit": {
+        "title": "Exit"
+      },
+      "clear": {
+        "title": "Clear",
+        "message": "Are you sure to clear?",
+        "status": {
+          "success": "Successfully cleared",
+          "fail": "Failed to clear"
+        }
+      },
+      "upload": {
+        "title": "Upload",
+        "status": {
+          "pending": "Uploading...",
+          "success": "Successfully uploaded",
+          "fail": "Failed to upload",
+          "invalidFileType": "Invalid file type",
+          "fileTooLarge": "File too large, up to {{ size }} MB",
+          "fileTooSmall": "File too small, down to {{ size }} MB",
+          "inProcess": "Uploading..."
+        }
+      },
+      "download": {
+        "title": "Download",
+        "status": {
+          "pending": "Downloading...",
+          "success": "Successfully downloaded",
+          "fail": "Failed to download"
+        }
+      },
+      "goto": {
+        "title": "Goto"
+      },
+      "generate": {
+        "title": "Generate"
+      },
+      "start": {
+        "title": "Start"
+      },
+      "stop": {
+        "title": "Stop"
+      },
+      "print": {
+        "title": "Print"
+      },
+      "accept": {
+        "title": "Accept"
+      }
+    }
+  }
+}
