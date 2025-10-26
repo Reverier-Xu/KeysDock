@@ -1,0 +1,34 @@
+{
+    "files.associations": {
+        "*.css": "tailwindcss",
+        "*.scss": "tailwindcss",
+        "*.rx": "rune"
+    },
+    "biome.enabled": true,
+    "biome.lsp.bin": "./software/node_modules/.bin/biome",
+    "biome.configurationPath": "./software/biome.json",
+    "rust-analyzer.showUnlinkedFileNotification": false,
+    "javascript.format.enable": false,
+    "typescript.format.enable": false,
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports.biome": "explicit"
+    },
+    "i18n-ally.localesPaths": ["software/src/lib/i18n"],
+    "i18n-ally.keystyle": "nested",
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "[sass]": {
+        "editor.defaultFormatter": "syler.sass-indented"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+}

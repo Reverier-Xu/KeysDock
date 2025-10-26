@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "rust-lang.rust-analyzer",
+    "biomejs.biome",
+    "Lokalise.i18n-ally",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
