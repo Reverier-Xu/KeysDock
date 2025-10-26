@@ -249,6 +249,21 @@
       "accept": {
         "title": "Accept"
       }
+    },
+    "notImplemented": {
+      "hello": "Hello",
+      "title": "Not Implemented",
+      "message": "Even the donkeys of the production team wouldn’t dare rest as much as you do."
     }
+  },
+  "navigator": {
+    "getIt": "Buy Now!"
+  },
+  "theme": {
+    "followSystem": "Follow System",
+    "title": "Theme"
+  },
+  "keytester": {
+    "layers": "layer"
   }
 }

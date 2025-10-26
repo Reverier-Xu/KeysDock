@@ -249,6 +249,21 @@
       "accept": {
         "title": "接受"
       }
+    },
+    "notImplemented": {
+      "hello": "",
+      "title": "",
+      "message": ""
     }
+  },
+  "navigator": {
+    "getIt": "立刻獲取！"
+  },
+  "theme": {
+    "followSystem": "",
+    "title": ""
+  },
+  "keytester": {
+    "layers": "層"
   }
 }

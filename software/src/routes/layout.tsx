@@ -1,9 +1,9 @@
 import { Reverier } from "@assets/animates/Reverier";
-import Navigator from "@blocks/navigator";
-import clsx from "clsx";
 import Background from "@assets/background.webp";
-import { createSignal, type ComponentProps } from "solid-js";
+import Navigator from "@blocks/navigator";
 import LoadingTips from "@widgets/loading-tips";
+import clsx from "clsx";
+import { type ComponentProps, createSignal } from "solid-js";
 
 function LoadingCurtain() {
   const [progress, setProgress] = createSignal(0);
@@ -14,7 +14,7 @@ function LoadingCurtain() {
     if (!shownProgress()) {
       return;
     }
-    if (smallProgress() < 50) {
+    if (smallProgress() < 30) {
       setSmallProgress(smallProgress() + 1);
       return;
     }
@@ -35,7 +35,7 @@ function LoadingCurtain() {
       return;
     }
     setProgress(progress() + 1);
-  }, 20);
+  }, 10);
   setTimeout(() => {
     setShownProgress(true);
   }, 1500);
@@ -51,11 +51,11 @@ function LoadingCurtain() {
           src={Background}
           alt="Background"
           class={clsx(
-            "absolute w-full h-full object-cover top-0 left-0 -z-50 blur-3xl transition-opacity duration-1000",
-            shownProgress() ? "opacity-60" : "opacity-0"
+            "absolute w-full h-full object-cover top-0 left-0 -z-50 transition-opacity duration-1000",
+            shownProgress() ? "opacity-100" : "opacity-0"
           )}
         />
-        <div class="absolute w-full h-full top-0 left-0 -z-40 blur-3xl bg-layer/80" />
+        <div class="absolute w-full h-full top-0 left-0 -z-40 bg-layer/80 backdrop-blur-xl" />
         <div class="flex-1" />
         <Reverier width={256} height={256} class="transition-all" />
         <div class="h-8" />
@@ -103,6 +103,11 @@ function LoadingCurtain() {
 export default function (props: ComponentProps<"div">) {
   return (
     <>
+      <img
+        src={Background}
+        alt="Background"
+        class={clsx("absolute w-full h-full object-cover top-0 left-0 -z-50 transition-opacity duration-1000 blur-xl opacity-10")}
+      />
       {props.children}
       <Navigator />
       <LoadingCurtain />

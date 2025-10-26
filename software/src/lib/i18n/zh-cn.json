@@ -249,6 +249,21 @@
       "accept": {
         "title": "接受"
       }
+    },
+    "notImplemented": {
+      "hello": "你好",
+      "title": "没写，别急",
+      "message": "生产队的驴都不敢像你这么歇"
     }
+  },
+  "navigator": {
+    "getIt": "立刻获取！"
+  },
+  "theme": {
+    "followSystem": "跟随系统",
+    "title": "主题"
+  },
+  "keytester": {
+    "layers": "层"
   }
 }

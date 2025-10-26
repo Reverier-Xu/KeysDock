@@ -1,9 +1,7 @@
-// import xdsecMascotCrying from "@assets/imgs/xdsec-mascot-crying.webp";
-// import xdsecMascotUnsee from "@assets/imgs/xdsec-mascot-unsee.webp";
-import platformAvatar from "@assets/imgs/rx.webp";
-import teapot from "@assets/imgs/teapot.svg";
+import platformAvatar from "@assets/rx.webp";
+import teapot from "@assets/teapot.svg";
 import { t } from "@storage/theme";
-import { Match, Show, Switch } from "solid-js";
+import { Match, Switch } from "solid-js";
 
 export default function (props: { status: number | null }) {
   const messages: Record<number, string> = {
@@ -48,15 +46,6 @@ export default function (props: { status: number | null }) {
         <span>{message()}</span>
       </h1>
       <p class="opacity-60">{tip()}</p>
-      <Show when={props.status && props.status >= 500}>
-        <p class="flex space-x-2">
-          <span class="opacity-60">{t("general.network.gotoDocs")}</span>
-          <a href="/docs" class="flex flex-row space-x-2 items-center hover:underline" target="_blank" rel="noreferrer">
-            <span class="opacity-60">{t("docs.title")}</span>
-            <span class="shrink-0 icon-[fluent--open-16-regular] w-4 h-4 text-primary" />
-          </a>
-        </p>
-      </Show>
     </div>
   );
 }

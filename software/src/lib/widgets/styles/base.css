@@ -83,7 +83,7 @@
 }
 
 [data-theme="cyber-dark"] {
-  --private-color-layer: oklch(0.18 0 248);
+  --private-color-layer: oklch(0.05 0 248);
   --private-color-layer-content: white;
 }
 

@@ -249,6 +249,21 @@
       "accept": {
         "title": "受け入れる"
       }
+    },
+    "notImplemented": {
+      "hello": "こんにちは",
+      "title": "未記入です、急がないで",
+      "message": "生産隊の驢馬でさえ、あなたほど休まないよ"
     }
+  },
+  "navigator": {
+    "getIt": "即時取得！"
+  },
+  "theme": {
+    "followSystem": "システムに追随",
+    "title": "テーマ"
+  },
+  "keytester": {
+    "layers": "層"
   }
 }
