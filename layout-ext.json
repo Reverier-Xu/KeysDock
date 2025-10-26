@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Keys Dock",
+    "author": "Reverier-Xu",
+    "background": {
+      "name": "Aluminium brushed",
+      "style": "background-image: url('/bg/metal/aluminum_texture1642.jpg');"
+    },
+    "switchMount": "cherry",
+    "switchBrand": "kailh",
+    "plate": true,
+    "css": ""
+  },
+  [
+    {
+      "a": 7
+    },
+    "Esc",
+    {
+      "x": 0.25
+    },
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    {
+      "x": 0.25
+    },
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    {
+      "x": 0.25
+    },
+    "F9",
+    "F10",
+    "F11",
+    "F12",
+    {
+      "x": 0.25
+    },
+    "Del"
+  ]
+]
