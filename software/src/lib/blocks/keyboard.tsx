@@ -1,4 +1,4 @@
-import Nichiko from "@assets/nichiko.webp";
+import Nichiko from "@assets/nichiko-small.webp";
 import { useWindowSize } from "@solid-primitives/resize-observer";
 import Button from "@widgets/button";
 import clsx from "clsx";
@@ -71,8 +71,14 @@ export default function (props: { upPlugged?: boolean }) {
   const fontSize = () => 4 * vPxPerMm();
   const [currentLayer, setCurrentLayer] = createSignal(0);
   return (
-<div class="flex flex-row justify-center space-x-4">
+<div class="flex flex-row justify-center space-x-12">
   <div class="w-16 border border-layer-content/15 space-y-2 flex flex-col items-center p-2 rounded-2xl bg-layer-content/5">
+    <Button square ghost>
+      <span class="icon-[fluent--save-20-regular] w-5 h-5" />
+    </Button>
+    <Button square ghost>
+      <span class="icon-[fluent--arrow-hook-up-left-20-regular] w-5 h-5" />
+    </Button>
     <div class="flex-1" />
     <Button square onClick={() => setCurrentLayer(5)} ghost={currentLayer() !== 5}>5</Button>
     <Button square onClick={() => setCurrentLayer(4)} ghost={currentLayer() !== 4}>4</Button>
@@ -171,6 +177,9 @@ export default function (props: { upPlugged?: boolean }) {
             }} />
             <span>WHEEL</span>
           </button>
+          <div style={{
+            height: `${unit * 0.2 * vPxPerMm()}px`,
+          }} />
           <button
             type="button"
             class="border box-border border-layer-content/15 hover:cursor-pointer bg-layer hover:bg-layer-content/5 active:bg-layer-content/10 transition-colors overflow-hidden"
@@ -178,12 +187,15 @@ export default function (props: { upPlugged?: boolean }) {
               "margin-left": `${border * 0.6 * vPxPerMm()}px`,
               "margin-right": `${border * 0.6 * vPxPerMm()}px`,
               "margin-bottom": `${border * 0.6 * vPxPerMm()}px`,
-              height: `${unit * 3 * vPxPerMm()}px`,
+              height: `${unit * 2.55 * vPxPerMm()}px`,
               "border-radius": `${vPxPerMm()}px`,
             }}
           >
             <img src={Nichiko} alt="Nichiko" class="w-full h-full object-cover" />
           </button>
+          <div style={{
+            height: `${unit * 0.2 * vPxPerMm()}px`,
+          }} />
         </div>
         <div
           class="flex flex-col"
