@@ -1,21 +1,19 @@
 # ![Keys Dock](arts/keysdock.svg)
 
-The high performance, feature riched, minimal keyboard!
+The hall-effect powered, high performance, feature riched, minimal keyboard!
 
 > [!WARNING]
 > **STILL IN EARLY DEVELOPMENT!**
 >
 > - [ ] PCB design
-> - [x] Suitkit design
+> - [ ] Suitkit design
 > - [ ] Firmware
 > - [ ] Software
 > - [ ] Extended external controllers
 
 ## Keys layout
 
-KeysDock uses 67-keys ISO layout.
-
-![layout](arts/pcb-layout.webp)
+KeysDock uses main dock with 60-keys ANSI layout, and an extended dock with 14-keys of Esc, F1-F12, Del.
 
 ## Suitkit design
 
@@ -30,13 +28,14 @@ Fonts used in design:
 
 ## Hardware design
 
-Designed use [LCEDA](https://lceda.cn/), thanks for the awesome and free EDA design software.
+Designed use [KiCAD](https://www.kicad.org/), validated on [QUCS-s](https://ra3xdh.github.io/).
 
-Validated on [QUCS-s](https://ra3xdh.github.io/).
-
-This project uses [Pengzhihui](https://github.com/peng-zhihui)'s shift register solution, which produces higher performance and less I/O usage than normal keyboard.
-
-- MCU: STM32F103CBT6
+- MCU: ESP32-C6
+- ADC: TLA2528
+- LDO: TLV1117LV33DCYR
+- Hall-effect sensors: SC4823S6-TR
+- LED: XL-6028RGBW-2812B
+- Magnetic switch: Gateron Low Profile Magnetic Jade Pro Switch
 
 ## Firmware
 
@@ -48,5 +47,4 @@ WIP...
 
 ## Credits
 
-The PCB layout design comes from [HelloWord Keyboard by Pengzhihui](https://github.com/peng-zhihui/HelloWord-Keyboard), modified by myself,
-and reviewed by several friends [@Badboy2002](https://github.com/Badboy2002/) and [@HankZ](https://github.com/HankZhangZ/).
+The initial idea for this project came from [Pengzhihui’s Helloword Keyboard project](https://github.com/peng-zhihui/HelloWord-Keyboard). However, following friends’ suggestions, I decided to adopt a magnetic switch solution and completely overhauled the original shift-register design. The current keyboard scheme can roughly be regarded as an original one. Additionally, special thanks to [LCEDA](https://lceda.cn/), some 3D component models in this project are sourced from here.
