@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KeysDock")(type "KiCad")(uri "${KIPRJMOD}/components.pretty")(options "")(descr ""))
+)

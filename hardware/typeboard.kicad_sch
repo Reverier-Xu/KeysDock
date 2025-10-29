@@ -1,0 +1,352 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6f5c986f-c08b-45be-b317-11f83a8063e7")
+	(paper "A3")
+	(title_block
+		(title "Keys Dock Typeboard")
+		(date "2025-10-29")
+		(rev "0.2.1")
+		(company "keys.woooo.tech")
+	)
+	(lib_symbols)
+	(no_connect
+		(at 311.15 68.58)
+		(uuid "c52e4c29-ee1b-492c-abfc-115897c91aa5")
+	)
+	(wire
+		(pts
+			(xy 198.12 68.58) (xy 210.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71efb467-94fc-43fe-8fa5-73ff8a14f10d")
+	)
+	(wire
+		(pts
+			(xy 302.26 68.58) (xy 311.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beaeef98-a8d2-4dfe-83d1-a76be6cadb17")
+	)
+	(wire
+		(pts
+			(xy 146.05 68.58) (xy 158.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68e3981-f33d-4c18-bedf-4315e89a6e5b")
+	)
+	(wire
+		(pts
+			(xy 250.19 68.58) (xy 262.89 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1586b02-00a1-4863-91fb-f957ae6b0055")
+	)
+	(sheet
+		(at 210.82 62.23)
+		(size 39.37 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13671b03-9a82-408e-bbe2-18504c632ad4")
+		(property "Sheetname" "keys-group-3"
+			(at 210.82 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keys-group.kicad_sch"
+			(at 210.82 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_DATA_IN" input
+			(at 210.82 68.58 180)
+			(uuid "6fd44d29-48cf-4cf3-8410-3d4d1cff1fa7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_DATA_OUT" output
+			(at 250.19 68.58 0)
+			(uuid "78803f0c-5f04-4f70-950e-6f90806e3186")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "KEYS_ADC_OUT" output
+			(at 241.3 100.33 270)
+			(uuid "e1db85f5-35cf-4199-9a1a-104dc93c71c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "typeboard"
+				(path "/6f5c986f-c08b-45be-b317-11f83a8063e7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 262.89 62.23)
+		(size 39.37 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "448a9750-2300-44e2-b1b7-f899d97977cf")
+		(property "Sheetname" "keys-group-4"
+			(at 262.89 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keys-group.kicad_sch"
+			(at 262.89 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_DATA_IN" input
+			(at 262.89 68.58 180)
+			(uuid "81018198-cdaf-4096-8ece-e0fab1341440")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_DATA_OUT" output
+			(at 302.26 68.58 0)
+			(uuid "0120b909-9d88-4a22-bae8-27f3a5c1011d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "KEYS_ADC_OUT" output
+			(at 293.37 100.33 270)
+			(uuid "0da05db1-c2f1-497d-a571-a2d6f29effdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "typeboard"
+				(path "/6f5c986f-c08b-45be-b317-11f83a8063e7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 62.23)
+		(size 39.37 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "88b4ecb8-1deb-42c3-9293-1eb31e9f100a")
+		(property "Sheetname" "keys-group-2"
+			(at 158.75 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keys-group.kicad_sch"
+			(at 158.75 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_DATA_IN" input
+			(at 158.75 68.58 180)
+			(uuid "a4e3c42c-79a8-4112-a09c-a3665f551f9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_DATA_OUT" output
+			(at 198.12 68.58 0)
+			(uuid "54711df4-21b8-48b0-b055-d1c0cfa1d0a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "KEYS_ADC_OUT" output
+			(at 189.23 100.33 270)
+			(uuid "4a201fb0-e3de-4942-a31f-9b1389463ae8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "typeboard"
+				(path "/6f5c986f-c08b-45be-b317-11f83a8063e7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 62.23)
+		(size 39.37 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "abc5fe71-c02d-4ebe-9340-52eb4644c520")
+		(property "Sheetname" "keys-group-1"
+			(at 106.68 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keys-group.kicad_sch"
+			(at 106.68 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_DATA_IN" input
+			(at 106.68 68.58 180)
+			(uuid "f386ee19-1abf-40c7-b454-8a57a1735a70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_DATA_OUT" output
+			(at 146.05 68.58 0)
+			(uuid "f8689413-b4ef-46b7-85c0-558f890889e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "KEYS_ADC_OUT" output
+			(at 137.16 100.33 270)
+			(uuid "7a6bdcb3-acd5-4e58-bcc8-57e32f71d0ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "typeboard"
+				(path "/6f5c986f-c08b-45be-b317-11f83a8063e7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
