@@ -465,7 +465,7 @@
 				(pin output line
 					(at -13.97 3.81 0)
 					(length 2.54)
-					(name "LED_OUT"
+					(name "LED_DO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -537,7 +537,7 @@
 				(pin input line
 					(at 13.97 6.35 180)
 					(length 2.54)
-					(name "LED_IN"
+					(name "LED_DI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13673,7 +13673,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 96.52) (xy 186.69 104.14)
+			(xy 181.61 96.52) (xy 181.61 109.22)
 		)
 		(stroke
 			(width 0)
@@ -14103,7 +14103,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 96.52) (xy 186.69 96.52)
+			(xy 200.66 96.52) (xy 181.61 96.52)
 		)
 		(stroke
 			(width 0)
@@ -15991,7 +15991,7 @@
 		)
 		(uuid "a908bdf0-6b1b-4111-bd12-0a11e276fe6b")
 	)
-	(global_label "SLEEP"
+	(global_label "RANA"
 		(shape input)
 		(at 393.7 73.66 0)
 		(fields_autoplaced yes)
@@ -16003,7 +16003,7 @@
 		)
 		(uuid "16ad4c9d-5a3a-4cfb-989b-ea9828645264")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 402.4908 73.66 0)
+			(at 401.4629 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16167,7 +16167,7 @@
 			)
 		)
 	)
-	(global_label "SLEEP"
+	(global_label "RANA"
 		(shape input)
 		(at 393.7 152.4 0)
 		(fields_autoplaced yes)
@@ -16179,7 +16179,7 @@
 		)
 		(uuid "cf7d3cf7-b368-4bc6-98e8-5c576206378c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 402.4908 152.4 0)
+			(at 401.4629 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16200,7 +16200,7 @@
 		)
 		(uuid "1b2419ee-2474-4bd8-869d-688d2d63ec4d")
 	)
-	(hierarchical_label "LED_DATA_OUT"
+	(hierarchical_label "TOMO0_OUT"
 		(shape output)
 		(at 34.29 168.91 180)
 		(effects
@@ -16211,7 +16211,7 @@
 		)
 		(uuid "67f70c9d-e867-44a1-9e7c-5fa88dcd37ae")
 	)
-	(hierarchical_label "LED_DATA_IN"
+	(hierarchical_label "TOMO0_IN"
 		(shape input)
 		(at 387.35 54.61 0)
 		(effects
@@ -16224,7 +16224,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Generic:P,E")
-		(at 186.69 104.14 0)
+		(at 181.61 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16233,7 +16233,7 @@
 		(fields_autoplaced yes)
 		(uuid "08405723-2e41-4a46-bdee-26ddeea242b4")
 		(property "Reference" "#PWR026"
-			(at 190.5 100.33 0)
+			(at 185.42 105.41 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -16243,7 +16243,7 @@
 			)
 		)
 		(property "Value" "P,E"
-			(at 190.5 104.14 0)
+			(at 185.42 109.22 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -16253,7 +16253,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 104.14 0)
+			(at 181.61 109.22 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -16262,7 +16262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 104.14 0)
+			(at 181.61 109.22 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -16271,7 +16271,7 @@
 			)
 		)
 		(property "Description" "earth/ground/earthing/grounding (E)"
-			(at 186.69 104.14 0)
+			(at 181.61 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16706,7 +16706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "441938a9-dd43-4dd1-b80f-b1a2b10d2ff2")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0103"
 			(at 38.1 77.47 0)
 			(effects
 				(font
@@ -16768,6 +16768,10 @@
 				)
 				(path "/6f5c986f-c08b-45be-b317-11f83a8063e7/88b4ecb8-1deb-42c3-9293-1eb31e9f100a"
 					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/6f5c986f-c08b-45be-b317-11f83a8063e7/abc5fe71-c02d-4ebe-9340-52eb4644c520"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -16967,7 +16971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ddcff64-1c9c-425d-8a8f-688ff978a3fd")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0101"
 			(at 374.65 34.29 0)
 			(effects
 				(font
@@ -17029,6 +17033,10 @@
 				)
 				(path "/6f5c986f-c08b-45be-b317-11f83a8063e7/88b4ecb8-1deb-42c3-9293-1eb31e9f100a"
 					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/6f5c986f-c08b-45be-b317-11f83a8063e7/abc5fe71-c02d-4ebe-9340-52eb4644c520"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -17148,7 +17156,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "641f7cd9-9e41-4c7d-bab2-5077b2cbf64c")
+		(uuid "641f7cd9-9e41-4c7d-bab2-5077b2cbf64d")
 		(property "Reference" "SW1"
 			(at 359.41 181.61 0)
 			(effects
@@ -18607,7 +18615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f69b5b88-d0ee-48a4-9291-3718832dc8c6")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0102"
 			(at 384.81 41.91 0)
 			(effects
 				(font
@@ -18669,6 +18677,10 @@
 				)
 				(path "/6f5c986f-c08b-45be-b317-11f83a8063e7/88b4ecb8-1deb-42c3-9293-1eb31e9f100a"
 					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/6f5c986f-c08b-45be-b317-11f83a8063e7/abc5fe71-c02d-4ebe-9340-52eb4644c520"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)

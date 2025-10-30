@@ -5,3 +5,4 @@ target/
 *-backups/
 fp-info-cache
 *.FCBak
+*.bak
