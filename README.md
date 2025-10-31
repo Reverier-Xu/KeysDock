@@ -31,11 +31,13 @@ Fonts used in design:
 Designed use [KiCAD](https://www.kicad.org/), validated on [QUCS-s](https://ra3xdh.github.io/).
 
 - MCU: ESP32-C6
-- ADC: TLA2528
-- LDO: TLV1117LV33DCYR
 - Hall-effect sensors: SC4823S6-TR
 - LED: XL-6028RGBW-2812B
 - Magnetic switch: Gateron Low Profile Magnetic Jade Pro Switch
+
+> [!WARNING]
+> LIMITATIONS: the extended F-keys suite do not have sleep mode, awake functions and RGB lights.
+> Hall-effect keyboard requires too many I/O pins, which makes difficulty in transfer additional features to external dock.
 
 ## Firmware
 

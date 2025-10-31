@@ -6,3 +6,4 @@ target/
 fp-info-cache
 *.FCBak
 *.bak
+*.lck
