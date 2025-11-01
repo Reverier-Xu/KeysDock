@@ -883,7 +883,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 100.33) (xy 175.26 100.33)
+			(xy 160.02 81.28) (xy 181.61 81.28)
 		)
 		(stroke
 			(width 0)
@@ -893,7 +893,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 115.57) (xy 175.26 115.57)
+			(xy 160.02 96.52) (xy 181.61 96.52)
 		)
 		(stroke
 			(width 0)
@@ -903,7 +903,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 118.11) (xy 175.26 118.11)
+			(xy 160.02 99.06) (xy 181.61 99.06)
 		)
 		(stroke
 			(width 0)
@@ -913,7 +913,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 110.49) (xy 175.26 110.49)
+			(xy 160.02 91.44) (xy 181.61 91.44)
 		)
 		(stroke
 			(width 0)
@@ -923,7 +923,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 95.25) (xy 175.26 95.25)
+			(xy 160.02 76.2) (xy 181.61 76.2)
 		)
 		(stroke
 			(width 0)
@@ -933,7 +933,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 97.79) (xy 175.26 97.79)
+			(xy 160.02 78.74) (xy 181.61 78.74)
 		)
 		(stroke
 			(width 0)
@@ -943,7 +943,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 100.33) (xy 252.73 100.33)
+			(xy 237.49 81.28) (xy 259.08 81.28)
 		)
 		(stroke
 			(width 0)
@@ -953,7 +953,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 135.89) (xy 252.73 135.89)
+			(xy 237.49 116.84) (xy 259.08 116.84)
 		)
 		(stroke
 			(width 0)
@@ -963,7 +963,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 113.03) (xy 175.26 113.03)
+			(xy 160.02 93.98) (xy 181.61 93.98)
 		)
 		(stroke
 			(width 0)
@@ -973,7 +973,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 120.65) (xy 252.73 120.65)
+			(xy 237.49 101.6) (xy 259.08 101.6)
 		)
 		(stroke
 			(width 0)
@@ -983,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 130.81) (xy 252.73 130.81)
+			(xy 237.49 111.76) (xy 259.08 111.76)
 		)
 		(stroke
 			(width 0)
@@ -993,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 90.17) (xy 175.26 90.17)
+			(xy 160.02 71.12) (xy 181.61 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1003,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 102.87) (xy 175.26 102.87)
+			(xy 160.02 83.82) (xy 181.61 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1013,7 +1013,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 92.71) (xy 252.73 92.71)
+			(xy 237.49 73.66) (xy 259.08 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1023,7 +1023,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 133.35) (xy 252.73 133.35)
+			(xy 237.49 114.3) (xy 259.08 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1033,7 +1033,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 110.49) (xy 252.73 110.49)
+			(xy 237.49 91.44) (xy 259.08 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 128.27) (xy 252.73 128.27)
+			(xy 237.49 109.22) (xy 259.08 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1053,7 +1053,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 113.03) (xy 252.73 113.03)
+			(xy 237.49 93.98) (xy 259.08 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1063,7 +1063,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 77.47) (xy 203.2 85.09)
+			(xy 209.55 58.42) (xy 209.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1073,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 97.79) (xy 252.73 97.79)
+			(xy 237.49 78.74) (xy 259.08 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1083,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 151.13) (xy 203.2 157.48)
+			(xy 209.55 132.08) (xy 209.55 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 123.19) (xy 252.73 123.19)
+			(xy 237.49 104.14) (xy 259.08 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1103,7 +1103,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 115.57) (xy 252.73 115.57)
+			(xy 237.49 96.52) (xy 259.08 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1113,7 +1113,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 90.17) (xy 252.73 90.17)
+			(xy 237.49 71.12) (xy 259.08 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1123,7 +1123,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 125.73) (xy 252.73 125.73)
+			(xy 237.49 106.68) (xy 259.08 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1133,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 118.11) (xy 252.73 118.11)
+			(xy 237.49 99.06) (xy 259.08 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1142,7 +1142,7 @@
 		(uuid "fb571b15-deb0-48ee-92ae-436a39bd4503")
 	)
 	(label "KEYS_CH_D"
-		(at 252.73 123.19 180)
+		(at 259.08 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1152,7 +1152,7 @@
 		(uuid "04b69dfe-738b-4991-96f7-380f8f792bb4")
 	)
 	(label "BOOT_0{slash}KEYS_CH_CE"
-		(at 252.73 113.03 180)
+		(at 259.08 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1162,7 +1162,7 @@
 		(uuid "1c0a3377-5180-420a-aaac-a596a89b5587")
 	)
 	(label "KEYS_DT_3"
-		(at 153.67 100.33 0)
+		(at 160.02 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1172,7 +1172,7 @@
 		(uuid "30561363-fc9d-47c2-934b-42a4c3363eb6")
 	)
 	(label "EINK_DC"
-		(at 252.73 130.81 180)
+		(at 259.08 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1182,7 +1182,7 @@
 		(uuid "32f3b333-6c41-4abd-98f5-4ea7b80f2535")
 	)
 	(label "BOOT_1{slash}RANA_SLEEP"
-		(at 252.73 110.49 180)
+		(at 259.08 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1192,7 +1192,7 @@
 		(uuid "347271d1-0002-4fc9-85af-5dd73b14d27e")
 	)
 	(label "WHEEL"
-		(at 252.73 135.89 180)
+		(at 259.08 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1202,7 +1202,7 @@
 		(uuid "3588e8fc-e0d5-47f6-9fdb-cba520704056")
 	)
 	(label "SWITCH"
-		(at 153.67 113.03 0)
+		(at 160.02 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1212,7 +1212,7 @@
 		(uuid "6604d425-2313-4360-9d13-9b9cd5dc634c")
 	)
 	(label "KEYS_CH_A"
-		(at 252.73 115.57 180)
+		(at 259.08 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1222,7 +1222,7 @@
 		(uuid "7769f3ef-9882-4846-be18-4630092de3b5")
 	)
 	(label "EN"
-		(at 153.67 90.17 0)
+		(at 160.02 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1232,7 +1232,7 @@
 		(uuid "7d5f94c6-ca69-43f5-ab65-0520536f1dbf")
 	)
 	(label "SAKI_MOVE"
-		(at 153.67 118.11 0)
+		(at 160.02 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1242,7 +1242,7 @@
 		(uuid "7f2acd53-03c3-4219-a243-dd40a5251935")
 	)
 	(label "EINK_SPI_MOSI"
-		(at 252.73 128.27 180)
+		(at 259.08 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1252,7 +1252,7 @@
 		(uuid "89f87482-ac7d-40dc-bd15-acd3a89effa8")
 	)
 	(label "KEYS_CH_C"
-		(at 252.73 120.65 180)
+		(at 259.08 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1262,7 +1262,7 @@
 		(uuid "8baf1b32-05fb-402d-8436-785df2f2b344")
 	)
 	(label "KEYS_DT_5"
-		(at 153.67 110.49 0)
+		(at 160.02 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1272,7 +1272,7 @@
 		(uuid "8c53508f-c4bd-4fe5-a025-f7bce88a1692")
 	)
 	(label "U0TX"
-		(at 252.73 90.17 180)
+		(at 259.08 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1282,7 +1282,7 @@
 		(uuid "b2ff79f2-f6c7-45f5-a9f0-2b0cf45560a4")
 	)
 	(label "EINK_SPI_CLK"
-		(at 252.73 125.73 180)
+		(at 259.08 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1292,7 +1292,7 @@
 		(uuid "bd5d89a3-493b-4044-afe8-65b34355517e")
 	)
 	(label "KEYS_DT_4"
-		(at 153.67 102.87 0)
+		(at 160.02 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1302,7 +1302,7 @@
 		(uuid "bf1f9ed6-0ffe-4658-bcfa-14e69b5f1869")
 	)
 	(label "BAT_STATUS"
-		(at 153.67 115.57 0)
+		(at 160.02 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1312,7 +1312,7 @@
 		(uuid "ce206723-8c27-4d33-904b-77f0790eb535")
 	)
 	(label "USB_D+"
-		(at 252.73 97.79 180)
+		(at 259.08 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1322,7 +1322,7 @@
 		(uuid "e45701a8-98fa-4d54-82b8-38360472334b")
 	)
 	(label "KEYS_CH_B"
-		(at 252.73 118.11 180)
+		(at 259.08 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1332,7 +1332,7 @@
 		(uuid "e8ba4b0d-6040-4dd5-a767-4d72c4c34b1d")
 	)
 	(label "KEYS_DT_2"
-		(at 153.67 97.79 0)
+		(at 160.02 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1341,8 +1341,8 @@
 		)
 		(uuid "e9528218-3602-4fd1-9095-cea7e8b523f8")
 	)
-	(label "LED_DATA"
-		(at 252.73 133.35 180)
+	(label "TOMO0"
+		(at 259.08 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1352,7 +1352,7 @@
 		(uuid "eacfe60c-4e1b-4e47-b320-e817f8f8b478")
 	)
 	(label "U0RX"
-		(at 252.73 92.71 180)
+		(at 259.08 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1362,7 +1362,7 @@
 		(uuid "edee9265-84cb-442b-91f9-04edc548f717")
 	)
 	(label "USB_D-"
-		(at 252.73 100.33 180)
+		(at 259.08 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1372,7 +1372,7 @@
 		(uuid "f613773f-abf9-4cb0-afc2-5344003adcb9")
 	)
 	(label "KEYS_DT_1"
-		(at 153.67 95.25 0)
+		(at 160.02 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1383,7 +1383,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Generic:P,+3.3")
-		(at 203.2 77.47 0)
+		(at 209.55 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1392,7 +1392,7 @@
 		(fields_autoplaced yes)
 		(uuid "51bd8472-8475-4b8d-b939-87c58e11d4da")
 		(property "Reference" "#PWR01"
-			(at 205.74 77.47 0)
+			(at 212.09 58.42 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1402,7 +1402,7 @@
 			)
 		)
 		(property "Value" "P,+3.3"
-			(at 203.2 74.93 0)
+			(at 209.55 55.88 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -1412,7 +1412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 77.47 0)
+			(at 209.55 58.42 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1421,7 +1421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 77.47 0)
+			(at 209.55 58.42 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1430,7 +1430,7 @@
 			)
 		)
 		(property "Description" "+3.3 positive potential/voltage (global DC power supply node)"
-			(at 203.2 77.47 0)
+			(at 209.55 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +1452,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Generic:P,E")
-		(at 203.2 157.48 0)
+		(at 209.55 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1461,7 +1461,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a1c9bc0-58f5-418d-9ce1-d4e9f13b9140")
 		(property "Reference" "#PWR02"
-			(at 207.01 153.67 0)
+			(at 213.36 134.62 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1471,7 +1471,7 @@
 			)
 		)
 		(property "Value" "P,E"
-			(at 207.01 157.48 0)
+			(at 213.36 138.43 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -1481,7 +1481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 157.48 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1490,7 +1490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 157.48 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1499,7 +1499,7 @@
 			)
 		)
 		(property "Description" "earth/ground/earthing/grounding (E)"
-			(at 203.2 157.48 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +1521,7 @@
 	)
 	(symbol
 		(lib_id "components:ESP32-C6-WROOM-1")
-		(at 203.2 118.11 0)
+		(at 209.55 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1530,7 +1530,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1adadd3-a14f-4ecf-99cf-6318c3635990")
 		(property "Reference" "U1"
-			(at 205.3433 82.55 0)
+			(at 211.6933 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +1539,7 @@
 			)
 		)
 		(property "Value" "ESP32-C6-WROOM-1"
-			(at 205.3433 85.09 0)
+			(at 211.6933 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1548,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Espressif:ESP32-C6-WROOM-1"
-			(at 203.2 163.195 0)
+			(at 209.55 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1557,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf"
-			(at 203.2 166.37 0)
+			(at 209.55 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1566,7 @@
 			)
 		)
 		(property "Description" "ESP32-C6-WROOM-1/U is a module that supports 2.4 GHz Wi-Fi 6 (802.11 ax), Bluetooth® 5 (LE), Zigbee and Thread (802.15.4)"
-			(at 203.2 118.11 0)
+			(at 209.55 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

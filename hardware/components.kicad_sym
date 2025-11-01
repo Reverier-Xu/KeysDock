@@ -621,6 +621,710 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "FPC-SMD_AFC01-S12FCA"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "FPC"
+			(at 0 1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KeysDock:AFC01-S12FCA-00"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FPC-SMD_AFC01-S12FCA_0_1"
+			(rectangle
+				(start -21.59 2.54)
+				(end 21.59 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "FPC-SMD_AFC01-S12FCA_1_1"
+			(pin power_in line
+				(at -20.32 -6.35 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -13.97 -6.35 90)
+				(length 2.54)
+				(name "Y1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -11.43 -6.35 90)
+				(length 2.54)
+				(name "Y2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -8.89 -6.35 90)
+				(length 2.54)
+				(name "Y3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -6.35 -6.35 90)
+				(length 2.54)
+				(name "Y4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -3.81 -6.35 90)
+				(length 2.54)
+				(name "Y5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -1.27 -6.35 90)
+				(length 2.54)
+				(name "Y6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 1.27 -6.35 90)
+				(length 2.54)
+				(name "Y7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 3.81 -6.35 90)
+				(length 2.54)
+				(name "Y8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 6.35 -6.35 90)
+				(length 2.54)
+				(name "Y9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 8.89 -6.35 90)
+				(length 2.54)
+				(name "Y10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 11.43 -6.35 90)
+				(length 2.54)
+				(name "Y11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 13.97 -6.35 90)
+				(length 2.54)
+				(name "Y12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -6.35 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "FPC-SMD_AFC01-S16FCA"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "FPC"
+			(at 0 1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KeysDock:AFC01-S16FCA-00"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FPC-SMD_AFC01-S16FCA_0_1"
+			(rectangle
+				(start -26.67 2.54)
+				(end 26.67 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "FPC-SMD_AFC01-S16FCA_1_1"
+			(pin power_in line
+				(at -29.21 -1.27 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -19.05 -6.35 90)
+				(length 2.54)
+				(name "Y1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -16.51 -6.35 90)
+				(length 2.54)
+				(name "Y2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -13.97 -6.35 90)
+				(length 2.54)
+				(name "Y3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -11.43 -6.35 90)
+				(length 2.54)
+				(name "Y4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -8.89 -6.35 90)
+				(length 2.54)
+				(name "Y5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -6.35 -6.35 90)
+				(length 2.54)
+				(name "Y6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -3.81 -6.35 90)
+				(length 2.54)
+				(name "Y7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -1.27 -6.35 90)
+				(length 2.54)
+				(name "Y8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 1.27 -6.35 90)
+				(length 2.54)
+				(name "Y9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 3.81 -6.35 90)
+				(length 2.54)
+				(name "Y10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 6.35 -6.35 90)
+				(length 2.54)
+				(name "Y11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 8.89 -6.35 90)
+				(length 2.54)
+				(name "Y12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 11.43 -6.35 90)
+				(length 2.54)
+				(name "Y13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 13.97 -6.35 90)
+				(length 2.54)
+				(name "Y14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 16.51 -6.35 90)
+				(length 2.54)
+				(name "Y15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 19.05 -6.35 90)
+				(length 2.54)
+				(name "Y16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 -1.27 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "KD_SINGLE_KEY"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -924,7 +1628,7 @@
 			)
 		)
 		(symbol "POGOPIN-8P-HR_1_1"
-			(pin bidirectional line
+			(pin free line
 				(at -8.89 -2.54 90)
 				(length 2.54)
 				(name "Y1"
@@ -942,7 +1646,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at -6.35 -2.54 90)
 				(length 2.54)
 				(name "Y2"
@@ -960,7 +1664,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at -3.81 -2.54 90)
 				(length 2.54)
 				(name "Y3"
@@ -978,7 +1682,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at -1.27 -2.54 90)
 				(length 2.54)
 				(name "Y4"
@@ -996,7 +1700,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at 1.27 -2.54 90)
 				(length 2.54)
 				(name "Y5"
@@ -1014,7 +1718,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at 3.81 -2.54 90)
 				(length 2.54)
 				(name "Y6"
@@ -1032,7 +1736,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at 6.35 -2.54 90)
 				(length 2.54)
 				(name "Y7"
@@ -1050,7 +1754,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at 8.89 -2.54 90)
 				(length 2.54)
 				(name "Y8"
@@ -3707,7 +4411,7 @@
 			)
 		)
 		(symbol "POGOPIN-8P-HS_1_1"
-			(pin bidirectional line
+			(pin free line
 				(at -8.89 2.54 270)
 				(length 2.54)
 				(name "Y1"
@@ -3725,7 +4429,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at -6.35 2.54 270)
 				(length 2.54)
 				(name "Y2"
@@ -3743,7 +4447,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at -3.81 2.54 270)
 				(length 2.54)
 				(name "Y3"
@@ -3761,7 +4465,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at -1.27 2.54 270)
 				(length 2.54)
 				(name "Y4"
@@ -3779,7 +4483,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at 1.27 2.54 270)
 				(length 2.54)
 				(name "Y5"
@@ -3797,7 +4501,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at 3.81 2.54 270)
 				(length 2.54)
 				(name "Y6"
@@ -3815,7 +4519,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at 6.35 2.54 270)
 				(length 2.54)
 				(name "Y7"
@@ -3833,7 +4537,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at 8.89 2.54 270)
 				(length 2.54)
 				(name "Y8"
