@@ -1,0 +1,230 @@
+(footprint "ZX-ZH1.5-2PWT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "baf89db8-8e89-4e71-9ed8-a990613a71e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ZX-ZH1.5-2PWT"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e7f30cbe-0999-4d81-9115-cce378412c70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ca0fc66-55fd-4a0c-8c24-84870df40767")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0428bb76-fe0c-47de-be42-b31e0ce637dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.25 -2.25)
+		(end -2.5 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30fa04e5-62d3-480e-9808-d6b0e910fc28")
+	)
+	(fp_line
+		(start -3.25 0.5)
+		(end -3.25 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8a17eb17-5ec7-43b2-9cef-98d9c6a87cb8")
+	)
+	(fp_line
+		(start -3.25 3.5)
+		(end -3.25 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "add57e2d-bef8-4596-8a12-1012327114a2")
+	)
+	(fp_line
+		(start -3.25 4)
+		(end 3.25 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f38c4f1-d123-4fef-b1c6-88d2e7056362")
+	)
+	(fp_line
+		(start -2.5 -2.25)
+		(end -2.5 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8b5c28de-8b31-4b98-b482-4e9ec8155094")
+	)
+	(fp_line
+		(start -2.5 -1)
+		(end -1.5 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "530e1796-7614-4bea-896f-021622b1a8c0")
+	)
+	(fp_line
+		(start 1.5 -1)
+		(end 2.5 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fb6e34c8-d8fc-4202-8740-86cb03218dce")
+	)
+	(fp_line
+		(start 2.5 -2.25)
+		(end 3.25 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "09d9f44f-6b60-4dac-8b0d-21a1d06e0427")
+	)
+	(fp_line
+		(start 2.5 -1)
+		(end 2.5 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "83c719c5-9d1b-4986-a2e4-9e6f67e289c4")
+	)
+	(fp_line
+		(start 3.25 -2.25)
+		(end 3.25 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0051fab7-8f45-4e98-9ed6-dec4a1ee7f16")
+	)
+	(fp_line
+		(start 3.25 4)
+		(end 3.25 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "415d5be1-9035-4cd8-95eb-0a6a81470063")
+	)
+	(fp_circle
+		(center -2 -2.75)
+		(end -2 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f2b4c1a3-2e67-4b19-abf1-3888088d49d8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "69e958cc-1276-45d0-9c98-745d542b9859")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.751078 -2)
+		(size 1.097692 2.434044)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "84e3c83f-2368-490b-bb4c-1a1d6ac0312c")
+	)
+	(pad "2" smd roundrect
+		(at 0.75 -2)
+		(size 1.097692 2.434044)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "40c958f8-5ed3-4ebd-b47e-c0ad022ac7d2")
+	)
+	(pad "3" smd roundrect
+		(at 2.748922 1.998489)
+		(size 1.097692 2.608511)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "2ec9a3e1-02f5-4908-bfb9-08c496201b77")
+	)
+	(pad "4" smd roundrect
+		(at -2.751078 1.998489)
+		(size 1.097692 2.608511)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "c8e74910-e00a-4db6-943e-944a65bcb323")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/ZX-ZH1.5-2PWT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
