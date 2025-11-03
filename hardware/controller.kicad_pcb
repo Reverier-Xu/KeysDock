@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Keys Dock Controller")
+		(date "2025-11-03")
+		(rev "0.2.1")
+		(company "keys.woooo.tech")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -147,7 +153,7 @@
 	(footprint "PCM_Espressif:ESP32-C6-WROOM-1"
 		(layer "B.Cu")
 		(uuid "fb14de20-ad65-4fc7-92c8-3ff81d0d789d")
-		(at 121 128)
+		(at 91 133.749655)
 		(descr "ESP32-C6-WROOM-1: https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_datasheet_en.pdf")
 		(tags "esp32-c6")
 		(property "Reference" "U1"
@@ -760,7 +766,7 @@
 			)
 			(polygon
 				(pts
-					(xy 130 137.75) (xy 112 137.75) (xy 112 143.75) (xy 130 143.75)
+					(xy 100 143.499655) (xy 82 143.499655) (xy 82 149.499655) (xy 100 149.499655)
 				)
 			)
 		)
@@ -778,8 +784,8 @@
 		)
 	)
 	(gr_line
-		(start 103 76.75)
-		(end 107 76.75)
+		(start 73 82.499655)
+		(end 77 82.499655)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -788,8 +794,8 @@
 		(uuid "06859f19-b538-4f5f-8e6b-26dd462c83f3")
 	)
 	(gr_line
-		(start 111 44.75)
-		(end 131 44.75)
+		(start 81 50.499655)
+		(end 101 50.499655)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -797,9 +803,20 @@
 		(layer "Edge.Cuts")
 		(uuid "1631a9ec-1150-4c1b-b3b2-8181a9202841")
 	)
+	(gr_circle
+		(center 103.5 84.999655)
+		(end 104.6 84.999655)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "1e906f49-4306-4a17-a0c6-53239b813614")
+	)
 	(gr_line
-		(start 103 52.75)
-		(end 103 76.75)
+		(start 73 58.499655)
+		(end 73 82.499655)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -808,8 +825,8 @@
 		(uuid "2b418aa4-e23c-4137-81ca-2643678d5f5b")
 	)
 	(gr_line
-		(start 131 52.75)
-		(end 135 52.75)
+		(start 101 58.499655)
+		(end 105 58.499655)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -818,8 +835,8 @@
 		(uuid "2d2ef275-549e-4175-853a-12cf3c92a29e")
 	)
 	(gr_line
-		(start 111 140)
-		(end 111 138)
+		(start 81 145.749655)
+		(end 81 143.749655)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -828,8 +845,8 @@
 		(uuid "4acab6ee-1197-44a7-8708-324b7e05915b")
 	)
 	(gr_line
-		(start 131 140)
-		(end 135 140)
+		(start 101 145.749655)
+		(end 105 145.749655)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -838,8 +855,8 @@
 		(uuid "519233c9-7390-4534-92d8-9f9eef580e71")
 	)
 	(gr_line
-		(start 111 138)
-		(end 131 138)
+		(start 81 143.749655)
+		(end 101 143.749655)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -848,8 +865,8 @@
 		(uuid "69ad85cc-650f-48fb-a727-2bdf4a68ccd8")
 	)
 	(gr_line
-		(start 107 52.75)
-		(end 111 52.75)
+		(start 77 58.499655)
+		(end 81 58.499655)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -858,8 +875,8 @@
 		(uuid "74c6295d-babc-4fef-af97-b30801f088ad")
 	)
 	(gr_line
-		(start 135 140)
-		(end 135 52.75)
+		(start 105 145.749655)
+		(end 105 58.499655)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -868,8 +885,8 @@
 		(uuid "7d96c031-a2a5-41fb-a5a7-b764e96a3785")
 	)
 	(gr_line
-		(start 131 138)
-		(end 131 140)
+		(start 101 143.749655)
+		(end 101 145.749655)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -878,8 +895,8 @@
 		(uuid "8de1592b-4d03-4ef4-bf0c-ecbc2249af13")
 	)
 	(gr_line
-		(start 107 76.75)
-		(end 107 140)
+		(start 77 82.499655)
+		(end 77 145.749655)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -887,9 +904,20 @@
 		(layer "Edge.Cuts")
 		(uuid "92fc9c99-b93e-4108-8431-cccd0aeb9a21")
 	)
+	(gr_circle
+		(center 78.5 84.999655)
+		(end 79.6 84.999655)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "c438f31c-7276-444f-bfc6-f33200b0e729")
+	)
 	(gr_line
-		(start 111 52.75)
-		(end 111 44.75)
+		(start 81 58.499655)
+		(end 81 50.499655)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -898,8 +926,8 @@
 		(uuid "d1ace446-4216-4bdf-8d64-2e796d632c0d")
 	)
 	(gr_line
-		(start 107 52.75)
-		(end 103 52.75)
+		(start 77 58.499655)
+		(end 73 58.499655)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -908,8 +936,8 @@
 		(uuid "d878598e-6724-4d3e-ab1d-c21583b315aa")
 	)
 	(gr_line
-		(start 107 140)
-		(end 111 140)
+		(start 77 145.749655)
+		(end 81 145.749655)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -918,14 +946,142 @@
 		(uuid "dfd5e93c-2461-4ab0-a645-e93607ad2d47")
 	)
 	(gr_line
-		(start 131 44.75)
-		(end 131 52.75)
+		(start 101 50.499655)
+		(end 101 58.499655)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "e7e6bcf4-b015-4ad3-8ce1-df7a5292244c")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "B.Cu" "B.Mask" "B.SilkS" "B.Adhes" "B.Paste")
+		(uuid "443e98bc-fd05-4d2e-9072-9d2b7efde6f5")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 101.00075 82.50349) (xy 105.000749 82.50349) (xy 104.999081 87.505643) (xy 101.00075 87.504197)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "B.Cu" "B.Mask" "B.SilkS" "B.Adhes" "B.Paste")
+		(uuid "8a1131ce-bbbc-417b-bd01-ec7647106ee9")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 73 58.499655) (xy 81 58.499655) (xy 81 60.249655) (xy 73 60.249655)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "B.Cu" "B.Mask" "B.SilkS" "B.Adhes" "B.Paste")
+		(uuid "8d62255e-97e4-457c-850d-b9c8f9883aec")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 77 82.499655) (xy 80.999999 82.499655) (xy 80.998331 87.501446) (xy 77 87.5)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "B.Cu" "B.Mask" "B.SilkS" "B.Adhes" "B.Paste")
+		(uuid "a11e8220-901c-41e6-ba2f-619949f70e7d")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 77 145.749655) (xy 77 141.749655) (xy 81 141.749655) (xy 81 145.749655)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
