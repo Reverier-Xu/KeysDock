@@ -1,0 +1,131 @@
+(footprint "TLV1117LV33DCYR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f86a1123-40c1-4843-9f42-a7863643d58f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TLV1117LV33DCYR"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a747a03a-550e-4683-9765-ebad81183fa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b310480b-d4d2-4963-ae7b-e23fe0181192")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b616cc9-02ab-4c02-b2b7-fc93f365aa14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.6 -3.55)
+		(end 1 3.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0ff1c446-0a1c-496e-8611-eaf9eedf2ce0")
+	)
+	(fp_circle
+		(center 2 3.5)
+		(end 2.25 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f059df11-1c91-4cda-928e-b33a3e2dad56")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "33a0fc82-a2bd-4ff7-bbdf-a220a28001af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 2.3 2.3)
+		(size 2.2 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "63374f71-7d4e-4973-888d-314ab63ec229")
+	)
+	(pad "2" smd roundrect
+		(at 2.3 0)
+		(size 2.2 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "adae6bed-fb6c-416b-b526-61c62a1edd20")
+	)
+	(pad "3" smd roundrect
+		(at 2.3 -2.3)
+		(size 2.2 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "9c48e3b1-b7cf-4e95-9720-d53045b3d3db")
+	)
+	(pad "4" smd roundrect
+		(at -3.9 0)
+		(size 2.2 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "ffee05c6-e6a5-4b7c-8077-5dfb6332b768")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/SOT-223-4P_L6.5-W3.5-H1.6-LS7.0-P2.30.step"
+		(offset
+			(xyz -0.8 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
