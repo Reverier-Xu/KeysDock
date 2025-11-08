@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "SW_TS-1088-AR02016"
-		(at 8.68 2.615 0)
+		(at 0 2.75 0)
 		(layer "F.Fab")
 		(uuid "e82e577a-4c51-485b-aa45-44d9ebe12e88")
 		(effects
