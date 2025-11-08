@@ -4,13 +4,13 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -8.5 0)
+		(at 4.25 5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ad7cf429-8a77-48fe-b4b9-33c7714bb884")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 		)
@@ -105,6 +105,46 @@
 		(uuid "f397054b-7849-4edd-a60a-c818eed87edf")
 	)
 	(fp_line
+		(start -1 3.6)
+		(end -1 4.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7c41adcf-ff06-49fb-b982-68f625fa3977")
+	)
+	(fp_line
+		(start -0.5 3.6)
+		(end -1 3.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6084ece0-555d-4115-b06d-3a27ef94b4f3")
+	)
+	(fp_line
+		(start 0.5 5)
+		(end 1 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "33e3f586-e2ec-42b6-b385-22daeb1a5281")
+	)
+	(fp_line
+		(start 1 5)
+		(end 1 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b89f9545-b12b-4347-bc05-8b4d4bdbf05d")
+	)
+	(fp_line
 		(start 2 -3.5)
 		(end 2 -3)
 		(stroke
@@ -185,17 +225,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "b0581eb4-aa5d-4535-8dad-325fcd556393")
-	)
-	(fp_rect
-		(start -1.5 2.825)
-		(end 1.5 5.775)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "f32bdb66-19d5-4d43-a691-b9e64827a7a3")
 	)
 	(fp_line
 		(start -1.55 3.4)
@@ -313,19 +342,6 @@
 		(fill no)
 		(layer "B.Fab")
 		(uuid "d03ad3d9-c7d3-4fc5-9977-fe7fc2047404")
-	)
-	(fp_text user "HE"
-		(at -1 5 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "32f9ebe6-092d-4451-8db5-69bd6ac7d361")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
@@ -28267,6 +28283,7 @@
 		)
 	)
 	(model "${KIPRJMOD}/models/KS-33D-FB.step"
+		(hide yes)
 		(offset
 			(xyz -16.7 -4.5 1.3)
 		)
