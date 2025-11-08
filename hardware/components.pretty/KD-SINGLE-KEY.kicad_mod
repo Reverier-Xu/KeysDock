@@ -28283,7 +28283,6 @@
 		)
 	)
 	(model "${KIPRJMOD}/models/KS-33D-FB.step"
-		(hide yes)
 		(offset
 			(xyz -16.7 -4.5 1.3)
 		)
