@@ -105,6 +105,17 @@
 		(layer "Edge.Cuts")
 		(uuid "2ff28c32-6dbe-451a-b314-913b80dd9457")
 	)
+	(fp_rect
+		(start -1.75 -1.75)
+		(end 1.647932 1.245412)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8ba51aed-942a-43a8-bb02-a5f944c39d44")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 5 0)
 		(unlocked yes)

@@ -17001,7 +17001,7 @@
 		)
 		(uuid "32f3b333-6c41-4abd-98f5-4ea7b80f2535")
 	)
-	(label "BOOT_1{slash}RANA_SLEEP"
+	(label "BOOT_1{slash}RANA"
 		(at 259.08 91.44 180)
 		(effects
 			(font

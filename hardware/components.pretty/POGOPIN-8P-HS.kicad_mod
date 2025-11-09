@@ -84,6 +84,28 @@
 		(layer "F.SilkS")
 		(uuid "0b3cc5a1-d909-4ef8-8e77-36adb978a9b2")
 	)
+	(fp_rect
+		(start -11.25 2)
+		(end 11.25 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "02563c8c-942e-4033-bc4f-bc382c5c5851")
+	)
+	(fp_rect
+		(start -11.25 2)
+		(end 11.25 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6dfb67e7-3e9a-4946-86e2-0e027f78ac8c")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.75 0)
 		(unlocked yes)
