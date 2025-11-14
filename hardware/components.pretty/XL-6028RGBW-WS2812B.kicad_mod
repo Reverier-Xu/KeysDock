@@ -4,14 +4,15 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -3.25 0)
+		(at 4 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ef897110-8fc5-4c6d-90ab-5fae524da2fe")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.5 0.5)
 				(thickness 0.1)
+				(bold yes)
 			)
 		)
 	)
@@ -110,21 +111,21 @@
 		(end 1.647932 1.245412)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "F.CrtYd")
+		(layer "B.CrtYd")
 		(uuid "8ba51aed-942a-43a8-bb02-a5f944c39d44")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "cb27bbda-2ea5-4ec0-8c12-7e1e63ff883f")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.5 0.5)
+				(thickness 0.0625)
 			)
 		)
 	)
