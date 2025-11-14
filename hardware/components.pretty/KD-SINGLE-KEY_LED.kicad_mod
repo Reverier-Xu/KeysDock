@@ -448,6 +448,38 @@
 		(roundrect_rratio 0.25)
 		(uuid "df343394-ab67-4294-b1be-4baea99d4fcf")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "24dda9a5-6120-43a9-841b-54bd24f726c3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.25 3.424826) (xy 1.25 3.424826) (xy 1.25 5.174826) (xy -1.25 5.174826)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(embedded_files
 		(file

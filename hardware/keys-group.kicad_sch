@@ -135,7 +135,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Generic:P,E"
+		(symbol "PCM_Generic:P,GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -156,7 +156,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "P,E"
+			(property "Value" "P,GND"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -184,7 +184,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "earth/ground/earthing/grounding (E)"
+			(property "Description" "compatibility ground/earth; protective (equipotential) bonding (PB); equipotentiality"
 				(at 0 0 0)
 				(effects
 					(font
@@ -193,7 +193,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "P V E earth ground earthing grounding potential voltage tension global power supply node label pin"
+			(property "ki_keywords" "P V 0 GND FB equipotential bonding earth earthing ground grounding simplified frame chassis potential voltage tension global DC power supply node label pin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -202,37 +202,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "P,E_1_1"
+			(symbol "P,GND_1_1"
 				(polyline
 					(pts
-						(xy -3.81 0) (xy 3.81 0)
+						(xy 0 -3.81) (xy 3.81 0) (xy -3.81 0) (xy 0 -3.81)
 					)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -243,7 +219,7 @@
 					(at 0 0 0)
 					(length 0)
 					(hide yes)
-					(name "E"
+					(name "GND"
 						(effects
 							(font
 								(size 2.54 2.54)
@@ -14378,7 +14354,7 @@
 		(uuid "1b2419ee-2474-4bd8-869d-688d2d63ec4d")
 	)
 	(symbol
-		(lib_id "PCM_Generic:P,E")
+		(lib_id "PCM_Generic:P,GND")
 		(at 181.61 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14425,7 +14401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "earth/ground/earthing/grounding (E)"
+		(property "Description" "compatibility ground/earth; protective (equipotential) bonding (PB); equipotentiality"
 			(at 181.61 109.22 0)
 			(effects
 				(font
@@ -15689,7 +15665,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Generic:P,E")
+		(lib_id "PCM_Generic:P,GND")
 		(at 35.56 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15735,7 +15711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "earth/ground/earthing/grounding (E)"
+		(property "Description" "compatibility ground/earth; protective (equipotential) bonding (PB); equipotentiality"
 			(at 35.56 93.98 0)
 			(effects
 				(font
@@ -16326,7 +16302,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Generic:P,E")
+		(lib_id "PCM_Generic:P,GND")
 		(at 31.75 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16373,7 +16349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "earth/ground/earthing/grounding (E)"
+		(property "Description" "compatibility ground/earth; protective (equipotential) bonding (PB); equipotentiality"
 			(at 31.75 165.1 0)
 			(effects
 				(font
