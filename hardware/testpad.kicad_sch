@@ -2074,7 +2074,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "components:KD_SINGLE_KEY"
+		(symbol "components:KD_SINGLE_KEY_LED"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2084,6 +2084,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" ""
@@ -2094,7 +2095,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KeysDock:KD-SINGLE-KEY"
+			(property "Footprint" "KeysDock:KD-SINGLE-KEY_LED"
 				(at 1.27 10.414 0)
 				(show_name)
 				(effects
@@ -2121,7 +2122,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "KD_SINGLE_KEY_1_1"
+			(symbol "KD_SINGLE_KEY_LED_1_1"
 				(rectangle
 					(start -11.43 8.89)
 					(end 11.43 -8.89)
@@ -4522,7 +4523,7 @@
 		(uuid "fd5744ae-97eb-48b4-9c80-00f43342cede")
 	)
 	(symbol
-		(lib_id "components:KD_SINGLE_KEY")
+		(lib_id "components:KD_SINGLE_KEY_LED")
 		(at 85.09 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4547,7 +4548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KeysDock:KD-SINGLE-KEY"
+		(property "Footprint" "KeysDock:KD-SINGLE-KEY_LED"
 			(at 85.09 34.29 0)
 			(show_name yes)
 			(effects
@@ -4614,7 +4615,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:KD_SINGLE_KEY")
+		(lib_id "components:KD_SINGLE_KEY_LED")
 		(at 128.27 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4639,7 +4640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KeysDock:KD-SINGLE-KEY"
+		(property "Footprint" "KeysDock:KD-SINGLE-KEY_LED"
 			(at 128.27 34.29 0)
 			(show_name yes)
 			(effects
@@ -5124,7 +5125,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:KD_SINGLE_KEY")
+		(lib_id "components:KD_SINGLE_KEY_LED")
 		(at 171.45 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5149,7 +5150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KeysDock:KD-SINGLE-KEY"
+		(property "Footprint" "KeysDock:KD-SINGLE-KEY_LED"
 			(at 171.45 34.29 0)
 			(show_name yes)
 			(effects
@@ -6209,7 +6210,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:KD_SINGLE_KEY")
+		(lib_id "components:KD_SINGLE_KEY_LED")
 		(at 213.36 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6234,7 +6235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KeysDock:KD-SINGLE-KEY"
+		(property "Footprint" "KeysDock:KD-SINGLE-KEY_LED"
 			(at 213.36 34.29 0)
 			(show_name yes)
 			(effects
