@@ -72,7 +72,10 @@ export function initTheme() {
 
 const [dict] = createResource(themeStore.locale || systemPrefersLocale, fetchDictionary);
 // biome-ignore lint/suspicious/noExplicitAny: disable typescript lint
-export const t = translator(dict as any, resolveTemplate) as (key: string, vars?: Record<string, string | number>) => string;
+export const t = translator(dict as any, resolveTemplate) as (
+  key: string,
+  vars?: Record<string, string | number>
+) => string;
 export const colorPalette = {
   fg: () => (themeStore.colorScheme === "dark" ? "#eee" : "#121212"),
   primary: "#0991ed",

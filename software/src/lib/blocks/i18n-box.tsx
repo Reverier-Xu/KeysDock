@@ -41,7 +41,7 @@ export default function I18nBox() {
       square
       ghost
       positioning={{
-        placement: 'top'
+        placement: "top",
       }}
       popContentClass="pt-2"
     >

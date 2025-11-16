@@ -106,7 +106,9 @@ export default function (props: ComponentProps<"div">) {
       <img
         src={Background}
         alt="Background"
-        class={clsx("absolute w-full h-full object-cover top-0 left-0 -z-50 transition-opacity duration-1000 blur-xl opacity-10")}
+        class={clsx(
+          "absolute w-full h-full object-cover top-0 left-0 -z-50 transition-opacity duration-1000 blur-xl opacity-10"
+        )}
       />
       {props.children}
       <Navigator />

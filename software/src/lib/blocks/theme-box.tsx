@@ -41,7 +41,7 @@ export default function ThemeBox() {
       ghost
       popContentClass="pt-2"
       positioning={{
-        placement: 'top'
+        placement: "top",
       }}
       title={t("theme.title")}
     >

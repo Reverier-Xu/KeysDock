@@ -1,7 +1,5 @@
 import ErrorSection from "./error";
 
 export default function () {
-  return (
-      <ErrorSection status={412} />
-  );
+  return <ErrorSection status={412} />;
 }
