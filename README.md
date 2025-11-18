@@ -41,7 +41,9 @@ Designed use [KiCAD](https://www.kicad.org/), validated on [QUCS-s](https://ra3x
 
 ## Firmware
 
-WIP...
+Rust 1.91.1 is required for build firmware.
+
+Use esp-rs for fullstack developing.
 
 ## Software
 

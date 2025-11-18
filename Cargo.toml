@@ -1,0 +1,26 @@
+[workspace]
+members  = ["firmware"]
+resolver = "2"
+
+[workspace.package]
+authors      = ["Reverier-Xu <reverier.xu@woooo.tech>"]
+edition      = "2024"
+homepage     = "https://keys.woooo.tech/"
+publish      = false
+repository   = "https://github.com/Reverier-Xu/KeysDock"
+rust-version = "1.91"
+version      = "0.2.6"
+
+[workspace.dependencies]
+defmt                  = "1.0"
+esp-alloc              = { version = "0.9", features = ["esp32c6", "defmt"] }
+esp-backtrace          = { version = "0.18", features = ["esp32c6", "colors", "defmt"] }
+esp-bootloader-esp-idf = { version = "0.4", features = ["esp32c6", "defmt"] }
+esp-config             = { version = "0.6", features = ["build", "tui"] }
+esp-hal                = { version = "1.0", features = ["esp32c6", "defmt", "rt", "psram"] }
+esp-hal-ota            = { version = "0.4", features = ["esp32c6", "defmt"] }
+esp-hal-procmacros     = { version = "0.21" }
+esp-metadata           = { version = "0.10", features = ["clap"] }
+esp-phy                = { version = "0.1", features = ["esp32c6", "defmt"] }
+esp-riscv-rt           = { version = "0.13", features = ["defmt"] }
+esp-storage            = { version = "0.8" }
