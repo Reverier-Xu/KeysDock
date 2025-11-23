@@ -26,6 +26,12 @@ Fonts used in design:
 - [Iosevka](https://typeof.net/Iosevka/): An elegant monospace coding font;
 - [Hershey Fonts](https://en.wikipedia.org/wiki/Hershey_fonts): a collection of vector fonts originally designed to be rendered using vectors on early cathode ray tube displays.
 
+Girl on the controller PCB is [Ljichi Nijika](https://bocchi.rocks/omnibus/character/nijika.html):
+
+![Ljichi Nijika](arts/nijika.webp)
+
+Comes from [BOCCHI THE ROCK!](https://bocchi.rocks/) TV EP04 08:45, drawn to line arts by me.
+
 ## Hardware design
 
 Designed use [KiCAD](https://www.kicad.org/), validated on [QUCS-s](https://ra3xdh.github.io/).
