@@ -140,7 +140,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/models/LED-SMD_4P_XL-6028RGBW-WS2812B.step"
 		(offset
-			(xyz 0 0.25 -1.7)
+			(xyz 0 0.25 -1.25)
 		)
 		(scale
 			(xyz 1 1 1)

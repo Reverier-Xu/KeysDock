@@ -65,6 +65,7 @@
 			)
 		)
 	)
+	(attr through_hole)
 	(fp_line
 		(start -6 -6)
 		(end -6 -4.5)
@@ -28328,7 +28329,7 @@
 	)
 	(model "${KIPRJMOD}/models/LED-SMD_4P_XL-6028RGBW-WS2812B.step"
 		(offset
-			(xyz 0 4.75 -1.6)
+			(xyz 0 4.75 -1.2)
 		)
 		(scale
 			(xyz 1 1 1)
