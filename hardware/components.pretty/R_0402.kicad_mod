@@ -6,27 +6,25 @@
 	(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "resistor")
 	(property "Reference" "REF**"
-		(at -1.05 -0.85 0)
+		(at -1.25 -0.75 0)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "41d78466-b78f-4259-a93b-b5098dbbea74")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
+				(size 0.6 0.6)
+				(thickness 0.1)
 			)
 			(justify left)
 		)
 	)
 	(property "Value" "R_0402_1005Metric"
-		(at 0 0.2 0)
+		(at 0 0.75 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c8b0a43f-eb80-49fa-9f77-e02d4b03d7c9")
 		(effects
 			(font
-				(size 0.25 0.25)
-				(thickness 0.04)
+				(size 0.8 0.8)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -57,6 +55,7 @@
 		)
 	)
 	(solder_mask_margin 0.038)
+	(attr smd)
 	(fp_line
 		(start -0.9 -0.4)
 		(end -0.9 0.4)
@@ -107,6 +106,17 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "79a42b2e-e3db-46b7-9dcd-83ebc09f269e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "45e84937-8ab2-40e9-b954-66ef5bc84e77")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
 	)
 	(pad "1" smd roundrect
 		(at -0.5 0)
