@@ -167,6 +167,8 @@ export default function (props: { upPlugged?: boolean }) {
               <div class="font-bold flex items-center space-x-2">
                 <span class="icon-[fluent--plug-disconnected-20-regular] w-5 h-5" />
                 <span>{t("keytester.plug.notConnected")}</span>
+                <span>&nbsp;&nbsp;</span>
+                <span>{t("keytester.plug.plugExt")}</span>
               </div>
             </div>
           </div>

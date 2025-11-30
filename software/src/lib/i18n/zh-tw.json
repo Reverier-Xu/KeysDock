@@ -251,19 +251,25 @@
       }
     },
     "notImplemented": {
-      "hello": "",
-      "title": "",
-      "message": ""
+      "hello": "你好",
+      "title": "沒寫，別急",
+      "message": "生產隊的驢都不敢像你這麼歇"
     }
   },
   "navigator": {
     "getIt": "立刻獲取！"
   },
   "theme": {
-    "followSystem": "",
-    "title": ""
+    "followSystem": "跟隨系統",
+    "title": "主題"
   },
   "keytester": {
-    "layers": "層"
+    "layers": "層",
+    "plug": {
+      "connect": "連接鍵盤",
+      "connected": "已連接",
+      "notConnected": "未連接",
+      "plugExt": "請將 F 區擴展鍵盤插入主鍵盤"
+    }
   }
 }

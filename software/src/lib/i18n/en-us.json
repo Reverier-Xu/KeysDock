@@ -264,6 +264,12 @@
     "title": "Theme"
   },
   "keytester": {
-    "layers": "layer"
+    "layers": "layer",
+    "plug": {
+      "connect": "Connect the keyboard",
+      "connected": "Connected",
+      "notConnected": "Not connected",
+      "plugExt": "Please insert the F area extended keyboard into the main keyboard"
+    }
   }
 }

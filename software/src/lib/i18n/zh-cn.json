@@ -268,7 +268,8 @@
     "plug": {
       "notConnected": "未连接",
       "connected": "已连接",
-      "connect": "连接键盘"
+      "connect": "连接键盘",
+      "plugExt": "请将 F 区扩展键盘插入主键盘"
     }
   }
 }

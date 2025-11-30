@@ -264,6 +264,12 @@
     "title": "テーマ"
   },
   "keytester": {
-    "layers": "層"
+    "layers": "層",
+    "plug": {
+      "connect": "キーボードを接続する",
+      "connected": "接続済み",
+      "notConnected": "接続されていません",
+      "plugExt": "Fエリア拡張キーボードをメインキーボードに挿入してください。"
+    }
   }
 }
