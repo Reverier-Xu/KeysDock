@@ -42,7 +42,7 @@ function LoadingCurtain() {
   return (
     <div
       class={clsx(
-        "overflow-hidden fixed w-screen transition-all duration-1000 p-0 m-0 bg-layer",
+        "overflow-hidden fixed w-screen transition-all duration-1000 p-0 m-0 bg-layer z-50",
         progress() < 100 ? "h-screen" : "h-0"
       )}
     >

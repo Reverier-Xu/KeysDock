@@ -1,5 +1,6 @@
 import Nichiko from "@assets/nichiko-small.webp";
 import { useWindowSize } from "@solid-primitives/resize-observer";
+import { t } from "@storage/theme";
 import Button from "@widgets/button";
 import clsx from "clsx";
 import { createSignal } from "solid-js";
@@ -13,7 +14,12 @@ export function Key(props: {
   unit?: number;
 }) {
   const windowSize = useWindowSize();
-  const vPxPerMm = () => windowSize.width / 400;
+  const vPxPerMm = () => {
+    const shouldBe = windowSize.width / 400;
+    if (shouldBe <= 1) return 1;
+    if (shouldBe >= 4) return 4;
+    return shouldBe;
+  };
 
   const unit = 19.05;
   const pad = 1;
@@ -60,7 +66,12 @@ export function Key(props: {
 
 export default function (props: { upPlugged?: boolean }) {
   const windowSize = useWindowSize();
-  const vPxPerMm = () => windowSize.width / 400;
+  const vPxPerMm = () => {
+    const shouldBe = windowSize.width / 400;
+    if (shouldBe <= 1) return 1;
+    if (shouldBe >= 4) return 4;
+    return shouldBe;
+  };
 
   const unit = 19.05;
   const border = 5;
@@ -73,9 +84,15 @@ export default function (props: { upPlugged?: boolean }) {
   const fHeight = () => (unit + border * 2) * vPxPerMm();
   const fontSize = () => 4 * vPxPerMm();
   const [currentLayer, setCurrentLayer] = createSignal(0);
+
   return (
     <div class="flex flex-row justify-center space-x-12">
-      <div class="w-16 border border-layer-content/15 space-y-2 flex flex-col items-center p-2 rounded-2xl bg-layer-content/5">
+      <div
+        class="w-16 border border-layer-content/15 space-y-2 flex flex-col items-center p-2 rounded-2xl bg-layer-content/5"
+        style={{
+          "border-width": `${vPxPerMm() * 0.5}px`,
+        }}
+      >
         <Button square ghost>
           <span class="icon-[fluent--save-20-regular] w-5 h-5" />
         </Button>
@@ -83,33 +100,36 @@ export default function (props: { upPlugged?: boolean }) {
           <span class="icon-[fluent--arrow-hook-up-left-20-regular] w-5 h-5" />
         </Button>
         <div class="flex-1" />
+        <div class="h-px w-full bg-layer-content/15" />
         <Button square onClick={() => setCurrentLayer(5)} ghost={currentLayer() !== 5}>
-          5
+          K5
         </Button>
         <Button square onClick={() => setCurrentLayer(4)} ghost={currentLayer() !== 4}>
-          4
+          K4
         </Button>
         <Button square onClick={() => setCurrentLayer(3)} ghost={currentLayer() !== 3}>
-          3
+          K3
         </Button>
+        <div class="h-px w-full bg-layer-content/15" />
         <Button square onClick={() => setCurrentLayer(2)} ghost={currentLayer() !== 2}>
-          2
+          M2
         </Button>
         <Button square onClick={() => setCurrentLayer(1)} ghost={currentLayer() !== 1}>
-          1
+          M1
         </Button>
         <Button square onClick={() => setCurrentLayer(0)} ghost={currentLayer() !== 0}>
-          0
+          M0
         </Button>
         {/* <div class="flex-1" /> */}
       </div>
       <div class="flex flex-col space-y-4">
         <div
-          class="border box-border border-layer-content/15 self-end bg-layer flex items-center justify-center"
+          class="border border-layer-content/15 self-end bg-layer-content/5 flex items-center justify-center relative"
           style={{
             width: `${fWidth()}px`,
             height: `${fHeight()}px`,
             "border-radius": `${6 * vPxPerMm()}px`,
+            "border-width": `${vPxPerMm() * 0.5}px`,
           }}
         >
           <div
@@ -138,18 +158,30 @@ export default function (props: { upPlugged?: boolean }) {
             <Key label={{ normal: "F12" }} />
             <div style={{ width: `${unit * 0.25 * vPxPerMm()}px` }} />
             <Key label={{ normal: "Del" }} />
+            <div
+              class="absolute top-0 left-0 bottom-0 right-0 z-10 bg-layer/60 flex items-center justify-center"
+              style={{
+                "border-radius": `${6 * vPxPerMm()}px`,
+              }}
+            >
+              <div class="font-bold flex items-center space-x-2">
+                <span class="icon-[fluent--plug-disconnected-20-regular] w-5 h-5" />
+                <span>{t("keytester.plug.notConnected")}</span>
+              </div>
+            </div>
           </div>
         </div>
         <div
-          class="border box-border border-layer-content/15 flex flex-row bg-layer items-center justify-center"
+          class="border border-layer-content/15 flex flex-row bg-layer-content/5 items-center justify-center relative"
           style={{
             width: `${width()}px`,
             height: `${height()}px`,
             "border-radius": `${6 * vPxPerMm()}px`,
+            "border-width": `${vPxPerMm() * 0.5}px`,
           }}
         >
           <div
-            class="border box-border border-layer-content/15 h-full flex flex-col bg-layer-content/5"
+            class="border border-layer-content/15 h-full flex flex-col bg-layer-content/5 items-center"
             style={{
               width: `${sideContainer * vPxPerMm()}px`,
               "border-radius": `${vPxPerMm()}px`,
@@ -175,26 +207,47 @@ export default function (props: { upPlugged?: boolean }) {
                 <span class="font-bold opacity-80">_</span>
               </span>
             </h3>
-            <button
-              type="button"
-              class="border box-border border-layer-content/15 transition-colors hover:cursor-pointer bg-layer-content/5 hover:bg-layer-content/10 active:bg-layer-content/15 flex space-x-2 items-center justify-center"
+            <div
+              class="flex"
               style={{
-                "margin-left": `${border * 0.6 * vPxPerMm()}px`,
-                "margin-right": `${border * 0.6 * vPxPerMm()}px`,
-                "margin-bottom": `${border * 0.6 * vPxPerMm()}px`,
-                height: `${unit * 0.4 * vPxPerMm()}px`,
-                "border-radius": `${vPxPerMm()}px`,
-                "font-size": `${fontSize() * 0.8}px`,
+                width: `${(sideContainer - 6) * vPxPerMm()}px`,
               }}
             >
-              <span
-                class="icon-[fluent--arrow-rotate-clockwise-20-regular] animate-spin"
+              <div
+                class="bg-layer-content/15 shrink-0"
                 style={{
-                  width: `${fontSize()}px`,
+                  width: `${vPxPerMm()}px`,
+                  height: `${unit * 0.4 * vPxPerMm()}px`,
+                  "margin-right": `${2 * vPxPerMm()}px`,
                 }}
               />
-              <span>WHEEL</span>
-            </button>
+              <button
+                type="button"
+                class="border border-layer-content/15 transition-colors hover:cursor-pointer bg-layer-content/5 hover:bg-layer-content/10 active:bg-layer-content/15 flex space-x-2 items-center justify-center flex-1"
+                style={{
+                  height: `${unit * 0.4 * vPxPerMm()}px`,
+                  "border-radius": `${vPxPerMm()}px`,
+                  "font-size": `${fontSize() * 0.8}px`,
+                  "border-width": `${vPxPerMm() * 0.5}px`,
+                }}
+              >
+                <span
+                  class="icon-[fluent--arrow-rotate-clockwise-20-regular] animate-spin"
+                  style={{
+                    width: `${fontSize()}px`,
+                  }}
+                />
+                <span>WHEEL</span>
+              </button>
+              <div
+                class="bg-layer-content/15 shrink-0"
+                style={{
+                  width: `${vPxPerMm()}px`,
+                  height: `${unit * 0.4 * vPxPerMm()}px`,
+                  "margin-left": `${2 * vPxPerMm()}px`,
+                }}
+              />
+            </div>
             <div
               style={{
                 height: `${unit * 0.2 * vPxPerMm()}px`,
@@ -202,22 +255,41 @@ export default function (props: { upPlugged?: boolean }) {
             />
             <button
               type="button"
-              class="border box-border border-layer-content/15 hover:cursor-pointer bg-layer hover:bg-layer-content/5 active:bg-layer-content/10 transition-colors overflow-hidden"
+              class="border border-layer-content/15 hover:cursor-pointer bg-layer hover:bg-layer-content/5 active:bg-layer-content/10 transition-colors overflow-hidden"
               style={{
                 "margin-left": `${border * 0.6 * vPxPerMm()}px`,
                 "margin-right": `${border * 0.6 * vPxPerMm()}px`,
-                "margin-bottom": `${border * 0.6 * vPxPerMm()}px`,
                 height: `${unit * 2.55 * vPxPerMm()}px`,
                 "border-radius": `${vPxPerMm()}px`,
+                "border-width": `${vPxPerMm() * 0.5}px`,
               }}
             >
               <img src={Nichiko} alt="Nichiko" class="w-full h-full object-cover" />
             </button>
             <div
+              class="flex flex-col items-center w-full"
               style={{
-                height: `${unit * 0.2 * vPxPerMm()}px`,
+                "padding-left": `${border * 0.6 * vPxPerMm()}px`,
+                "padding-right": `${border * 0.6 * vPxPerMm()}px`,
+                "padding-bottom": `${border * 0.8 * vPxPerMm()}px`,
+                height: `${13 * vPxPerMm()}px`,
               }}
-            />
+            >
+              <div
+                class="flex-1 flex items-center justify-center font-bold"
+                style={{
+                  "font-size": `${fontSize() * 0.9}px`,
+                }}
+              >
+                Keys Dock
+              </div>
+              <div
+                class="w-full bg-layer-content/15 shrink-0"
+                style={{
+                  height: `${1 * vPxPerMm()}px`,
+                }}
+              />
+            </div>
           </div>
           <div
             class="flex flex-col"
@@ -302,6 +374,40 @@ export default function (props: { upPlugged?: boolean }) {
               <Key label={{ normal: "▼" }} />
               <Key label={{ normal: "►" }} />
             </div>
+          </div>
+          <div
+            class="absolute bg-primary/60 rounded-full"
+            style={{
+              top: `${10 * vPxPerMm()}px`,
+              left: `${1.5 * vPxPerMm()}px`,
+              height: `${24 * vPxPerMm()}px`,
+              width: `${1.5 * vPxPerMm()}px`,
+            }}
+          />
+          <div
+            class="absolute bg-primary/60 rounded-full"
+            style={{
+              top: `${10 * vPxPerMm()}px`,
+              right: `${1.5 * vPxPerMm()}px`,
+              height: `${24 * vPxPerMm()}px`,
+              width: `${1.5 * vPxPerMm()}px`,
+            }}
+          />
+          <div
+            class="absolute top-0 left-0 bottom-0 right-0 z-10 bg-layer/60 flex flex-col items-center justify-center space-y-8"
+            style={{
+              "border-radius": `${6 * vPxPerMm()}px`,
+            }}
+          >
+            <div class="font-bold flex items-center space-x-2">
+              <span class="icon-[fluent--plug-disconnected-20-regular] w-5 h-5" />
+              <span>{t("keytester.plug.notConnected")}</span>
+            </div>
+            <Button>
+              <span class="icon-[fluent--plug-connected-20-regular] w-5 h-5" />
+              <span class="icon-[fluent--add-20-regular] w-5 h-5" />
+              <span>{t("keytester.plug.connect")}</span>
+            </Button>
           </div>
         </div>
       </div>

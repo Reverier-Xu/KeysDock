@@ -264,6 +264,11 @@
     "title": "主题"
   },
   "keytester": {
-    "layers": "层"
+    "layers": "层",
+    "plug": {
+      "notConnected": "未连接",
+      "connected": "已连接",
+      "connect": "连接键盘"
+    }
   }
 }
