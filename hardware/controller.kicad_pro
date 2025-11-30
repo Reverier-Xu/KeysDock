@@ -58,14 +58,207 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|97600000|92500000|1a27f91e-1b0e-4b69-89df-5f4a9fbc7877|bef8fe90-4aaa-4a17-980d-a4e6b29b5435",
+          "This circult is too small"
+        ],
+        [
+          "clearance|97600000|92500000|1a27f91e-1b0e-4b69-89df-5f4a9fbc7877|c5644915-e63d-47bd-ad08-ef71bcea64c2",
+          "This circult is too small"
+        ],
+        [
+          "clearance|97600000|92700000|f4628fc2-dc31-46ff-b4ef-868ed1e3bec5|bef8fe90-4aaa-4a17-980d-a4e6b29b5435",
+          "This circult is too small"
+        ],
+        [
+          "clearance|97600000|92900000|09ea49e9-5f98-4c0d-9b8b-cc901f684226|2c254218-e110-405a-a015-0df17fa44e00",
+          "This circult is too small"
+        ],
+        [
+          "clearance|97600000|92900000|2c254218-e110-405a-a015-0df17fa44e00|ca1de800-fa0e-476a-8f62-f62d9729695a",
+          "This circult is too small"
+        ],
+        [
+          "clearance|97600000|92900000|2c254218-e110-405a-a015-0df17fa44e00|f4628fc2-dc31-46ff-b4ef-868ed1e3bec5",
+          "This circult is too small"
+        ],
+        [
+          "clearance|97600000|93100000|bef8fe90-4aaa-4a17-980d-a4e6b29b5435|ca1de800-fa0e-476a-8f62-f62d9729695a",
+          ""
+        ],
+        [
+          "clearance|97600000|93300000|02a0ebdc-7413-43d5-80aa-c1bc0961dc07|25b2cbae-8ee2-4bdc-b6bd-aeb331e69b2b",
+          "This circult is too small"
+        ],
+        [
+          "clearance|97600000|93300000|25b2cbae-8ee2-4bdc-b6bd-aeb331e69b2b|bef8fe90-4aaa-4a17-980d-a4e6b29b5435",
+          "This circult is too small"
+        ],
+        [
+          "clearance|97800000|92500000|c5644915-e63d-47bd-ad08-ef71bcea64c2|f4628fc2-dc31-46ff-b4ef-868ed1e3bec5",
+          "This circult is too small"
+        ],
+        [
+          "clearance|97800000|92900000|09ea49e9-5f98-4c0d-9b8b-cc901f684226|bef8fe90-4aaa-4a17-980d-a4e6b29b5435",
+          "This circult is too small"
+        ],
+        [
+          "clearance|97800000|93300000|02a0ebdc-7413-43d5-80aa-c1bc0961dc07|ca1de800-fa0e-476a-8f62-f62d9729695a",
+          "This circult is too small"
+        ],
+        [
+          "clearance|98000000|92500000|09ea49e9-5f98-4c0d-9b8b-cc901f684226|c91b6309-8314-4b40-87c2-daf356f47847",
+          "This circult is too small"
+        ],
+        [
+          "clearance|98000000|92500000|c91b6309-8314-4b40-87c2-daf356f47847|f4628fc2-dc31-46ff-b4ef-868ed1e3bec5",
+          "This circult is too small"
+        ],
+        [
+          "clearance|98000000|92700000|c5644915-e63d-47bd-ad08-ef71bcea64c2|09ea49e9-5f98-4c0d-9b8b-cc901f684226",
+          "This circult is too small"
+        ],
+        [
+          "clearance|98000000|92900000|b424a92d-01ba-4ed8-bf79-4e5053e7ea0b|bef8fe90-4aaa-4a17-980d-a4e6b29b5435",
+          "This circult is too small"
+        ],
+        [
+          "clearance|98000000|92900000|b424a92d-01ba-4ed8-bf79-4e5053e7ea0b|c5644915-e63d-47bd-ad08-ef71bcea64c2",
+          "This circult is too small"
+        ],
+        [
+          "clearance|98000000|93300000|b424a92d-01ba-4ed8-bf79-4e5053e7ea0b|ca1de800-fa0e-476a-8f62-f62d9729695a",
+          "This circult is too small"
+        ],
+        [
+          "connection_width|84127107|132370000|69ed97fb-f8fa-4ff4-9bd4-d1d871b72a3d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "connection_width|84184108|132375000|69ed97fb-f8fa-4ff4-9bd4-d1d871b72a3d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "connection_width|84315892|132375000|69ed97fb-f8fa-4ff4-9bd4-d1d871b72a3d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "connection_width|84315892|133625000|69ed97fb-f8fa-4ff4-9bd4-d1d871b72a3d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "connection_width|84461336|132356210|69ed97fb-f8fa-4ff4-9bd4-d1d871b72a3d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "connection_width|88237582|56474999|69ed97fb-f8fa-4ff4-9bd4-d1d871b72a3d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "connection_width|88491062|56370005|69ed97fb-f8fa-4ff4-9bd4-d1d871b72a3d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "connection_width|93547689|56389252|69ed97fb-f8fa-4ff4-9bd4-d1d871b72a3d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "connection_width|93762420|56475000|69ed97fb-f8fa-4ff4-9bd4-d1d871b72a3d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "connection_width|98466212|93100000|41c5f9fe-f4fc-4e29-a25a-05d6af35bc09|eef1aae4-b798-4363-91eb-9792c39cd1cf",
+          ""
+        ],
+        [
+          "hole_clearance|88050000|56300000|09547911-cc24-49b6-ad7a-df57417d5d25|b88102b5-5ca9-4477-ac64-3e974cf546ce",
+          ""
+        ],
+        [
+          "hole_clearance|93950000|56300000|ec4fbfaa-3cd1-46f6-9f53-b048b80c57ca|374e7153-3770-46c5-89da-b51638294df2",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|91000000|134250000|fb14de20-ad65-4fc7-92c8-3ff81d0d789d|00000000-0000-0000-0000-000000000000",
+          "Not important"
+        ],
+        [
+          "silk_edge_clearance|100000000|141000000|69ad85cc-650f-48fb-a727-2bdf4a68ccd8|1bf42bd4-e148-4b09-8ec1-ce8b62613750",
+          ""
+        ],
+        [
+          "silk_edge_clearance|101000000|141500000|032f06f5-4df6-44a0-b563-36dc49f5f98c|34f983f0-1f3e-44e1-8e95-23fda61f05ff",
+          ""
+        ],
+        [
+          "silk_edge_clearance|101000000|141500000|032f06f5-4df6-44a0-b563-36dc49f5f98c|4bf89bde-70f6-44bc-a675-f34891874df4",
+          ""
+        ],
+        [
+          "silk_edge_clearance|105000000|63535000|7d96c031-a2a5-41fb-a5a7-b764e96a3785|5b45737f-943f-45f7-a04d-d93a50f6a7e4",
+          ""
+        ],
+        [
+          "silk_edge_clearance|105000000|75965000|7d96c031-a2a5-41fb-a5a7-b764e96a3785|b974fb44-1b18-4450-b877-f1c629a09985",
+          ""
+        ],
+        [
+          "silk_edge_clearance|105000000|77500000|7d96c031-a2a5-41fb-a5a7-b764e96a3785|6e779f21-eef1-4df7-b041-57d36da418c9",
+          ""
+        ],
+        [
+          "silk_edge_clearance|105000000|85500000|7d96c031-a2a5-41fb-a5a7-b764e96a3785|ac848685-9b3a-46f7-ac1b-0eebe07848d9",
+          ""
+        ],
+        [
+          "silk_edge_clearance|81000000|141500000|50e8ef0d-2603-4898-aeb8-99965ccdd1a2|0075ffdc-b35a-47f2-b109-f9c5e57ea608",
+          ""
+        ],
+        [
+          "silk_edge_clearance|81000000|141500000|50e8ef0d-2603-4898-aeb8-99965ccdd1a2|02cc21b1-e117-4e5b-86f4-e048cb2a808e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|82000000|141000000|69ad85cc-650f-48fb-a727-2bdf4a68ccd8|93e0e92d-3860-48b5-9056-6558409333e2",
+          ""
+        ],
+        [
+          "silk_overlap|73250000|73750000|42a17156-d503-460f-bd86-7016db2d1041|81282c17-4b90-4c36-8eb4-ea9add618286",
+          ""
+        ],
+        [
+          "track_width|97225000|92900000|2c254218-e110-405a-a015-0df17fa44e00|00000000-0000-0000-0000-000000000000",
+          "This circult is too small"
+        ],
+        [
+          "track_width|97600000|92325000|1a27f91e-1b0e-4b69-89df-5f4a9fbc7877|00000000-0000-0000-0000-000000000000",
+          "This circult is too small"
+        ],
+        [
+          "track_width|97600000|93600000|25b2cbae-8ee2-4bdc-b6bd-aeb331e69b2b|00000000-0000-0000-0000-000000000000",
+          "This circult is too small"
+        ],
+        [
+          "track_width|98000000|93100000|b424a92d-01ba-4ed8-bf79-4e5053e7ea0b|00000000-0000-0000-0000-000000000000",
+          "This circult is too small"
+        ],
+        [
+          "track_width|98375000|92125000|c91b6309-8314-4b40-87c2-daf356f47847|00000000-0000-0000-0000-000000000000",
+          "This circult is too small"
+        ],
+        [
+          "track_width|98375000|93100000|eef1aae4-b798-4363-91eb-9792c39cd1cf|00000000-0000-0000-0000-000000000000",
+          "This circult is too small"
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
-        "connection_width": "warning",
+        "connection_width": "error",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
@@ -133,7 +326,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.6,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.3,

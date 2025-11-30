@@ -14525,7 +14525,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Espressif:ESP32-C6-WROOM-1"
+			(property "Footprint" "KeysDock:ESP32-C6-WROOM-1"
 				(at 0 -45.085 0)
 				(effects
 					(font
@@ -47257,6 +47257,12 @@
 		(uuid "04e4a6f9-f81e-46bc-afa0-5d238efd4c67")
 	)
 	(junction
+		(at 85.09 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "052dee1e-384a-42b4-a4a4-1fd324f5afbb")
+	)
+	(junction
 		(at 87.63 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -47309,6 +47315,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47f7ebac-aa92-4957-97ee-c6af277936f1")
+	)
+	(junction
+		(at 298.45 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "535be770-4e91-46ae-9302-a990a744230f")
 	)
 	(junction
 		(at 91.44 175.26)
@@ -47397,16 +47409,8 @@
 		(uuid "5e25e21d-ee74-41b7-bae1-33881bb7a1f0")
 	)
 	(no_connect
-		(at 325.12 109.22)
-		(uuid "600b5d1d-ef54-4a95-bb1f-7d413b55d893")
-	)
-	(no_connect
 		(at 234.95 182.88)
 		(uuid "7515664e-d286-4072-a65a-1672a4e5b648")
-	)
-	(no_connect
-		(at 92.71 58.42)
-		(uuid "8a4a10e5-5378-46e2-b89f-f6e52a10af49")
 	)
 	(no_connect
 		(at 278.13 52.07)
@@ -47419,6 +47423,16 @@
 	(no_connect
 		(at 259.08 137.16)
 		(uuid "eac14505-a124-4ede-bb37-d8665e952b38")
+	)
+	(wire
+		(pts
+			(xy 92.71 58.42) (xy 85.09 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0003b95f-20fa-4ab5-8d3d-61a65f53c47f")
 	)
 	(wire
 		(pts
@@ -47482,7 +47496,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 104.14) (xy 298.45 116.84)
+			(xy 298.45 104.14) (xy 298.45 109.22)
 		)
 		(stroke
 			(width 0)
@@ -48072,6 +48086,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 109.22) (xy 325.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91625d26-a9da-4414-bb35-b1855e8f9c85")
+	)
+	(wire
+		(pts
 			(xy 307.34 101.6) (xy 325.12 101.6)
 		)
 		(stroke
@@ -48199,6 +48223,16 @@
 			(type default)
 		)
 		(uuid "a7924a31-ee84-47fe-8df1-a0ecbc4d6c41")
+	)
+	(wire
+		(pts
+			(xy 298.45 109.22) (xy 298.45 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b251d042-7ba6-4ab6-8cf0-5db6ce4c6ca7")
 	)
 	(wire
 		(pts
@@ -48429,6 +48463,16 @@
 			(type default)
 		)
 		(uuid "d27f204e-ef7d-49ba-ac9c-f04b68228604")
+	)
+	(wire
+		(pts
+			(xy 85.09 58.42) (xy 85.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5420762-0ba7-4fb8-bf68-7210f726912d")
 	)
 	(wire
 		(pts
@@ -56125,7 +56169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Espressif:ESP32-C6-WROOM-1"
+		(property "Footprint" "KeysDock:ESP32-C6-WROOM-1"
 			(at 209.55 144.145 0)
 			(effects
 				(font
