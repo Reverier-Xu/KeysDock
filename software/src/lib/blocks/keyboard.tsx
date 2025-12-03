@@ -1,6 +1,5 @@
 import Nichiko from "@assets/nichiko-small.webp";
 import { useWindowSize } from "@solid-primitives/resize-observer";
-import { t } from "@storage/theme";
 import Button from "@widgets/button";
 import clsx from "clsx";
 import { createSignal } from "solid-js";
@@ -64,7 +63,7 @@ export function Key(props: {
   );
 }
 
-export default function (props: { upPlugged?: boolean }) {
+export default function(props: { upPlugged?: boolean; connected?: boolean }) {
   const windowSize = useWindowSize();
   const vPxPerMm = () => {
     const shouldBe = windowSize.width / 400;
@@ -88,7 +87,7 @@ export default function (props: { upPlugged?: boolean }) {
   return (
     <div class="flex flex-row justify-center space-x-12">
       <div
-        class="w-16 border border-layer-content/15 space-y-2 flex flex-col items-center p-2 rounded-2xl bg-layer-content/5"
+        class="w-16 border border-layer-content/15 space-y-2 flex flex-col items-center p-2 rounded-2xl bg-layer/60"
         style={{
           "border-width": `${vPxPerMm() * 0.5}px`,
         }}
@@ -102,29 +101,30 @@ export default function (props: { upPlugged?: boolean }) {
         <div class="flex-1" />
         <div class="h-px w-full bg-layer-content/15" />
         <Button square onClick={() => setCurrentLayer(5)} ghost={currentLayer() !== 5}>
-          K5
+          SI+
         </Button>
         <Button square onClick={() => setCurrentLayer(4)} ghost={currentLayer() !== 4}>
-          K4
-        </Button>
-        <Button square onClick={() => setCurrentLayer(3)} ghost={currentLayer() !== 3}>
-          K3
+          SI-
         </Button>
         <div class="h-px w-full bg-layer-content/15" />
-        <Button square onClick={() => setCurrentLayer(2)} ghost={currentLayer() !== 2}>
-          M2
+        <Button square onClick={() => setCurrentLayer(3)} ghost={currentLayer() !== 3}>
+          4K+
         </Button>
+        <Button square onClick={() => setCurrentLayer(2)} ghost={currentLayer() !== 2}>
+          4K-
+        </Button>
+        <div class="h-px w-full bg-layer-content/15" />
         <Button square onClick={() => setCurrentLayer(1)} ghost={currentLayer() !== 1}>
-          M1
+          1K+
         </Button>
         <Button square onClick={() => setCurrentLayer(0)} ghost={currentLayer() !== 0}>
-          M0
+          1K-
         </Button>
         {/* <div class="flex-1" /> */}
       </div>
       <div class="flex flex-col space-y-4">
         <div
-          class="border border-layer-content/15 self-end bg-layer-content/5 flex items-center justify-center relative"
+          class="border border-layer-content/15 self-end bg-layer/60 flex items-center justify-center relative"
           style={{
             width: `${fWidth()}px`,
             height: `${fHeight()}px`,
@@ -158,23 +158,23 @@ export default function (props: { upPlugged?: boolean }) {
             <Key label={{ normal: "F12" }} />
             <div style={{ width: `${unit * 0.25 * vPxPerMm()}px` }} />
             <Key label={{ normal: "Del" }} />
-            <div
-              class="absolute top-0 left-0 bottom-0 right-0 z-10 bg-layer/60 flex items-center justify-center"
-              style={{
-                "border-radius": `${6 * vPxPerMm()}px`,
-              }}
-            >
-              <div class="font-bold flex items-center space-x-2">
-                <span class="icon-[fluent--plug-disconnected-20-regular] w-5 h-5" />
-                <span>{t("keytester.plug.notConnected")}</span>
-                <span>&nbsp;&nbsp;</span>
-                <span>{t("keytester.plug.plugExt")}</span>
-              </div>
-            </div>
+            {/* <div */}
+            {/*   class="absolute top-0 left-0 bottom-0 right-0 z-10 bg-layer/60 flex items-center justify-center" */}
+            {/*   style={{ */}
+            {/*     "border-radius": `${6 * vPxPerMm()}px`, */}
+            {/*   }} */}
+            {/* > */}
+            {/*   <div class="font-bold flex items-center space-x-2"> */}
+            {/*     <span class="icon-[fluent--plug-disconnected-20-regular] w-5 h-5" /> */}
+            {/*     <span>{t("keytester.plug.notConnected")}</span> */}
+            {/*     <span>&nbsp;&nbsp;</span> */}
+            {/*     <span>{t("keytester.plug.plugExt")}</span> */}
+            {/*   </div> */}
+            {/* </div> */}
           </div>
         </div>
         <div
-          class="border border-layer-content/15 flex flex-row bg-layer-content/5 items-center justify-center relative"
+          class="border border-layer-content/15 flex flex-row bg-layer/60 items-center justify-center relative"
           style={{
             width: `${width()}px`,
             height: `${height()}px`,
@@ -319,7 +319,7 @@ export default function (props: { upPlugged?: boolean }) {
               <Key label={{ normal: "Backspace" }} unit={2} />
             </div>
             <div class="flex">
-              <Key label={{ normal: "Tab" }} unit={1.5} />
+              <Key label={{ normal: "Tab", fn: "+/-" }} unit={1.5} />
               <Key label={{ normal: "Q", fn: "BLE-1" }} />
               <Key label={{ normal: "W", fn: "BLE-2" }} />
               <Key label={{ normal: "E", fn: "BLE-3" }} />
@@ -358,8 +358,8 @@ export default function (props: { upPlugged?: boolean }) {
               <Key label={{ normal: "B" }} />
               <Key label={{ normal: "N" }} />
               <Key label={{ normal: "M" }} />
-              <Key label={{ normal: ",", shift: "<", fn: "Home" }} />
-              <Key label={{ normal: ".", shift: ">", fn: "End" }} />
+              <Key label={{ normal: ",", shift: "<" }} />
+              <Key label={{ normal: ".", shift: ">" }} />
               <Key label={{ normal: "/", shift: "?" }} />
               <Key label={{ normal: "▣" }} />
               <Key label={{ normal: "▲" }} />
@@ -372,9 +372,9 @@ export default function (props: { upPlugged?: boolean }) {
               <Key label={{ normal: "Space" }} unit={6.25} />
               <Key label={{ normal: "Alt" }} />
               <Key label={{ normal: "Fn" }} />
-              <Key label={{ normal: "◄" }} />
-              <Key label={{ normal: "▼" }} />
-              <Key label={{ normal: "►" }} />
+              <Key label={{ normal: "◄", fn: "1K" }} />
+              <Key label={{ normal: "▼", fn: "4K" }} />
+              <Key label={{ normal: "►", fn: "SI" }} />
             </div>
           </div>
           <div
@@ -395,22 +395,22 @@ export default function (props: { upPlugged?: boolean }) {
               width: `${1.5 * vPxPerMm()}px`,
             }}
           />
-          <div
-            class="absolute top-0 left-0 bottom-0 right-0 z-10 bg-layer/60 flex flex-col items-center justify-center space-y-8"
-            style={{
-              "border-radius": `${6 * vPxPerMm()}px`,
-            }}
-          >
-            <div class="font-bold flex items-center space-x-2">
-              <span class="icon-[fluent--plug-disconnected-20-regular] w-5 h-5" />
-              <span>{t("keytester.plug.notConnected")}</span>
-            </div>
-            <Button>
-              <span class="icon-[fluent--plug-connected-20-regular] w-5 h-5" />
-              <span class="icon-[fluent--add-20-regular] w-5 h-5" />
-              <span>{t("keytester.plug.connect")}</span>
-            </Button>
-          </div>
+          {/* <div */}
+          {/*   class="absolute top-0 left-0 bottom-0 right-0 z-10 bg-layer/60 flex flex-col items-center justify-center space-y-8" */}
+          {/*   style={{ */}
+          {/*     "border-radius": `${6 * vPxPerMm()}px`, */}
+          {/*   }} */}
+          {/* > */}
+          {/*   <div class="font-bold flex items-center space-x-2"> */}
+          {/*     <span class="icon-[fluent--plug-disconnected-20-regular] w-5 h-5" /> */}
+          {/*     <span>{t("keytester.plug.notConnected")}</span> */}
+          {/*   </div> */}
+          {/*   <Button> */}
+          {/*     <span class="icon-[fluent--plug-connected-20-regular] w-5 h-5" /> */}
+          {/*     <span class="icon-[fluent--add-20-regular] w-5 h-5" /> */}
+          {/*     <span>{t("keytester.plug.connect")}</span> */}
+          {/*   </Button> */}
+          {/* </div> */}
         </div>
       </div>
     </div>

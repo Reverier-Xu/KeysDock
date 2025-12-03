@@ -38,7 +38,7 @@ function LoadingCurtain() {
   }, 10);
   setTimeout(() => {
     setShownProgress(true);
-  }, 1500);
+  }, 1000);
   return (
     <div
       class={clsx(
@@ -51,18 +51,18 @@ function LoadingCurtain() {
           src={Background}
           alt="Background"
           class={clsx(
-            "absolute w-full h-full object-cover top-0 left-0 -z-50 transition-opacity duration-1000",
+            "absolute w-full h-full object-cover top-0 left-0 -z-50 blur-xl transition-opacity duration-600",
             shownProgress() ? "opacity-100" : "opacity-0"
           )}
         />
-        <div class="absolute w-full h-full top-0 left-0 -z-40 bg-layer/80 backdrop-blur-xl" />
+        <div class="absolute w-full h-full top-0 left-0 -z-40 bg-layer/80" />
         <div class="flex-1" />
         <Reverier width={256} height={256} class="transition-all" />
         <div class="h-8" />
         <div class="flex-1 flex flex-col justify-end w-full">
           <div
             class={clsx(
-              "w-full flex items-center justify-center overflow-hidden transition-all duration-1000 gap-2",
+              "w-full flex items-center justify-center overflow-hidden transition-all duration-600 gap-2",
               shownProgress() ? "max-h-8 h-8" : "max-h-0 h-0"
             )}
           >
@@ -70,7 +70,7 @@ function LoadingCurtain() {
           </div>
           <div
             class={clsx(
-              "w-full flex items-center justify-center overflow-hidden transition-all duration-1000 gap-2",
+              "w-full flex items-center justify-center overflow-hidden transition-all duration-600 gap-2",
               shownProgress() ? "max-h-8 h-8" : "max-h-0 h-0"
             )}
           >
@@ -100,14 +100,14 @@ function LoadingCurtain() {
   );
 }
 
-export default function (props: ComponentProps<"div">) {
+export default function(props: ComponentProps<"div">) {
   return (
     <>
       <img
         src={Background}
         alt="Background"
         class={clsx(
-          "absolute w-full h-full object-cover top-0 left-0 -z-50 transition-opacity duration-1000 blur-xl opacity-10"
+          "absolute w-full h-full object-cover top-0 left-0 -z-50 transition-opacity duration-600 blur-xl opacity-30"
         )}
       />
       {props.children}
