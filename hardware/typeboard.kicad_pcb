@@ -49518,7 +49518,7 @@
 				(justify right mirror)
 			)
 		)
-		(property "Value" "10Ω"
+		(property "Value" "0Ω"
 			(at 0 -0.75 90)
 			(layer "B.Fab")
 			(uuid "d023d37e-e0c6-4683-bcb5-3b6999d18499")
@@ -49530,7 +49530,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF100JTCE_C25077.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -49544,7 +49544,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 10Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -49558,7 +49558,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25077"
+		(property "LCSC" "C17168"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -49572,7 +49572,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Stock" "4873481"
+		(property "Stock" "9510686"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -49684,7 +49684,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part" "0402WGF100JTCE"
+		(property "Part" "0402WGF0000TCE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -49698,7 +49698,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Resistance" "10Ω"
+		(property "Resistance" "0Ω"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -49782,7 +49782,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Temperature Coefficient" "±200ppm/°C"
+		(property "Temperature Coefficient" "±800ppm/°C"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")

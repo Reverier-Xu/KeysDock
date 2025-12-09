@@ -589,7 +589,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "components:0402,10Ω"
+		(symbol "components:0402,0Ω"
 			(pin_numbers
 				(hide yes)
 			)
@@ -608,7 +608,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "10Ω"
+			(property "Value" "0Ω"
 				(at 0 0 90)
 				(do_not_autoplace)
 				(effects
@@ -626,7 +626,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF100JTCE_C25077.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -635,7 +635,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 10Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(property "Description" "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -644,7 +644,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C25077"
+			(property "LCSC" "C17168"
 				(at 0 0 0)
 				(effects
 					(font
@@ -653,7 +653,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "4873481"
+			(property "Stock" "9510686"
 				(at 0 0 0)
 				(effects
 					(font
@@ -725,7 +725,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "0402WGF100JTCE"
+			(property "Part" "0402WGF0000TCE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -734,7 +734,7 @@
 					(hide yes)
 				)
 			)
-			(property "Resistance" "10Ω"
+			(property "Resistance" "0Ω"
 				(at 0 0 0)
 				(effects
 					(font
@@ -788,7 +788,7 @@
 					(hide yes)
 				)
 			)
-			(property "Temperature Coefficient" "±200ppm/°C"
+			(property "Temperature Coefficient" "±800ppm/°C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -806,7 +806,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0402,10Ω_0_1"
+			(symbol "0402,0Ω_0_1"
 				(rectangle
 					(start -1.016 2.54)
 					(end 1.016 -2.54)
@@ -819,7 +819,7 @@
 					)
 				)
 			)
-			(symbol "0402,10Ω_1_1"
+			(symbol "0402,0Ω_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -57111,7 +57111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:0402,10Ω")
+		(lib_id "components:0402,0Ω")
 		(at 350.52 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -57128,7 +57128,7 @@
 				)
 			)
 		)
-		(property "Value" "10Ω"
+		(property "Value" "0Ω"
 			(at 350.52 118.11 90)
 			(do_not_autoplace yes)
 			(effects
@@ -57146,7 +57146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF100JTCE_C25077.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf"
 			(at 350.52 118.11 0)
 			(effects
 				(font
@@ -57155,7 +57155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 10Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±800ppm/°C ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 350.52 118.11 0)
 			(effects
 				(font
@@ -57164,7 +57164,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25077"
+		(property "LCSC" "C17168"
 			(at 350.52 118.11 0)
 			(effects
 				(font
@@ -57173,7 +57173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4873481"
+		(property "Stock" "9510686"
 			(at 350.52 118.11 0)
 			(effects
 				(font
@@ -57245,7 +57245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF100JTCE"
+		(property "Part" "0402WGF0000TCE"
 			(at 350.52 118.11 0)
 			(effects
 				(font
@@ -57254,7 +57254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "10Ω"
+		(property "Resistance" "0Ω"
 			(at 350.52 118.11 0)
 			(effects
 				(font
@@ -57308,7 +57308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature Coefficient" "±200ppm/°C"
+		(property "Temperature Coefficient" "±800ppm/°C"
 			(at 350.52 118.11 0)
 			(effects
 				(font
