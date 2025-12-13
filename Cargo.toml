@@ -12,15 +12,42 @@ rust-version = "1.91"
 version      = "0.2.6"
 
 [workspace.dependencies]
-defmt                  = "1.0"
+defmt                 = "1.0"
+embassy-executor      = "0.9"
+embassy-futures       = "0.1"
+embassy-net           = { version = "0.7", features = [  "defmt",  "dhcpv4",  "medium-ethernet",  "tcp",  "udp",] }
+embassy-usb           = { version = "0.5", default-features = false }
+embedded-io           = { version = "0.7", features = ["defmt"] }
+embedded-io-async     = { version = "0.7", features = ["defmt"] }
+bleps                 = { git = "https://github.com/bjoernQ/bleps", package = "bleps", rev = "a5148d8ae679e021b78f53fd33afb8bb35d0b62e", features = [  "async",  "macros",] }
+embassy-time           = { version = "0.5", features = ["defmt"] }
 esp-alloc              = { version = "0.9", features = ["esp32c6", "defmt"] }
 esp-backtrace          = { version = "0.18", features = ["esp32c6", "colors", "defmt"] }
 esp-bootloader-esp-idf = { version = "0.4", features = ["esp32c6", "defmt"] }
 esp-config             = { version = "0.6", features = ["build", "tui"] }
-esp-hal                = { version = "1.0", features = ["esp32c6", "defmt", "rt", "psram"] }
+esp-hal                = { version = "1.0", features = ["esp32c6", "defmt", "unstable"] }
 esp-hal-ota            = { version = "0.4", features = ["esp32c6", "defmt"] }
 esp-hal-procmacros     = { version = "0.21" }
 esp-metadata           = { version = "0.10", features = ["clap"] }
+esp-metadata-generated = { version = "0.3" }
 esp-phy                = { version = "0.1", features = ["esp32c6", "defmt"] }
+esp-println            = { version = "0.16", features = ["esp32c6", "defmt-espflash"] }
+esp-radio              = { version = "0.17", features = [  "ble",  "coex",  "defmt",  "esp-alloc",  "esp32c6",  "unstable",  "wifi",] }
 esp-riscv-rt           = { version = "0.13", features = ["defmt"] }
-esp-storage            = { version = "0.8" }
+esp-rtos               = { version = "0.2", features = [  "defmt",  "embassy",  "esp-alloc",  "esp-radio",  "esp32c6",] }
+esp-storage            = { version = "0.8", features = ["esp32c6", "defmt"] }
+rtt-target             = { version = "0.6.2", features = ["defmt"] }
+critical-section       = "1.2"
+static_cell            = "2.1"
+
+[profile.dev]
+opt-level = "z"
+
+[profile.release]
+codegen-units    = 1
+debug            = 2
+debug-assertions = false
+incremental      = false
+lto              = 'thin'
+opt-level        = 'z'
+overflow-checks  = false

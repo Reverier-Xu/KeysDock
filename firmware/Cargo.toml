@@ -11,3 +11,38 @@ rust-version = { workspace = true }
 version      = { workspace = true }
 
 [dependencies]
+bleps                  = { workspace = true }
+critical-section       = { workspace = true }
+defmt                  = { workspace = true }
+embassy-executor       = { workspace = true }
+embassy-futures        = { workspace = true }
+embassy-net            = { workspace = true }
+embassy-time           = { workspace = true }
+embassy-usb            = { workspace = true }
+embedded-io            = { workspace = true }
+embedded-io-async      = { workspace = true }
+esp-alloc              = { workspace = true }
+esp-backtrace          = { workspace = true }
+esp-bootloader-esp-idf = { workspace = true }
+esp-hal                = { workspace = true }
+esp-hal-ota            = { workspace = true }
+esp-hal-procmacros     = { workspace = true }
+esp-metadata-generated = { workspace = true }
+esp-phy                = { workspace = true }
+esp-println            = { workspace = true }
+esp-radio              = { workspace = true }
+esp-riscv-rt           = { workspace = true }
+esp-rtos               = { workspace = true }
+esp-storage            = { workspace = true }
+rtt-target             = { workspace = true }
+static_cell            = { workspace = true }
+
+[build-dependencies]
+esp-metadata = { workspace = true }
+
+[[bin]]
+bench = false
+doc   = false
+name  = "keysdock"
+path  = "src/main.rs"
+test  = false
