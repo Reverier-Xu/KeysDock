@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "KeysDock.kicad_pro",
+    "filename": "external.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,7 +611,7 @@
   },
   "sheets": [
     [
-      "71ce169b-24ee-4fb0-abd3-91de4e63c28f",
+      "85432e99-9676-4900-a0eb-4c3b0a0e52c6",
       "Root"
     ]
   ],

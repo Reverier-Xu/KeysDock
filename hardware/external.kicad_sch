@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "85432e99-9676-4900-a0eb-4c3b0a0e52c6")
+	(paper "A4")
+	(title_block
+		(title "Keys Dock External")
+		(date "2025-12-09")
+		(rev "0.2.1")
+		(company "keys.woooo.tech")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
