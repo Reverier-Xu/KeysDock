@@ -49314,16 +49314,6 @@
 		)
 		(uuid "d18725a2-9dbe-4d2e-81ca-45fe6c394dec")
 	)
-	(label "USB_D+"
-		(at 285.75 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e45701a8-98fa-4d54-82b8-38360472334b")
-	)
 	(label "KEYS_CH_B"
 		(at 285.75 102.87 180)
 		(effects
@@ -49383,16 +49373,6 @@
 			(justify left bottom)
 		)
 		(uuid "f2dfc71e-7394-4175-a96c-159f6664ec83")
-	)
-	(label "USB_D-"
-		(at 285.75 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f613773f-abf9-4cb0-afc2-5344003adcb9")
 	)
 	(label "KEYS_DT_1"
 		(at 125.73 80.01 0)
