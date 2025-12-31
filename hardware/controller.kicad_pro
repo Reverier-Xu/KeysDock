@@ -60,20 +60,20 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|88050000|56300000|b9ad585a-eb2e-44da-b410-b6cf9d820f3a|b88102b5-5ca9-4477-ac64-3e974cf546ce",
-          "Component fault"
+          "hole_clearance|88050000|56300000|e33015f1-155a-47dc-9084-0b9213e7e617|b88102b5-5ca9-4477-ac64-3e974cf546ce",
+          ""
         ],
         [
-          "hole_clearance|93950000|56300000|f4acd928-acc4-4027-9a53-1e36a392d1b6|374e7153-3770-46c5-89da-b51638294df2",
-          "Component fault"
+          "hole_clearance|93950000|56300000|94051735-711d-4847-b22b-3909cc35f470|374e7153-3770-46c5-89da-b51638294df2",
+          ""
         ],
         [
-          "silk_edge_clearance|100000000|141000000|69ad85cc-650f-48fb-a727-2bdf4a68ccd8|5c0edfa5-55fe-4f95-af8d-91334b623b03",
-          "Component fault"
+          "silk_edge_clearance|100000000|141000000|69ad85cc-650f-48fb-a727-2bdf4a68ccd8|45be3dee-eadd-4d0d-9198-d653e0a0c06c",
+          ""
         ],
         [
-          "silk_edge_clearance|82000000|141000000|69ad85cc-650f-48fb-a727-2bdf4a68ccd8|ce909f53-27da-4483-a9b2-781345d6f394",
-          "Component fault"
+          "silk_edge_clearance|82000000|141000000|69ad85cc-650f-48fb-a727-2bdf4a68ccd8|c6319218-6fad-4d78-a045-36273495410b",
+          ""
         ]
       ],
       "meta": {
@@ -518,6 +518,10 @@
       {
         "netclass": "Default",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/KEYS_CH_B"
       }
     ]
   },
