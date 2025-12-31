@@ -374,7 +374,7 @@
 	)
 	(pad "17" smd rect
 		(at 0 0)
-		(size 1.7 1.7)
+		(size 1.6 1.6)
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "f52f1968-e908-4b05-b7ff-6c0d36aa8302")
