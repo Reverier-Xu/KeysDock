@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.254
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -124,7 +124,7 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.127,
-        "min_connection": 0.3,
+        "min_connection": 0.2,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -510,7 +510,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "typeboard.step",
+      "step": "../suitekits/typeboard.step",
       "svg": "",
       "vrml": ""
     },

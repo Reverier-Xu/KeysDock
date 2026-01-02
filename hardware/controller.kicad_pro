@@ -60,19 +60,15 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|88050000|56300000|e33015f1-155a-47dc-9084-0b9213e7e617|b88102b5-5ca9-4477-ac64-3e974cf546ce",
+          "hole_clearance|88050000|56300000|e6d39b80-bbc2-4932-aa7b-3cc057ffed9d|b88102b5-5ca9-4477-ac64-3e974cf546ce",
           ""
         ],
         [
-          "hole_clearance|93950000|56300000|94051735-711d-4847-b22b-3909cc35f470|374e7153-3770-46c5-89da-b51638294df2",
+          "hole_clearance|93950000|56300000|146b809f-659d-4b06-b51f-79bd9c51a685|374e7153-3770-46c5-89da-b51638294df2",
           ""
         ],
         [
-          "silk_edge_clearance|100000000|141000000|69ad85cc-650f-48fb-a727-2bdf4a68ccd8|45be3dee-eadd-4d0d-9198-d653e0a0c06c",
-          ""
-        ],
-        [
-          "silk_edge_clearance|82000000|141000000|69ad85cc-650f-48fb-a727-2bdf4a68ccd8|c6319218-6fad-4d78-a045-36273495410b",
+          "lib_footprint_mismatch|91000000|53462500|eb5057a3-0705-4df7-b5f0-8f3b2cbb2d1c|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -117,9 +113,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -533,7 +529,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../suitekits/controller.step",
       "svg": "",
       "vrml": ""
     },

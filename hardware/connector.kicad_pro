@@ -52,7 +52,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "text_height|116250000|85000000|6d907bcf-c7a2-4127-90e6-b561eafdfd1c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|129250000|85000000|5a3ed170-79ad-4d7b-afe3-59c494be7bdb|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -141,7 +150,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -490,7 +499,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../suitekits/connector.step",
       "svg": "",
       "vrml": ""
     },

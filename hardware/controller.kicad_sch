@@ -6222,6 +6222,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "components:EC12E1240301"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KeysDock:EC12E1240301"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${KIPRJMOD}/docs/ec12-series.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EC12E1240301_1_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -8.89 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 -8.89 90)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "components:ESP32-C6-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10083,6 +10235,12 @@
 		(uuid "7ee20b37-5836-4fb7-afd6-0090012331dc")
 	)
 	(junction
+		(at 195.58 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8241f891-32d6-4f0b-9981-06af6476dd7b")
+	)
+	(junction
 		(at 124.46 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10099,6 +10257,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94405690-58bb-46d2-967d-d01c7dd331b9")
+	)
+	(junction
+		(at 195.58 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a29d24b8-3bcd-4502-967c-084a31588551")
 	)
 	(junction
 		(at 124.46 199.39)
@@ -10215,6 +10379,12 @@
 		(uuid "eb233d5e-819d-4923-9312-1da0014c04c3")
 	)
 	(junction
+		(at 199.39 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec46df05-852b-4cb0-acb6-d1edb2760b81")
+	)
+	(junction
 		(at 106.68 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10237,6 +10407,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fef54f94-2856-41b1-aa40-e1000c7e390e")
+	)
+	(no_connect
+		(at 264.16 76.2)
+		(uuid "2d4f0986-7406-496b-9aec-b4eec75fb0f1")
 	)
 	(no_connect
 		(at 185.42 143.51)
@@ -10316,6 +10490,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 53.34) (xy 195.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c0bfa3-cc19-4773-828a-9047f930c261")
+	)
+	(wire
+		(pts
 			(xy 259.08 180.34) (xy 259.08 179.07)
 		)
 		(stroke
@@ -10323,6 +10507,16 @@
 			(type default)
 		)
 		(uuid "09553b3f-8a51-4631-bc79-04dc37d7d6b8")
+	)
+	(wire
+		(pts
+			(xy 199.39 69.85) (xy 204.47 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a4dabe-bc2c-4c85-9d53-e298b1e657a5")
 	)
 	(wire
 		(pts
@@ -10686,6 +10880,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 64.77) (xy 195.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371ecabc-d43a-45bc-8466-e280c48063b7")
+	)
+	(wire
+		(pts
 			(xy 165.1 196.85) (xy 165.1 204.47)
 		)
 		(stroke
@@ -10763,16 +10967,6 @@
 			(type default)
 		)
 		(uuid "3f531852-7d4a-41a9-b9e3-d4bd0b552f93")
-	)
-	(wire
-		(pts
-			(xy 242.57 76.2) (xy 264.16 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40136c57-6fab-4059-a108-597ff40d24ee")
 	)
 	(wire
 		(pts
@@ -10873,6 +11067,16 @@
 			(type default)
 		)
 		(uuid "49e4bd0e-256f-4192-a2fe-1d9d36f2f2df")
+	)
+	(wire
+		(pts
+			(xy 199.39 62.23) (xy 199.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a317c15-85ad-4bec-81c7-d41e70466f08")
 	)
 	(wire
 		(pts
@@ -10993,6 +11197,16 @@
 			(type default)
 		)
 		(uuid "53350827-0695-408f-b93d-0db1d2525550")
+	)
+	(wire
+		(pts
+			(xy 242.57 60.96) (xy 264.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b6f15e-da7c-4306-af32-d28b0e192c10")
 	)
 	(wire
 		(pts
@@ -11136,6 +11350,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 69.85) (xy 199.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62591a8f-6f42-4990-b1da-19fa66868d35")
+	)
+	(wire
+		(pts
 			(xy 311.15 224.79) (xy 311.15 231.14)
 		)
 		(stroke
@@ -11163,6 +11387,16 @@
 			(type default)
 		)
 		(uuid "66e91517-56e7-4908-82ea-f58d787e28b3")
+	)
+	(wire
+		(pts
+			(xy 199.39 57.15) (xy 195.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "692f0319-445e-4763-8518-4ede1c9a9f4a")
 	)
 	(wire
 		(pts
@@ -11213,6 +11447,16 @@
 			(type default)
 		)
 		(uuid "710ab5a4-cbcb-4d22-81a9-7337dda6dea3")
+	)
+	(wire
+		(pts
+			(xy 242.57 63.5) (xy 264.16 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726e08c3-e8ad-48cb-9ffd-47a61db6f7f1")
 	)
 	(wire
 		(pts
@@ -11353,6 +11597,16 @@
 			(type default)
 		)
 		(uuid "88a67371-f4d9-4588-ade3-d9e9072413cb")
+	)
+	(wire
+		(pts
+			(xy 204.47 67.31) (xy 201.93 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a99850-f4e9-48a9-a563-24d991344803")
 	)
 	(wire
 		(pts
@@ -11823,6 +12077,16 @@
 			(type default)
 		)
 		(uuid "c04a3ba1-7952-4c2d-8142-8e220a122f30")
+	)
+	(wire
+		(pts
+			(xy 201.93 67.31) (xy 201.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08c33fd-09df-4ab1-b825-788d28fda6b0")
 	)
 	(wire
 		(pts
@@ -12374,6 +12638,16 @@
 		)
 		(uuid "ff2eacba-d2ab-4e12-aad7-1fc74ba642fb")
 	)
+	(wire
+		(pts
+			(xy 195.58 64.77) (xy 204.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff78d2d-9a9e-452b-a3da-20998f66f12c")
+	)
 	(label "SPI_MISO"
 		(at 242.57 66.04 0)
 		(effects
@@ -12394,6 +12668,16 @@
 		)
 		(uuid "04b69dfe-738b-4991-96f7-380f8f792bb4")
 	)
+	(label "WHEEL_A"
+		(at 242.57 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07bb4512-b61e-497d-90a1-6b14abe13cd9")
+	)
 	(label "USB_D+"
 		(at 341.63 63.5 180)
 		(effects
@@ -12403,6 +12687,16 @@
 			(justify right bottom)
 		)
 		(uuid "07e8817c-1375-43a1-aa2f-617386143c79")
+	)
+	(label "WHEEL_B"
+		(at 242.57 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b19aab9-ec0d-43bc-92c7-ee93697f9ec2")
 	)
 	(label "KEYS_DT_5"
 		(at 241.3 161.29 0)
@@ -12443,6 +12737,16 @@
 			(justify right bottom)
 		)
 		(uuid "28d662d8-6063-476e-9073-371f331bb490")
+	)
+	(label "WHEEL_A"
+		(at 184.15 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d476595-ed90-4773-b603-ac1bca6a2136")
 	)
 	(label "SPI_CLK"
 		(at 350.52 161.29 180)
@@ -12764,6 +13068,16 @@
 		)
 		(uuid "9d84f392-60bd-4206-9e2d-85d6adc21904")
 	)
+	(label "WHEEL_B"
+		(at 184.15 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3f8157e-d22e-4348-80c6-617bdba34dab")
+	)
 	(label "U0TX"
 		(at 341.63 55.88 180)
 		(effects
@@ -12863,16 +13177,6 @@
 			(justify right bottom)
 		)
 		(uuid "e528e44b-1402-4574-8f06-59647e547add")
-	)
-	(label "WHEEL"
-		(at 242.57 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6d1f247-bb01-4cb5-bf78-68a8822e1680")
 	)
 	(label "KEYS_CH_B"
 		(at 341.63 83.82 180)
@@ -18281,6 +18585,85 @@
 		)
 	)
 	(symbol
+		(lib_id "components:EC12E1240301")
+		(at 213.36 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a8662a6-5814-4b2d-8ca2-516f6261eebb")
+		(property "Reference" "S2"
+			(at 220.98 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 220.98 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KeysDock:EC12E1240301"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/docs/ec12-series.pdf"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "8e810bf2-1c5f-4579-9e69-b31c8f0455fb")
+		)
+		(pin "D"
+			(uuid "b8c8bfab-4a49-4b6a-a2e6-e74e1f40b255")
+		)
+		(pin "B"
+			(uuid "09a3a2e0-8edb-47d5-bf91-a71b75dd70e4")
+		)
+		(pin "E"
+			(uuid "2faebdec-86ab-4ffd-a7b2-ae23dd076756")
+		)
+		(pin "A"
+			(uuid "77e85dbb-a3c5-4132-8a91-91fdcb709df4")
+		)
+		(instances
+			(project ""
+				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Generic:P,E")
 		(at 140.97 118.11 0)
 		(unit 1)
@@ -18949,6 +19332,229 @@
 		)
 	)
 	(symbol
+		(lib_id "components:0402,10kΩ")
+		(at 199.39 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c75d5de-e7db-4154-9dc4-b72eeb9e9b5c")
+		(property "Reference" "R12"
+			(at 201.93 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 199.39 66.04 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "KeysDock:R_0402"
+			(at 197.612 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/docs/ur-resistors.pdf"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "24372091"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10kΩ"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "370bc20b-3846-469e-9d7f-caf502eb0892")
+		)
+		(pin "1"
+			(uuid "6de16dc9-025a-479b-8083-84e0b44a9826")
+		)
+		(instances
+			(project ""
+				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "components:TLA2518IRTER")
 		(at 292.1 161.29 0)
 		(unit 1)
@@ -19058,6 +19664,75 @@
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Generic:P,0")
+		(at 201.93 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1c56a61-c6bb-47a6-afd6-6589d931680a")
+		(property "Reference" "#PWR024"
+			(at 205.74 72.39 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "P,E"
+			(at 205.74 76.2 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "global node 0; simplified functional (equipotential) bonding (FB); simplified frame/chassis"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "ee8a91e1-c1ad-4d26-b04b-46d56e9e0ff9")
+		)
+		(instances
+			(project ""
+				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -19543,6 +20218,228 @@
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "components:0402,10kΩ")
+		(at 195.58 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a75e2c54-140c-4eff-8fb4-fdc6a8f0f93f")
+		(property "Reference" "R9"
+			(at 198.12 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 195.58 60.96 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "KeysDock:R_0402"
+			(at 193.802 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/docs/ur-resistors.pdf"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "24372091"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10kΩ"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6cbbbbec-247b-42ad-94fc-5a02bbbe6c95")
+		)
+		(pin "1"
+			(uuid "678786a8-7608-4284-9353-f63ce18d0241")
+		)
+		(instances
+			(project ""
+				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -22179,6 +23076,75 @@
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Generic:P,+3.3")
+		(at 195.58 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa7ffde1-1736-4676-a385-ac829d52e24d")
+		(property "Reference" "#PWR025"
+			(at 198.12 53.34 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "P,+3.3"
+			(at 195.58 50.8 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 53.34 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 53.34 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "+3.3 positive potential/voltage (global DC power supply node)"
+			(at 195.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "ca7af28b-6141-4406-b741-a3a3c942d75e")
+		)
+		(instances
+			(project ""
+				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
