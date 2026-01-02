@@ -10720,6 +10720,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 99.06) (xy 365.76 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e9c329-eb67-486e-b0cd-6b9417be6ddf")
+	)
+	(wire
+		(pts
 			(xy 185.42 138.43) (xy 203.2 138.43)
 		)
 		(stroke
@@ -11740,7 +11750,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 90.17) (xy 370.84 99.06)
+			(xy 386.08 90.17) (xy 386.08 99.06)
 		)
 		(stroke
 			(width 0)
@@ -12030,7 +12040,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 99.06) (xy 350.52 99.06)
+			(xy 320.04 99.06) (xy 347.98 99.06)
 		)
 		(stroke
 			(width 0)
@@ -12060,7 +12070,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 96.52) (xy 347.98 96.52)
+			(xy 365.76 96.52) (xy 363.22 96.52)
 		)
 		(stroke
 			(width 0)
@@ -12100,7 +12110,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 99.06) (xy 370.84 99.06)
+			(xy 383.54 99.06) (xy 386.08 99.06)
 		)
 		(stroke
 			(width 0)
@@ -12320,7 +12330,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 96.52) (xy 347.98 104.14)
+			(xy 363.22 96.52) (xy 363.22 104.14)
 		)
 		(stroke
 			(width 0)
@@ -12500,7 +12510,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 96.52) (xy 379.73 96.52)
+			(xy 383.54 96.52) (xy 394.97 96.52)
 		)
 		(stroke
 			(width 0)
@@ -13009,7 +13019,7 @@
 		(uuid "90f4bb22-f03e-477b-8ea3-25a5ce091ae7")
 	)
 	(label "TOMO0"
-		(at 379.73 96.52 180)
+		(at 394.97 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14116,7 +14126,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Generic:P,+5")
-		(at 370.84 90.17 0)
+		(at 386.08 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14125,7 +14135,7 @@
 		(fields_autoplaced yes)
 		(uuid "1339753d-a3fd-4a9d-859f-32de59373cc3")
 		(property "Reference" "#PWR023"
-			(at 373.38 90.17 0)
+			(at 388.62 90.17 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14135,7 +14145,7 @@
 			)
 		)
 		(property "Value" "P,+5"
-			(at 370.84 87.63 0)
+			(at 386.08 87.63 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -14145,7 +14155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 370.84 90.17 0)
+			(at 386.08 90.17 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14154,7 +14164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 90.17 0)
+			(at 386.08 90.17 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14163,7 +14173,7 @@
 			)
 		)
 		(property "Description" "+5 positive potential/voltage (global DC power supply node)"
-			(at 370.84 90.17 0)
+			(at 386.08 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14830,7 +14840,7 @@
 	)
 	(symbol
 		(lib_id "components:XL-3528RGBW-WS2812B")
-		(at 359.41 97.79 180)
+		(at 374.65 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14839,7 +14849,7 @@
 		(fields_autoplaced yes)
 		(uuid "29843612-a656-48e9-b3fe-619ba300c9b4")
 		(property "Reference" "STAT1"
-			(at 359.41 88.9 0)
+			(at 374.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14847,7 +14857,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 359.41 91.44 0)
+			(at 374.65 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14855,7 +14865,7 @@
 			)
 		)
 		(property "Footprint" "KeysDock:XL-3528RGBW-WS2812B"
-			(at 359.41 97.79 0)
+			(at 374.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14864,7 +14874,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/docs/xl-3528rgbw-2812b.pdf"
-			(at 359.41 97.79 0)
+			(at 374.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14873,7 +14883,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 359.41 97.79 0)
+			(at 374.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16282,7 +16292,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Generic:P,0")
-		(at 347.98 104.14 0)
+		(at 363.22 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16291,7 +16301,7 @@
 		(fields_autoplaced yes)
 		(uuid "581a1d7e-1582-4f00-8acf-ff3b3d6ff893")
 		(property "Reference" "#PWR021"
-			(at 351.79 100.33 0)
+			(at 367.03 100.33 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -16301,7 +16311,7 @@
 			)
 		)
 		(property "Value" "P,E"
-			(at 351.79 104.14 0)
+			(at 367.03 104.14 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -16311,7 +16321,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 347.98 104.14 0)
+			(at 363.22 104.14 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -16320,7 +16330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 104.14 0)
+			(at 363.22 104.14 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -16329,7 +16339,7 @@
 			)
 		)
 		(property "Description" "global node 0; simplified functional (equipotential) bonding (FB); simplified frame/chassis"
-			(at 347.98 104.14 0)
+			(at 363.22 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20440,6 +20450,228 @@
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "components:0402,100Ω")
+		(at 351.79 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad256a1e-a819-4e6e-87a2-4aee5c991953")
+		(property "Reference" "R13"
+			(at 351.79 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Ω"
+			(at 351.79 99.06 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "KeysDock:R_0402"
+			(at 351.79 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/docs/ur-resistors.pdf"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 100Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "5907585"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF1000TCE"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "100Ω"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±200ppm/°C"
+			(at 351.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "710907be-7b91-4d37-be88-4536c440dc4f")
+		)
+		(pin "2"
+			(uuid "58a20f21-fcdc-464d-be26-82f1df63a34c")
+		)
+		(instances
+			(project ""
+				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
+					(reference "R13")
 					(unit 1)
 				)
 			)
