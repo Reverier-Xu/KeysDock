@@ -63778,9 +63778,9 @@
 			)
 		)
 	)
-	(gr_text "Esc"
+	(gr_text "ESC\nGRAVE"
 		(locked yes)
-		(at 62.75 45 0)
+		(at 62 45.25 0)
 		(layer "F.SilkS")
 		(uuid "c5718451-4eb2-4a1b-ab21-a679088a68b9")
 		(effects
@@ -63789,6 +63789,7 @@
 				(thickness 0.1)
 				(bold yes)
 			)
+			(justify left)
 		)
 	)
 	(gr_text "2"
