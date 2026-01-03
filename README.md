@@ -5,8 +5,8 @@ The hall-effect powered, high performance, feature riched, minimal keyboard!
 > [!WARNING]
 > **STILL IN EARLY DEVELOPMENT!**
 >
-> - [ ] PCB design
-> - [ ] Suitkit design
+> - [x] PCB design
+> - [x] Suitkit design
 > - [ ] Firmware
 > - [ ] Software
 > - [ ] Extended external controllers
@@ -19,7 +19,7 @@ KeysDock uses main dock with 60-keys ANSI layout, and an extended dock with 14-k
 
 Designed use [FreeCAD](https://www.freecad.org/) for 3D modeling and [QCAD](https://www.qcad.org/) for nameplate drawn.
 
-![suitkits](arts/suitkits.webp)
+![suitkits](arts/preview.png)
 
 Fonts used in design:
 
