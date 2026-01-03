@@ -514,7 +514,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://sheet.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -639,10 +639,6 @@
   },
   "sheets": [
     [
-      "6f5c986f-c08b-45be-b317-11f83a8063e7",
-      "Root"
-    ],
-    [
       "abc5fe71-c02d-4ebe-9340-52eb4644c520",
       "keys-group-1"
     ],
@@ -657,6 +653,10 @@
     [
       "448a9750-2300-44e2-b1b7-f899d97977cf",
       "keys-group-4"
+    ],
+    [
+      "6f5c986f-c08b-45be-b317-11f83a8063e7",
+      "Root"
     ]
   ],
   "text_variables": {}

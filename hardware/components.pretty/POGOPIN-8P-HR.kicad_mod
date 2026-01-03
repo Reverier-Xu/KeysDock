@@ -177,7 +177,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/models/POGOPIN-8-HR.step"
 		(offset
-			(xyz -15.85 1.5 0.35)
+			(xyz -15.85 1.5 0.5)
 		)
 		(scale
 			(xyz 1 1 1)

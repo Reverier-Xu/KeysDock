@@ -5601,627 +5601,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "components:Connector, USB-TYPE-C-16P"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Connector, USB-TYPE-C-16P"
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "KeysDock:TYPE-C-SMD_HX-TYPE-C-16PIN"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "${KIPRJMOD}/docs/type-c-hx-16pin-2md.pdf"
-				(at -2.286 0.127 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "3A 1 Horizontal attachment 16P Female -25℃~+85℃ Type-C SMD USB Connectors ROHS"
-				(at 2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C2927039"
-				(at 2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C2927039"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Connector, USB-TYPE-C-16P_0_0"
-				(rectangle
-					(start -0.254 -17.78)
-					(end 0.254 -16.764)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 15.494)
-					(end 9.144 14.986)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 10.414)
-					(end 9.144 9.906)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 2.794)
-					(end 9.144 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 0.254)
-					(end 9.144 -0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -2.286)
-					(end 9.144 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -4.826)
-					(end 9.144 -5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -12.446)
-					(end 9.144 -12.954)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -14.986)
-					(end 9.144 -15.494)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Connector, USB-TYPE-C-16P_0_1"
-				(rectangle
-					(start -10.16 17.78)
-					(end 10.16 -17.78)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 -3.81) (xy -8.89 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 -3.81)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -7.62 3.81)
-					(mid -6.985 4.4423)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.62 3.81)
-					(mid -6.985 4.4423)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -8.89 3.81)
-					(mid -6.985 5.7067)
-					(end -5.08 3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 -3.81)
-					(mid -6.985 -5.7067)
-					(end -8.89 -3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -3.81)
-					(mid -6.985 -4.4423)
-					(end -7.62 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -3.81)
-					(mid -6.985 -4.4423)
-					(end -7.62 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy -5.08 -3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 1.143)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.842) (xy 0 4.318)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.905 1.778)
-					(end 3.175 3.048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Connector, USB-TYPE-C-16P_1_1"
-				(pin passive line
-					(at -7.62 -22.86 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 10.16 180)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -12.7 180)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "components:EC12E1240301"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7576,6 +6955,606 @@
 						)
 					)
 					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "components:HC-TYPE-C-16P-CB1.6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KeysDock:HC-TYPE-C-16P-CB1.6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HC-TYPE-C-16P-CB1.6_0_0"
+				(rectangle
+					(start -0.254 -17.78)
+					(end 0.254 -16.764)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 15.494)
+					(end 9.144 14.986)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HC-TYPE-C-16P-CB1.6_0_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -3.81)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -8.89 3.81)
+					(mid -6.985 5.7067)
+					(end -5.08 3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -3.81)
+					(mid -6.985 -5.7067)
+					(end -8.89 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "HC-TYPE-C-16P-CB1.6_1_1"
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14117,6 +14096,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "R7")
 					(unit 1)
@@ -14831,6 +14816,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "U2")
 					(unit 1)
@@ -14905,6 +14896,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "STAT1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "STAT1")
 					(unit 1)
@@ -14913,7 +14910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:Connector, USB-TYPE-C-16P")
+		(lib_id "components:HC-TYPE-C-16P-CB1.6")
 		(at 82.55 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14940,28 +14937,26 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "KeysDock:TYPE-C-SMD_HX-TYPE-C-16PIN"
-			(at 72.39 36.83 0)
+		(property "Footprint" "KeysDock:HC-TYPE-C-16P-CB1.6"
+			(at 82.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/docs/type-c-hx-16pin-2md.pdf"
-			(at 82.677 34.544 0)
+			(at 82.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "3A 1 Horizontal attachment 16P Female -25℃~+85℃ Type-C SMD USB Connectors ROHS"
-			(at 83.82 39.37 0)
+			(at 82.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15018,6 +15013,12 @@
 			(uuid "f51bcbe7-1a7b-48ac-80f6-9c80f2d630cd")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "J1")
@@ -15170,6 +15171,12 @@
 			(uuid "ce842376-2b0b-4e23-b63e-a96fb9a34dbc")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "SW1")
@@ -15863,6 +15870,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "J3")
 					(unit 1)
@@ -15931,6 +15944,12 @@
 			(uuid "23d2ff86-fea4-4181-99b2-78bb241d24e6")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "#PWR020")
@@ -16006,6 +16025,12 @@
 			(uuid "0bcb5dce-62fa-43a2-a600-499b049c7374")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "PC2")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "PC2")
@@ -16144,6 +16169,12 @@
 			(uuid "22a4c014-d0b4-4801-9ed6-e3c042fb6e7b")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "#PWR01")
@@ -16656,6 +16687,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "PC1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "PC1")
 					(unit 1)
@@ -16877,6 +16914,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "R3")
 					(unit 1)
@@ -16945,6 +16988,12 @@
 			(uuid "9b2a4f57-8869-48d4-9f12-21fbc27eb21c")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "#PWR043")
@@ -17323,6 +17372,12 @@
 			(uuid "fdd39f5e-f7ea-4ff0-9cab-f2424e05e629")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "#PWR030")
@@ -17741,6 +17796,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "C8")
 					(unit 1)
@@ -18142,6 +18203,12 @@
 			(uuid "281b45f7-ff27-4d23-97dd-067c3c1deb0d")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "C15")
@@ -18587,6 +18654,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "R11")
 					(unit 1)
@@ -18666,6 +18739,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "S2")
 					(unit 1)
@@ -18734,6 +18813,12 @@
 			(uuid "7c4059c4-c14b-4ede-9b6a-920cd5d08848")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "#PWR016")
@@ -19265,6 +19350,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "C10")
 					(unit 1)
@@ -19557,6 +19648,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "R12")
 					(unit 1)
@@ -19672,6 +19769,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "U3")
 					(unit 1)
@@ -19740,6 +19843,12 @@
 			(uuid "ee8a91e1-c1ad-4d26-b04b-46d56e9e0ff9")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "#PWR024")
@@ -20004,6 +20113,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "J2")
 					(unit 1)
@@ -20225,6 +20340,12 @@
 			(uuid "b089d208-263a-4bae-a8cf-388e9a15c08f")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "R1")
@@ -20448,6 +20569,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "R9")
 					(unit 1)
@@ -20669,6 +20796,12 @@
 			(uuid "58a20f21-fcdc-464d-be26-82f1df63a34c")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "R13")
@@ -21073,6 +21206,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "#PWR08")
 					(unit 1)
@@ -21211,6 +21350,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "#PWR031")
 					(unit 1)
@@ -21280,6 +21425,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "#PWR07")
 					(unit 1)
@@ -21348,6 +21499,12 @@
 			(uuid "e4f8d2b6-bc2b-4b0e-b405-77a28d4fdfd8")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "#PWR011")
@@ -21613,6 +21770,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "L1")
 					(unit 1)
@@ -21681,6 +21844,12 @@
 			(uuid "38959a15-051f-457e-9061-dd535fdf4503")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "#PWR015")
@@ -21973,6 +22142,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "R2")
 					(unit 1)
@@ -22216,6 +22391,12 @@
 			(uuid "911151d0-5888-47b4-90bf-f8ff77d450e3")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "U6")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "U6")
@@ -23306,6 +23487,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "U1")
 					(unit 1)
@@ -23374,6 +23561,12 @@
 			(uuid "ca7af28b-6141-4406-b741-a3a3c942d75e")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "#PWR025")
@@ -23595,6 +23788,12 @@
 			(uuid "bc233ed6-5606-4c5c-923f-b475a09a5b7b")
 		)
 		(instances
+			(project ""
+				(path "/5e396643-4ddf-447c-ad2b-abd8fc998127/bc34e183-172c-409f-bcd2-a6a538b3704f"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a4e7072d-1db6-48c9-937c-096c1ce61d37"
 					(reference "R8")

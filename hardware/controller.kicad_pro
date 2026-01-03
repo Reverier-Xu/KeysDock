@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|91000000|53462500|eb5057a3-0705-4df7-b5f0-8f3b2cbb2d1c|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -521,11 +516,11 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../suitekits/controller.step",
+      "step": "../suitekits/pcb-controller.step",
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://sheet.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,

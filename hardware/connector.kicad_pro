@@ -52,16 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "text_height|116250000|85000000|6d907bcf-c7a2-4127-90e6-b561eafdfd1c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_height|129250000|85000000|5a3ed170-79ad-4d7b-afe3-59c494be7bdb|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -136,7 +127,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.3,
@@ -499,11 +490,11 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../suitekits/connector.step",
+      "step": "../suitekits/pcb-connector.step",
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://sheet.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,

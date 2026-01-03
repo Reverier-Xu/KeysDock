@@ -859,56 +859,56 @@
 		)
 	)
 	(junction
-		(at 186.69 85.09)
+		(at 177.8 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c32dee5-1266-4dee-84b9-5342bdd59dc8")
 	)
 	(junction
-		(at 76.2 85.09)
+		(at 95.25 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36afd677-fcdf-4232-83cb-92feefed37a9")
 	)
 	(junction
-		(at 99.06 85.09)
+		(at 118.11 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ad3906b-ccbf-4b50-bb84-87114713088b")
 	)
 	(junction
-		(at 209.55 85.09)
+		(at 200.66 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cb7a2e9-bb0e-4576-8f07-c169b57c1f5f")
 	)
 	(junction
-		(at 76.2 107.95)
+		(at 95.25 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a0e8054-c7d6-4a49-8839-c4589ff4e7c0")
 	)
 	(junction
-		(at 186.69 107.95)
+		(at 177.8 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a26daf98-9fdb-4b46-9a32-a8c5d8924520")
 	)
 	(junction
-		(at 73.66 107.95)
+		(at 92.71 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6d76897-8f22-46e5-84ac-62a3c44265ba")
 	)
 	(junction
-		(at 184.15 107.95)
+		(at 175.26 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd3a418d-8559-4719-ae33-07693ce126c8")
 	)
 	(wire
 		(pts
-			(xy 226.06 102.87) (xy 209.55 102.87)
+			(xy 217.17 104.14) (xy 200.66 104.14)
 		)
 		(stroke
 			(width 0)
@@ -918,7 +918,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 95.25) (xy 76.2 95.25)
+			(xy 77.47 96.52) (xy 95.25 96.52)
 		)
 		(stroke
 			(width 0)
@@ -928,7 +928,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 102.87) (xy 99.06 102.87)
+			(xy 134.62 104.14) (xy 118.11 104.14)
 		)
 		(stroke
 			(width 0)
@@ -938,7 +938,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 95.25) (xy 209.55 95.25)
+			(xy 217.17 96.52) (xy 200.66 96.52)
 		)
 		(stroke
 			(width 0)
@@ -948,7 +948,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 85.09) (xy 76.2 85.09)
+			(xy 90.17 86.36) (xy 95.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -958,7 +958,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 100.33) (xy 99.06 100.33)
+			(xy 134.62 101.6) (xy 118.11 101.6)
 		)
 		(stroke
 			(width 0)
@@ -968,7 +968,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 105.41) (xy 186.69 107.95)
+			(xy 177.8 106.68) (xy 177.8 109.22)
 		)
 		(stroke
 			(width 0)
@@ -978,7 +978,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 85.09) (xy 186.69 87.63)
+			(xy 177.8 86.36) (xy 177.8 88.9)
 		)
 		(stroke
 			(width 0)
@@ -988,7 +988,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 107.95) (xy 76.2 107.95)
+			(xy 92.71 109.22) (xy 95.25 109.22)
 		)
 		(stroke
 			(width 0)
@@ -998,7 +998,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 97.79) (xy 99.06 97.79)
+			(xy 134.62 99.06) (xy 118.11 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1008,7 +1008,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 97.79) (xy 186.69 97.79)
+			(xy 160.02 99.06) (xy 177.8 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1018,7 +1018,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 100.33) (xy 209.55 100.33)
+			(xy 217.17 101.6) (xy 200.66 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1028,7 +1028,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 92.71) (xy 76.2 92.71)
+			(xy 77.47 93.98) (xy 95.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1038,7 +1038,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 85.09) (xy 186.69 85.09)
+			(xy 172.72 86.36) (xy 177.8 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1048,7 +1048,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 85.09) (xy 214.63 85.09)
+			(xy 200.66 86.36) (xy 205.74 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1058,7 +1058,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 85.09) (xy 214.63 80.01)
+			(xy 205.74 86.36) (xy 205.74 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1068,7 +1068,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 97.79) (xy 209.55 97.79)
+			(xy 217.17 99.06) (xy 200.66 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1078,7 +1078,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 90.17) (xy 73.66 107.95)
+			(xy 92.71 91.44) (xy 92.71 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1088,7 +1088,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 107.95) (xy 73.66 111.76)
+			(xy 92.71 109.22) (xy 92.71 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1098,7 +1098,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 90.17) (xy 73.66 90.17)
+			(xy 95.25 91.44) (xy 92.71 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1108,7 +1108,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 87.63) (xy 99.06 85.09)
+			(xy 118.11 88.9) (xy 118.11 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +1118,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 105.41) (xy 99.06 105.41)
+			(xy 134.62 106.68) (xy 118.11 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +1128,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 92.71) (xy 186.69 92.71)
+			(xy 160.02 93.98) (xy 177.8 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +1138,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 95.25) (xy 186.69 95.25)
+			(xy 160.02 96.52) (xy 177.8 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1148,7 +1148,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 100.33) (xy 76.2 100.33)
+			(xy 77.47 101.6) (xy 95.25 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1158,7 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 87.63) (xy 209.55 85.09)
+			(xy 200.66 88.9) (xy 200.66 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +1168,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 105.41) (xy 209.55 105.41)
+			(xy 217.17 106.68) (xy 200.66 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1178,7 +1178,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 76.2) (xy 181.61 85.09)
+			(xy 172.72 77.47) (xy 172.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1188,7 +1188,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 97.79) (xy 76.2 97.79)
+			(xy 77.47 99.06) (xy 95.25 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1198,7 +1198,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 107.95) (xy 184.15 111.76)
+			(xy 175.26 109.22) (xy 175.26 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1208,7 +1208,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 85.09) (xy 76.2 87.63)
+			(xy 95.25 86.36) (xy 95.25 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1218,7 +1218,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 90.17) (xy 99.06 90.17)
+			(xy 134.62 91.44) (xy 118.11 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1228,7 +1228,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 107.95) (xy 209.55 107.95)
+			(xy 217.17 109.22) (xy 200.66 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1238,7 +1238,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 92.71) (xy 209.55 92.71)
+			(xy 217.17 93.98) (xy 200.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +1248,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 95.25) (xy 99.06 95.25)
+			(xy 134.62 96.52) (xy 118.11 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1258,7 +1258,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 102.87) (xy 76.2 102.87)
+			(xy 77.47 104.14) (xy 95.25 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1268,7 +1268,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 105.41) (xy 76.2 107.95)
+			(xy 95.25 106.68) (xy 95.25 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1278,7 +1278,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 107.95) (xy 99.06 107.95)
+			(xy 134.62 109.22) (xy 118.11 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1288,7 +1288,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 90.17) (xy 184.15 107.95)
+			(xy 175.26 91.44) (xy 175.26 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1298,7 +1298,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 90.17) (xy 209.55 90.17)
+			(xy 217.17 91.44) (xy 200.66 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1308,7 +1308,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 85.09) (xy 104.14 85.09)
+			(xy 118.11 86.36) (xy 123.19 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1318,7 +1318,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 85.09) (xy 104.14 80.01)
+			(xy 123.19 86.36) (xy 123.19 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +1328,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 102.87) (xy 186.69 102.87)
+			(xy 160.02 104.14) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1338,7 +1338,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 90.17) (xy 184.15 90.17)
+			(xy 177.8 91.44) (xy 175.26 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1348,7 +1348,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 76.2) (xy 71.12 85.09)
+			(xy 90.17 77.47) (xy 90.17 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1358,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 107.95) (xy 186.69 107.95)
+			(xy 175.26 109.22) (xy 177.8 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1368,7 +1368,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 100.33) (xy 186.69 100.33)
+			(xy 160.02 101.6) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1378,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 92.71) (xy 99.06 92.71)
+			(xy 134.62 93.98) (xy 118.11 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1387,7 +1387,7 @@
 		(uuid "fb265fa8-600a-4437-9183-189a02055554")
 	)
 	(label "KEYS_DT_4"
-		(at 58.42 95.25 0)
+		(at 77.47 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1397,7 +1397,7 @@
 		(uuid "00224b53-7fe4-4f7a-b267-cac47a331ece")
 	)
 	(label "KEYS_DT_1"
-		(at 58.42 102.87 0)
+		(at 77.47 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1407,7 +1407,7 @@
 		(uuid "0108a956-589e-4098-be09-aaeb63da539a")
 	)
 	(label "KEYS_CH_CE"
-		(at 226.06 100.33 180)
+		(at 217.17 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1417,7 +1417,7 @@
 		(uuid "0c00e7d8-258a-4b51-93e3-c403471b525d")
 	)
 	(label "KEYS_CH_CE"
-		(at 115.57 100.33 180)
+		(at 134.62 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1427,7 +1427,7 @@
 		(uuid "0e45a242-2479-4ceb-81c8-5d1a067621bc")
 	)
 	(label "KEYS_DT_3"
-		(at 58.42 97.79 0)
+		(at 77.47 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1437,7 +1437,7 @@
 		(uuid "1465dd6c-114d-4acb-919b-1d86a42bdb95")
 	)
 	(label "SAKI_MOVE"
-		(at 226.06 102.87 180)
+		(at 217.17 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1447,7 +1447,7 @@
 		(uuid "177ac99d-a0e0-4dd9-9048-6bba8d42cb7f")
 	)
 	(label "KEYS_DT_3"
-		(at 168.91 97.79 0)
+		(at 160.02 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1457,7 +1457,7 @@
 		(uuid "1b8cfac5-b0a0-449c-9b8e-f0045b5d5ae5")
 	)
 	(label "KEYS_CH_D"
-		(at 115.57 97.79 180)
+		(at 134.62 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1467,7 +1467,7 @@
 		(uuid "20ffc8d9-308d-429a-9404-c9723a52fc4b")
 	)
 	(label "KEYS_DT_4"
-		(at 168.91 95.25 0)
+		(at 160.02 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1477,7 +1477,7 @@
 		(uuid "3129e109-7f90-4bfb-b897-cd48f7739258")
 	)
 	(label "KEYS_CH_C"
-		(at 226.06 95.25 180)
+		(at 217.17 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1487,7 +1487,7 @@
 		(uuid "4b36a1fd-8371-4735-9f8c-c6b10920431a")
 	)
 	(label "KEYS_DT_1"
-		(at 168.91 102.87 0)
+		(at 160.02 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1497,7 +1497,7 @@
 		(uuid "568833a1-e8d4-42c9-ae99-65b25bb68ab3")
 	)
 	(label "KEYS_CH_A"
-		(at 226.06 90.17 180)
+		(at 217.17 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1507,7 +1507,7 @@
 		(uuid "743db967-9156-4014-a6b6-823a974af4a3")
 	)
 	(label "SAKI_MOVE"
-		(at 115.57 102.87 180)
+		(at 134.62 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1517,7 +1517,7 @@
 		(uuid "767e6e14-b873-4fcc-8969-4e208e418329")
 	)
 	(label "KEYS_CH_B"
-		(at 226.06 92.71 180)
+		(at 217.17 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1527,7 +1527,7 @@
 		(uuid "7c359ae4-41e5-4ce9-91bc-d07df360be17")
 	)
 	(label "KEYS_CH_D"
-		(at 226.06 97.79 180)
+		(at 217.17 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1537,7 +1537,7 @@
 		(uuid "801ea903-095a-4e86-a9a2-c49328889880")
 	)
 	(label "KEYS_DT_2"
-		(at 58.42 100.33 0)
+		(at 77.47 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1547,7 +1547,7 @@
 		(uuid "99c66388-f4f8-4ab2-992f-068a180a9125")
 	)
 	(label "RANA"
-		(at 226.06 105.41 180)
+		(at 217.17 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1557,7 +1557,7 @@
 		(uuid "a4ac6558-c19f-44cd-b5bf-c0ceccce0359")
 	)
 	(label "TOMO0"
-		(at 226.06 107.95 180)
+		(at 217.17 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1567,7 +1567,7 @@
 		(uuid "a810c07e-9616-44f9-a13d-7a71451bba67")
 	)
 	(label "KEYS_CH_C"
-		(at 115.57 95.25 180)
+		(at 134.62 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1577,7 +1577,7 @@
 		(uuid "bde41666-5c6e-4d38-9257-4da78542c3d5")
 	)
 	(label "KEYS_CH_B"
-		(at 115.57 92.71 180)
+		(at 134.62 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1587,7 +1587,7 @@
 		(uuid "da972dc5-d346-4255-8a2a-8f9bba54d526")
 	)
 	(label "RANA"
-		(at 115.57 105.41 180)
+		(at 134.62 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1597,7 +1597,7 @@
 		(uuid "dddf7279-69af-4f39-856e-d82c336fc676")
 	)
 	(label "KEYS_DT_5"
-		(at 168.91 92.71 0)
+		(at 160.02 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1607,7 +1607,7 @@
 		(uuid "e0ad06ca-0fe7-44f2-b0b3-48a9a33754f3")
 	)
 	(label "TOMO0"
-		(at 115.57 107.95 180)
+		(at 134.62 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1617,7 +1617,7 @@
 		(uuid "e5148cbd-f7ae-4da1-8c3d-580bc74a808a")
 	)
 	(label "KEYS_DT_5"
-		(at 58.42 92.71 0)
+		(at 77.47 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1627,7 +1627,7 @@
 		(uuid "e747bb88-2a05-4e34-967f-ad78233fd3e4")
 	)
 	(label "KEYS_CH_A"
-		(at 115.57 90.17 180)
+		(at 134.62 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1637,7 +1637,7 @@
 		(uuid "e80153b8-2a1b-431a-b0ba-978fef3e87a1")
 	)
 	(label "KEYS_DT_2"
-		(at 168.91 100.33 0)
+		(at 160.02 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1648,7 +1648,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Generic:P,0")
-		(at 184.15 111.76 0)
+		(at 175.26 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1657,7 +1657,7 @@
 		(fields_autoplaced yes)
 		(uuid "351a7bd9-79f6-4c49-a8dd-da3d0ac1baff")
 		(property "Reference" "#PWR02"
-			(at 187.96 107.95 0)
+			(at 179.07 109.22 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1667,7 +1667,7 @@
 			)
 		)
 		(property "Value" "P,0"
-			(at 187.96 111.76 0)
+			(at 179.07 113.03 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -1677,7 +1677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 111.76 0)
+			(at 175.26 113.03 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1686,7 +1686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 111.76 0)
+			(at 175.26 113.03 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1695,7 +1695,7 @@
 			)
 		)
 		(property "Description" "global node 0; simplified functional (equipotential) bonding (FB); simplified frame/chassis"
-			(at 184.15 111.76 0)
+			(at 175.26 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +1717,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Generic:P,+5")
-		(at 181.61 76.2 0)
+		(at 172.72 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1726,7 +1726,7 @@
 		(fields_autoplaced yes)
 		(uuid "6861a31e-922b-4b50-94f2-3f02f9ebfa25")
 		(property "Reference" "#PWR01"
-			(at 184.15 76.2 0)
+			(at 175.26 77.47 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1736,7 +1736,7 @@
 			)
 		)
 		(property "Value" "P,+5"
-			(at 181.61 73.66 0)
+			(at 172.72 74.93 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -1746,7 +1746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 76.2 0)
+			(at 172.72 77.47 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1755,7 +1755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 76.2 0)
+			(at 172.72 77.47 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1764,7 +1764,7 @@
 			)
 		)
 		(property "Description" "+5 positive potential/voltage (global DC power supply node)"
-			(at 181.61 76.2 0)
+			(at 172.72 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,7 +1786,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Generic:P,+3.3")
-		(at 104.14 80.01 0)
+		(at 123.19 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1795,7 +1795,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c8fdf52-d1e4-4283-b09f-30a89d54e27f")
 		(property "Reference" "#PWR06"
-			(at 106.68 80.01 0)
+			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1805,7 +1805,7 @@
 			)
 		)
 		(property "Value" "P,+3.3"
-			(at 104.14 77.47 0)
+			(at 123.19 78.74 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -1815,7 +1815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 80.01 0)
+			(at 123.19 81.28 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1824,7 +1824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 80.01 0)
+			(at 123.19 81.28 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1833,7 +1833,7 @@
 			)
 		)
 		(property "Description" "+3.3 positive potential/voltage (global DC power supply node)"
-			(at 104.14 80.01 0)
+			(at 123.19 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +1855,7 @@
 	)
 	(symbol
 		(lib_id "components:AXK5F20347YG")
-		(at 87.63 96.52 0)
+		(at 106.68 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1864,7 +1864,7 @@
 		(fields_autoplaced yes)
 		(uuid "a44cc8bd-68ee-4f01-9193-6fef74ec84b7")
 		(property "Reference" "J2"
-			(at 87.63 77.47 0)
+			(at 106.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,7 +1872,7 @@
 			)
 		)
 		(property "Value" "AXK5F20347YG"
-			(at 87.63 80.01 0)
+			(at 106.68 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1880,7 @@
 			)
 		)
 		(property "Footprint" "KeysDock:AXK5F20347YG"
-			(at 106.68 191.44 0)
+			(at 125.73 192.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +1890,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/docs/PANA-S-A0024618773-1.pdf"
-			(at 106.68 291.44 0)
+			(at 125.73 292.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +1900,7 @@
 			)
 		)
 		(property "Description" "Conn Board to Board SKT 20 POS 0.5mm Solder ST SMD T/R"
-			(at 87.63 96.52 0)
+			(at 106.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +1909,7 @@
 			)
 		)
 		(property "Height" "1.55"
-			(at 106.68 491.44 0)
+			(at 125.73 492.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,7 +1919,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 106.68 591.44 0)
+			(at 125.73 592.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +1929,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AXK-5F20347YG"
-			(at 106.68 691.44 0)
+			(at 125.73 692.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,7 +1939,7 @@
 			)
 		)
 		(property "Mouser Part Number" "769-AXK6F20347YG"
-			(at 106.68 791.44 0)
+			(at 125.73 792.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,7 +1949,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/AXK6F20347YG?qs=2rFUEsTwVNyhUPp95BBiCA%3D%3D"
-			(at 106.68 891.44 0)
+			(at 125.73 892.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +1959,7 @@
 			)
 		)
 		(property "Arrow Part Number" "AXK6F20347YG"
-			(at 106.68 991.44 0)
+			(at 125.73 992.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,7 +1969,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/axk6f20347yg/panasonic"
-			(at 106.68 1091.44 0)
+			(at 125.73 1092.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +2049,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Generic:P,+5")
-		(at 71.12 76.2 0)
+		(at 90.17 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2058,7 +2058,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba0cf477-e459-4b65-9ce1-8442435edff3")
 		(property "Reference" "#PWR08"
-			(at 73.66 76.2 0)
+			(at 92.71 77.47 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -2068,7 +2068,7 @@
 			)
 		)
 		(property "Value" "P,+5"
-			(at 71.12 73.66 0)
+			(at 90.17 74.93 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -2078,7 +2078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 76.2 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -2087,7 +2087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 76.2 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -2096,7 +2096,7 @@
 			)
 		)
 		(property "Description" "+5 positive potential/voltage (global DC power supply node)"
-			(at 71.12 76.2 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,7 +2118,7 @@
 	)
 	(symbol
 		(lib_id "components:AXK5F20347YG")
-		(at 198.12 96.52 0)
+		(at 189.23 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2127,7 +2127,7 @@
 		(dnp no)
 		(uuid "bc4d1ab4-f2c6-47fc-9b7c-eb8afdcc56dd")
 		(property "Reference" "J1"
-			(at 198.12 77.47 0)
+			(at 189.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2135,7 @@
 			)
 		)
 		(property "Value" "AXK5F20347YG"
-			(at 198.12 80.01 0)
+			(at 189.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +2143,7 @@
 			)
 		)
 		(property "Footprint" "KeysDock:AXK5F20347YG"
-			(at 179.07 191.44 0)
+			(at 170.18 192.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2153,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/docs/PANA-S-A0024618773-1.pdf"
-			(at 179.07 291.44 0)
+			(at 170.18 292.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2163,7 @@
 			)
 		)
 		(property "Description" "Conn Board to Board SKT 20 POS 0.5mm Solder ST SMD T/R"
-			(at 198.12 96.52 0)
+			(at 189.23 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2172,7 @@
 			)
 		)
 		(property "Height" "1.55"
-			(at 179.07 491.44 0)
+			(at 170.18 492.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2182,7 +2182,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 179.07 591.44 0)
+			(at 170.18 592.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,7 +2192,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AXK-5F20347YG"
-			(at 179.07 691.44 0)
+			(at 170.18 692.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +2202,7 @@
 			)
 		)
 		(property "Mouser Part Number" "769-AXK6F20347YG"
-			(at 179.07 791.44 0)
+			(at 170.18 792.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2212,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/AXK6F20347YG?qs=2rFUEsTwVNyhUPp95BBiCA%3D%3D"
-			(at 179.07 891.44 0)
+			(at 170.18 892.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +2222,7 @@
 			)
 		)
 		(property "Arrow Part Number" "AXK6F20347YG"
-			(at 179.07 991.44 0)
+			(at 170.18 992.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2232,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/axk6f20347yg/panasonic"
-			(at 179.07 1091.44 0)
+			(at 170.18 1092.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,7 +2312,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Generic:P,0")
-		(at 73.66 111.76 0)
+		(at 92.71 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2321,7 +2321,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb0a8f3b-b649-44cf-9eda-aeb4e1288c32")
 		(property "Reference" "#PWR07"
-			(at 77.47 107.95 0)
+			(at 96.52 109.22 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -2331,7 +2331,7 @@
 			)
 		)
 		(property "Value" "P,0"
-			(at 77.47 111.76 0)
+			(at 96.52 113.03 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -2341,7 +2341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 111.76 0)
+			(at 92.71 113.03 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -2350,7 +2350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 111.76 0)
+			(at 92.71 113.03 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -2359,7 +2359,7 @@
 			)
 		)
 		(property "Description" "global node 0; simplified functional (equipotential) bonding (FB); simplified frame/chassis"
-			(at 73.66 111.76 0)
+			(at 92.71 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2381,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Generic:P,+3.3")
-		(at 214.63 80.01 0)
+		(at 205.74 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2390,7 +2390,7 @@
 		(fields_autoplaced yes)
 		(uuid "d84b8414-809b-4afc-9c1b-cb6875320c9c")
 		(property "Reference" "#PWR03"
-			(at 217.17 80.01 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -2400,7 +2400,7 @@
 			)
 		)
 		(property "Value" "P,+3.3"
-			(at 214.63 77.47 0)
+			(at 205.74 78.74 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -2410,7 +2410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 80.01 0)
+			(at 205.74 81.28 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -2419,7 +2419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 80.01 0)
+			(at 205.74 81.28 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -2428,7 +2428,7 @@
 			)
 		)
 		(property "Description" "+3.3 positive potential/voltage (global DC power supply node)"
-			(at 214.63 80.01 0)
+			(at 205.74 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
