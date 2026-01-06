@@ -510,7 +510,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../suitekits/typeboard.step",
+      "step": "../suitekits/pcb-typeboard.step",
       "svg": "",
       "vrml": ""
     },

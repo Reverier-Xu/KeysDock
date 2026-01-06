@@ -1,6 +1,6 @@
 # ![Keys Dock](arts/keysdock.svg)
 
-The hall-effect powered, high performance, feature riched, minimal keyboard!
+The hall-effect powered, high performance, feature riched keyboard!
 
 > [!WARNING]
 > **STILL IN EARLY DEVELOPMENT!**
@@ -13,33 +13,29 @@ The hall-effect powered, high performance, feature riched, minimal keyboard!
 
 ## Keys layout
 
-KeysDock uses main dock with 60-keys ANSI layout, and an extended dock with 14-keys of Esc, F1-F12, Del.
+KeysDock uses main dock with 64-keys ANSI layout, and an extended dock with 14-keys of Esc, F1-F12, Del.
 
 ## Suitkit design
 
 Designed use [FreeCAD](https://www.freecad.org/) for 3D modeling and [QCAD](https://www.qcad.org/) for nameplate drawn.
 
-![suitkits](arts/preview.png)
+![suitkits](arts/preview.webp)
 
 Fonts used in design:
 
 - [Iosevka](https://typeof.net/Iosevka/): An elegant monospace coding font;
 - [Hershey Fonts](https://en.wikipedia.org/wiki/Hershey_fonts): a collection of vector fonts originally designed to be rendered using vectors on early cathode ray tube displays.
 
-Girl on the controller PCB is [Ijichi Nijika](https://bocchi.rocks/omnibus/character/nijika.html):
-
-![Ijichi Nijika](arts/nijika.webp)
-
-Comes from [BOCCHI THE ROCK!](https://bocchi.rocks/) TV EP04 08:45, drawn to line arts by me.
-
 ## Hardware design
 
 Designed use [KiCAD](https://www.kicad.org/), validated on [QUCS-s](https://ra3xdh.github.io/).
 
-- MCU: ESP32-C6
+- MCU and BLE/WiFi: ESP32-C6
+- ADC: TLA2518
 - Hall-effect sensors: SC4823S6-TR
-- LED: XL-6028RGBW-2812B
 - Magnetic switch: Gateron Low Profile Magnetic Jade Pro Switch
+
+More component info is available under [here](hardware/docs).
 
 > [!WARNING]
 > LIMITATIONS: the extended F-keys suite do not have sleep mode, awake functions and RGB lights.
@@ -47,9 +43,7 @@ Designed use [KiCAD](https://www.kicad.org/), validated on [QUCS-s](https://ra3x
 
 ## Firmware
 
-Rust 1.91.1 is required for build firmware.
-
-Use esp-rs for fullstack developing.
+Rust 1.92.0 is required for build firmware.
 
 ## Software
 
@@ -57,4 +51,16 @@ WIP...
 
 ## Credits
 
-The initial idea for this project came from [Pengzhihui’s Helloword Keyboard project](https://github.com/peng-zhihui/HelloWord-Keyboard). However, following friends’ suggestions, I decided to adopt a magnetic switch solution and completely overhauled the original shift-register design. The current keyboard scheme can roughly be regarded as an original one. Additionally, special thanks to [LCEDA](https://lceda.cn/), some 3D component models in this project are sourced from here.
+This project is built entirely with opensource softwares, with power of opensource RISC-V instruction-set.
+
+- [KiCAD](https://www.kicad.org): GPLv3
+- [FreeCAD](https://www.freecad.org): LGPLv2.1
+- [QCAD](https://www.qcad.org): GPLv3
+- [Inkscape](https://www.inkscape.org): GPLv2
+- [QUCS-s](https://ra3xdh.github.io): GPLv2
+- [Rust](https://www.rust-lang.org): Apache-2.0 & MIT
+- [esp-rs](https://docs.espressif.com/projects/rust/): Apache-2.0 & MIT
+
+The current keyboard scheme can roughly be regarded as an original one.
+
+Additionally, special thanks to [LCEDA](https://lceda.cn/), some 3D component models in this project are sourced from here.

@@ -1,0 +1,149 @@
+(footprint "XL-3512RGBW-WS2812B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0b7202a0-9370-466b-a648-0c8a98e37a31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XL-3512RGBW-WS2812B"
+		(at 0 4.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8df0cf1-f01f-4b77-8633-a9001efdd7fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1dcc391b-b2c7-42cb-9ce6-9f3a8e4383ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a871382-5fa6-46ea-8058-ebdbb0ef6dc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 0.75)
+		(end -2 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d17a0003-d50b-43d6-869f-95ff8cb8c72a")
+	)
+	(fp_line
+		(start -2 1.25)
+		(end 2 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "873704fc-9292-4a72-a025-9ca99b1c34ad")
+	)
+	(fp_line
+		(start 2 0.875)
+		(end 1.625 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "73956f4d-f3f5-4491-a7a9-03249a42d574")
+	)
+	(fp_line
+		(start 2 1.25)
+		(end 2 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "06d33584-e2d5-48f9-9033-d7d08e60873d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3505ff9b-f955-4346-bc65-78ce37454070")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "L1" smd roundrect
+		(at -1.625 0 90)
+		(size 0.9 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e566a268-14b8-42fc-a9d0-78bb69dbef28")
+	)
+	(pad "L2" smd roundrect
+		(at -0.5 0 90)
+		(size 0.9 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "d4f7e902-2761-4a6c-a671-c52ce0b40245")
+	)
+	(pad "L3" smd roundrect
+		(at 0.5 0 90)
+		(size 0.9 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "553a26ef-2855-47cd-82b2-ac6afc41f4a8")
+	)
+	(pad "L4" smd roundrect
+		(at 1.625 0 90)
+		(size 0.9 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "fc917d75-8c40-4509-8ec0-e88d15c9abef")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/LED-SMD_XL-3512RGBW.step"
+		(offset
+			(xyz 0 -0.5 0.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -90)
+		)
+	)
+)

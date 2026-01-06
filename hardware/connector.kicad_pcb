@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Keys Dock Connector")
-		(date "2025-12-30")
-		(rev "0.2.6")
+		(date "2026-01-06")
+		(rev "0.2.7")
 		(company "keys.woooo.tech")
 	)
 	(layers

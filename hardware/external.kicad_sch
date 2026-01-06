@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Keys Dock External")
-		(date "2025-12-14")
-		(rev "0.2.6")
+		(date "2026-01-06")
+		(rev "0.2.7")
 		(company "keys.woooo.tech")
 	)
 	(lib_symbols

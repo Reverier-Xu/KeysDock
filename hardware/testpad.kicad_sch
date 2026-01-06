@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Keys Dock Testpad")
-		(date "2025-11-08")
-		(rev "0.2.1")
+		(date "2026-01-06")
+		(rev "0.2.7")
 		(company "keys.woooo.tech")
 	)
 	(lib_symbols)
