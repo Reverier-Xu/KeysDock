@@ -153,13 +153,13 @@
 		(uuid "2157eb4c-649c-447d-93c0-0367c6afc5a1")
 	)
 	(pad "8" smd oval
-		(at 3.181818 4.75)
+		(at 1.909091 4.75)
 		(size 0.6 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f6f28077-5cc5-4faf-a113-b8e1e00dc3fe")
 	)
 	(pad "9" smd oval
-		(at 1.909091 4.75)
+		(at 3.181818 4.75)
 		(size 0.6 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6ad6ba45-4a41-4547-8456-a652fe52a1c6")
