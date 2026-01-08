@@ -1190,7 +1190,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Panasonic"
+			(property "Manufacturer" "Panasonic"
 				(at 19.05 -494.92 0)
 				(effects
 					(font
@@ -1200,7 +1200,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "AXK6F20347YG"
+			(property "PartNumber" "AXK6F20347YG"
 				(at 19.05 -594.92 0)
 				(effects
 					(font
@@ -1210,43 +1210,12 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "769-AXK6F20347YG"
-				(at 19.05 -694.92 0)
+			(property "LCSC" "C559781"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/AXK6F20347YG?qs=2rFUEsTwVNyhUPp95BBiCA%3D%3D"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "AXK6F20347YG"
-				(at 19.05 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/axk6f20347yg/panasonic"
-				(at 19.05 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
 					(hide yes)
 				)
 			)
@@ -1843,7 +1812,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "XL-3512RGBW-WS2812B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1869,7 +1838,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Led full-color luminous module"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C49237874"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XINGLIGHT(成兴光)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -21468,7 +21455,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "XL-6028RGBW-WS2812B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -21494,7 +21481,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Led full-color luminous module"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C42163197"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XINGLIGHT(成兴光)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -28065,7 +28070,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 311.15 203.2 0)
 			(effects
 				(font
@@ -28091,7 +28096,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 311.15 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 311.15 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 311.15 210.82 0)
 			(effects
 				(font
@@ -28139,7 +28162,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 82.55 149.86 0)
 			(effects
 				(font
@@ -28165,7 +28188,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 82.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 82.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 82.55 157.48 0)
 			(effects
 				(font
@@ -28213,7 +28254,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 151.13 203.2 0)
 			(effects
 				(font
@@ -28239,7 +28280,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 151.13 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 151.13 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 151.13 210.82 0)
 			(effects
 				(font
@@ -28287,7 +28346,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 36.83 149.86 0)
 			(effects
 				(font
@@ -28313,7 +28372,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 36.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 36.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 36.83 157.48 0)
 			(effects
 				(font
@@ -28367,7 +28444,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 36.83 203.2 0)
 			(effects
 				(font
@@ -28393,7 +28470,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 36.83 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 36.83 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 36.83 210.82 0)
 			(effects
 				(font
@@ -28441,7 +28536,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 196.85 185.42 0)
 			(effects
 				(font
@@ -28467,7 +28562,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 196.85 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 196.85 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 196.85 193.04 0)
 			(effects
 				(font
@@ -28515,7 +28628,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 128.27 203.2 0)
 			(effects
 				(font
@@ -28541,7 +28654,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 128.27 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 128.27 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 128.27 210.82 0)
 			(effects
 				(font
@@ -28589,7 +28720,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 219.71 167.64 0)
 			(effects
 				(font
@@ -28615,7 +28746,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 219.71 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 219.71 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 219.71 175.26 0)
 			(effects
 				(font
@@ -28663,7 +28812,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 379.73 203.2 0)
 			(effects
 				(font
@@ -28689,7 +28838,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 379.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 379.73 210.82 0)
 			(effects
 				(font
@@ -28737,7 +28904,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 82.55 185.42 0)
 			(effects
 				(font
@@ -28763,7 +28930,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 82.55 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 82.55 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 82.55 193.04 0)
 			(effects
 				(font
@@ -28811,7 +28996,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 196.85 149.86 0)
 			(effects
 				(font
@@ -28837,7 +29022,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 196.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 196.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 196.85 157.48 0)
 			(effects
 				(font
@@ -28954,7 +29157,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 379.73 185.42 0)
 			(effects
 				(font
@@ -28980,7 +29183,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 379.73 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 379.73 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 379.73 193.04 0)
 			(effects
 				(font
@@ -29028,7 +29249,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 379.73 167.64 0)
 			(effects
 				(font
@@ -29054,7 +29275,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 379.73 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 379.73 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 379.73 175.26 0)
 			(effects
 				(font
@@ -29102,7 +29341,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 105.41 185.42 0)
 			(effects
 				(font
@@ -29128,7 +29367,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 105.41 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 105.41 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 105.41 193.04 0)
 			(effects
 				(font
@@ -29245,7 +29502,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 356.87 185.42 0)
 			(effects
 				(font
@@ -29271,7 +29528,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 356.87 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 356.87 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 356.87 193.04 0)
 			(effects
 				(font
@@ -29319,7 +29594,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 128.27 167.64 0)
 			(effects
 				(font
@@ -29345,7 +29620,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 128.27 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 128.27 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 128.27 175.26 0)
 			(effects
 				(font
@@ -29393,7 +29686,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 242.57 203.2 0)
 			(effects
 				(font
@@ -29419,7 +29712,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 242.57 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 242.57 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 242.57 210.82 0)
 			(effects
 				(font
@@ -29689,7 +30000,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 105.41 149.86 0)
 			(effects
 				(font
@@ -29715,7 +30026,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 105.41 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 105.41 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 105.41 157.48 0)
 			(effects
 				(font
@@ -29763,7 +30092,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 288.29 203.2 0)
 			(effects
 				(font
@@ -29789,7 +30118,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 288.29 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 288.29 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 288.29 210.82 0)
 			(effects
 				(font
@@ -29837,7 +30184,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 379.73 149.86 0)
 			(effects
 				(font
@@ -29863,7 +30210,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 379.73 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 379.73 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 379.73 157.48 0)
 			(effects
 				(font
@@ -29911,7 +30276,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 265.43 203.2 0)
 			(effects
 				(font
@@ -29937,7 +30302,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 265.43 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 265.43 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 265.43 210.82 0)
 			(effects
 				(font
@@ -29985,7 +30368,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 59.69 149.86 0)
 			(effects
 				(font
@@ -30011,7 +30394,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 59.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 59.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 59.69 157.48 0)
 			(effects
 				(font
@@ -30059,7 +30460,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 265.43 167.64 0)
 			(effects
 				(font
@@ -30085,7 +30486,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 265.43 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 265.43 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 265.43 175.26 0)
 			(effects
 				(font
@@ -30133,7 +30552,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 219.71 149.86 0)
 			(effects
 				(font
@@ -30159,7 +30578,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 219.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 219.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 219.71 157.48 0)
 			(effects
 				(font
@@ -30207,7 +30644,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 334.01 149.86 0)
 			(effects
 				(font
@@ -30233,7 +30670,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 334.01 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 334.01 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 334.01 157.48 0)
 			(effects
 				(font
@@ -30281,7 +30736,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 288.29 167.64 0)
 			(effects
 				(font
@@ -30307,7 +30762,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 288.29 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 288.29 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 288.29 175.26 0)
 			(effects
 				(font
@@ -30355,7 +30828,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 128.27 149.86 0)
 			(effects
 				(font
@@ -30381,7 +30854,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 128.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 128.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 128.27 157.48 0)
 			(effects
 				(font
@@ -30429,7 +30920,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 151.13 149.86 0)
 			(effects
 				(font
@@ -30455,7 +30946,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 151.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 151.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 151.13 157.48 0)
 			(effects
 				(font
@@ -30503,7 +31012,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 356.87 167.64 0)
 			(effects
 				(font
@@ -30529,7 +31038,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 356.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 356.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 356.87 175.26 0)
 			(effects
 				(font
@@ -30577,7 +31104,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 356.87 149.86 0)
 			(effects
 				(font
@@ -30603,7 +31130,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 356.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 356.87 157.48 0)
 			(effects
 				(font
@@ -30651,7 +31196,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 173.99 167.64 0)
 			(effects
 				(font
@@ -30677,7 +31222,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 173.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 173.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 173.99 175.26 0)
 			(effects
 				(font
@@ -30725,7 +31288,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 196.85 167.64 0)
 			(effects
 				(font
@@ -30751,7 +31314,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 196.85 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 196.85 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 196.85 175.26 0)
 			(effects
 				(font
@@ -30943,7 +31524,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 196.85 203.2 0)
 			(effects
 				(font
@@ -30969,7 +31550,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 196.85 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 196.85 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 196.85 210.82 0)
 			(effects
 				(font
@@ -31017,7 +31616,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 288.29 149.86 0)
 			(effects
 				(font
@@ -31043,7 +31642,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 288.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 288.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 288.29 157.48 0)
 			(effects
 				(font
@@ -31091,7 +31708,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 242.57 185.42 0)
 			(effects
 				(font
@@ -31117,7 +31734,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 242.57 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 242.57 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 242.57 193.04 0)
 			(effects
 				(font
@@ -31165,7 +31800,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 311.15 167.64 0)
 			(effects
 				(font
@@ -31191,7 +31826,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 311.15 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 311.15 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 311.15 175.26 0)
 			(effects
 				(font
@@ -31239,7 +31892,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 173.99 203.2 0)
 			(effects
 				(font
@@ -31265,7 +31918,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 173.99 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 173.99 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 173.99 210.82 0)
 			(effects
 				(font
@@ -31313,7 +31984,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 356.87 203.2 0)
 			(effects
 				(font
@@ -31339,7 +32010,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 356.87 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 356.87 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 356.87 210.82 0)
 			(effects
 				(font
@@ -31387,7 +32076,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 219.71 203.2 0)
 			(effects
 				(font
@@ -31413,7 +32102,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 219.71 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 219.71 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 219.71 210.82 0)
 			(effects
 				(font
@@ -31462,7 +32169,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-3512RGBW-WS2812B"
 			(at 387.35 224.1549 90)
 			(effects
 				(font
@@ -31489,7 +32196,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 379.73 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49237874"
+			(at 379.73 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 379.73 222.25 0)
 			(effects
 				(font
@@ -31606,7 +32331,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 288.29 185.42 0)
 			(effects
 				(font
@@ -31632,7 +32357,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 288.29 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 288.29 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 288.29 193.04 0)
 			(effects
 				(font
@@ -31755,7 +32498,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 311.15 149.86 0)
 			(effects
 				(font
@@ -31781,7 +32524,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 311.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 311.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 311.15 157.48 0)
 			(effects
 				(font
@@ -31936,6 +32697,35 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 276.86 613.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "AXK6F20347YG"
+			(at 276.86 713.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C559781"
+			(at 295.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "fc9d6d55-cc0b-4858-8940-a7a2734deb3e")
 		)
@@ -32023,7 +32813,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 334.01 185.42 0)
 			(effects
 				(font
@@ -32049,7 +32839,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 334.01 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 334.01 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 334.01 193.04 0)
 			(effects
 				(font
@@ -32333,7 +33141,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 173.99 149.86 0)
 			(effects
 				(font
@@ -32359,7 +33167,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 173.99 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 173.99 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 173.99 157.48 0)
 			(effects
 				(font
@@ -32407,7 +33233,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 128.27 185.42 0)
 			(effects
 				(font
@@ -32433,7 +33259,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 128.27 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 128.27 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 128.27 193.04 0)
 			(effects
 				(font
@@ -32481,7 +33325,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 59.69 185.42 0)
 			(effects
 				(font
@@ -32507,7 +33351,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 59.69 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 59.69 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 59.69 193.04 0)
 			(effects
 				(font
@@ -32555,7 +33417,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 59.69 203.2 0)
 			(effects
 				(font
@@ -32581,7 +33443,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 59.69 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 59.69 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 59.69 210.82 0)
 			(effects
 				(font
@@ -32704,7 +33584,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 36.83 185.42 0)
 			(effects
 				(font
@@ -32730,7 +33610,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 36.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 36.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 36.83 193.04 0)
 			(effects
 				(font
@@ -32778,7 +33676,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 82.55 167.64 0)
 			(effects
 				(font
@@ -32804,7 +33702,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 82.55 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 82.55 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 82.55 175.26 0)
 			(effects
 				(font
@@ -32852,7 +33768,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 242.57 167.64 0)
 			(effects
 				(font
@@ -32878,7 +33794,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 242.57 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 242.57 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 242.57 175.26 0)
 			(effects
 				(font
@@ -32926,7 +33860,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 151.13 167.64 0)
 			(effects
 				(font
@@ -32952,7 +33886,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 151.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 151.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 151.13 175.26 0)
 			(effects
 				(font
@@ -33000,7 +33952,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 265.43 185.42 0)
 			(effects
 				(font
@@ -33026,7 +33978,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 265.43 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 265.43 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 265.43 193.04 0)
 			(effects
 				(font
@@ -33143,7 +34113,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 219.71 185.42 0)
 			(effects
 				(font
@@ -33169,7 +34139,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 219.71 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 219.71 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 219.71 193.04 0)
 			(effects
 				(font
@@ -33217,7 +34205,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 105.41 167.64 0)
 			(effects
 				(font
@@ -33243,7 +34231,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 105.41 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 105.41 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 105.41 175.26 0)
 			(effects
 				(font
@@ -33291,7 +34297,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 173.99 185.42 0)
 			(effects
 				(font
@@ -33317,7 +34323,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 173.99 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 173.99 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 173.99 193.04 0)
 			(effects
 				(font
@@ -33365,7 +34389,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 82.55 203.2 0)
 			(effects
 				(font
@@ -33391,7 +34415,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 82.55 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 82.55 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 82.55 210.82 0)
 			(effects
 				(font
@@ -33439,7 +34481,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 265.43 149.86 0)
 			(effects
 				(font
@@ -33465,7 +34507,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 265.43 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 265.43 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 265.43 157.48 0)
 			(effects
 				(font
@@ -33513,7 +34573,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 334.01 167.64 0)
 			(effects
 				(font
@@ -33539,7 +34599,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 334.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 334.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 334.01 175.26 0)
 			(effects
 				(font
@@ -33587,7 +34665,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 242.57 149.86 0)
 			(effects
 				(font
@@ -33613,7 +34691,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 242.57 157.48 0)
 			(effects
 				(font
@@ -33661,7 +34757,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 334.01 203.2 0)
 			(effects
 				(font
@@ -33687,7 +34783,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 334.01 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 334.01 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 334.01 210.82 0)
 			(effects
 				(font
@@ -33735,7 +34849,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 151.13 185.42 0)
 			(effects
 				(font
@@ -33761,7 +34875,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 151.13 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 151.13 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 151.13 193.04 0)
 			(effects
 				(font
@@ -33809,7 +34941,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 36.83 167.64 0)
 			(effects
 				(font
@@ -33835,7 +34967,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 36.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 36.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 36.83 175.26 0)
 			(effects
 				(font
@@ -33883,7 +35033,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 105.41 203.2 0)
 			(effects
 				(font
@@ -33909,7 +35059,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 105.41 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 105.41 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 105.41 210.82 0)
 			(effects
 				(font
@@ -34260,7 +35428,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 59.69 167.64 0)
 			(effects
 				(font
@@ -34286,7 +35454,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 59.69 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 59.69 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 59.69 175.26 0)
 			(effects
 				(font
@@ -34334,7 +35520,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-6028RGBW-WS2812B"
 			(at 311.15 185.42 0)
 			(effects
 				(font
@@ -34360,7 +35546,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 311.15 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42163197"
+			(at 311.15 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 311.15 193.04 0)
 			(effects
 				(font

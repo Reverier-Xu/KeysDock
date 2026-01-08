@@ -422,7 +422,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Panasonic"
+			(property "Manufacturer" "Panasonic"
 				(at 19.05 -494.92 0)
 				(effects
 					(font
@@ -432,7 +432,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "AXK-5F20347YG"
+			(property "PartNumber" "AXK-5F20347YG"
 				(at 19.05 -594.92 0)
 				(effects
 					(font
@@ -442,43 +442,12 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" ""
-				(at 19.05 -694.92 0)
+			(property "LCSC" "C3644763"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 19.05 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 19.05 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
 					(hide yes)
 				)
 			)
@@ -1978,6 +1947,35 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 125.73 592.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "AXK-5F20347YG"
+			(at 125.73 692.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3644763"
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "fc9d6d55-cc0b-4858-8940-a7a2734deb3e")
 		)
@@ -2238,6 +2236,35 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 170.18 592.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "AXK-5F20347YG"
+			(at 170.18 692.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3644763"
+			(at 189.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

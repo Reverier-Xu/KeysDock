@@ -4346,7 +4346,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "JUSHUO"
+			(property "Manufacturer" "JUSHUO"
 				(at 19.05 -494.92 0)
 				(effects
 					(font
@@ -4356,7 +4356,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "AFA01-S08FCA-00"
+			(property "PartNumber" "AFA01-S08FCA-00"
 				(at 19.05 -594.92 0)
 				(effects
 					(font
@@ -4366,43 +4366,12 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" ""
-				(at 19.05 -694.92 0)
+			(property "LCSC" "C262755"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 19.05 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 19.05 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
 					(hide yes)
 				)
 			)
@@ -4662,7 +4631,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Panasonic"
+			(property "Manufacturer" "Panasonic"
 				(at 19.05 -494.92 0)
 				(effects
 					(font
@@ -4672,7 +4641,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "AXK6F20347YG"
+			(property "PartNumber" "AXK6F20347YG"
 				(at 19.05 -594.92 0)
 				(effects
 					(font
@@ -4682,43 +4651,12 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "769-AXK6F20347YG"
-				(at 19.05 -694.92 0)
+			(property "LCSC" "C559781"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/AXK6F20347YG?qs=2rFUEsTwVNyhUPp95BBiCA%3D%3D"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "AXK6F20347YG"
-				(at 19.05 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/axk6f20347yg/panasonic"
-				(at 19.05 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
 					(hide yes)
 				)
 			)
@@ -5141,32 +5079,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Standalone 1-cell 1.5-A linear battery charger, Power Path, 4.2-V VBAT, 10.5-V OVP and 4.4-V VOUT"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Standalone 1-cell 1.5-A linear battery charger, Power Path, 4.2-V VBAT, 10.5-V OVP and 4.4-V VOUT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -5180,7 +5098,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
+			(property "Height" "1mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5190,27 +5108,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/BQ24074RGTR/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HIEGHT" "1mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
+			(property "Standard" "IPC 7351B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5230,16 +5128,6 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BQ24074RGTR/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(property "MP" "BQ24074RGTR"
 				(at 0 0 0)
 				(effects
@@ -5250,7 +5138,7 @@
 					(hide yes)
 				)
 			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=231063&manufacturer=Texas Instruments&part_name=BQ24074RGTR&search_term=bq24074"
+			(property "Manufacturer" "Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5260,23 +5148,12 @@
 					(hide yes)
 				)
 			)
-			(property "Availability" "In Stock"
+			(property "LCSC" "C54313"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -5613,7 +5490,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "EC12E1240301"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5639,7 +5516,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "12mm Size Insulated Shaft Type EC12 Series"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C351235"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ALPSALPINE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5766,7 +5661,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ESP32-C6-WROOM-1"
+			(property "Value" "ESP32-C6-WROOM-1-N8"
 				(at -25.4 33.02 0)
 				(effects
 					(font
@@ -5803,6 +5698,24 @@
 				)
 			)
 			(property "技术规格" "${KIPRJMOD}/docs/esp32-c6-technical-reference-manual-cn.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Espressif Systems"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6673,7 +6586,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "HC-1.25-2PWT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6699,7 +6612,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "1.25mm pitch/disconnectable crimp style connectors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2845379"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HCTL(华灿天禄)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6807,7 +6738,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "HC-1.25-4PWT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6833,7 +6764,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "1.25mm pitch/Disconnectable Crimp style connectors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2845381"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HCTL(华灿天禄)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6977,7 +6926,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "HC-TYPE-C-16P-CB1.6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7003,7 +6952,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "3A 1 Horizontal attachment 16P Female -25℃~+85℃ Type-C SMD USB Connectors ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2894902"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HCTL(华灿天禄)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7619,6 +7586,24 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC" "C78741"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "MCC(美微科)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "diode SM4007PL 4007"
 				(at 0 0 0)
 				(effects
@@ -7803,7 +7788,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "SSSS811101"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7829,7 +7814,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Slide Switch SPDT Surface Mount, Right Angle from Alps Alpine"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C109335"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ALPSALPINE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8378,7 +8381,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "TLA2518 Small, 8-Channel, 12-Bit ADC with SPI Interface and GPIOs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C1855741"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8772,32 +8793,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "3–17V 2A Step-Down Converter in 3x3 QFN package"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "3–17V 2A Step-Down Converter in 3x3 QFN package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -8901,13 +8902,22 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "Texas Instruments"
+			(property "Manufacturer" "Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C129331"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -9244,7 +9254,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "TS24CA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9270,7 +9280,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Without 50mA 4mm 100MΩ 100000 Times 12V 160gf Button Standing paste SPST SMD Tactile Switches ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C393942"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "SHOU HAN(首韩)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9465,7 +9493,7 @@
 					)
 				)
 			)
-			(property "Value" "Tactile Button, 160gf"
+			(property "Value" "TS-1088-AR02016, 160gf"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -9892,7 +9920,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "XL-3512RGBW-WS2812B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9918,7 +9946,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Led full-color luminous module"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C49237874"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XINGLIGHT(成兴光)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -33937,6 +33983,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C78741"
+			(at 153.67 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MCC(美微科)"
+			(at 153.67 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "684d5a4d-8d4d-465e-845c-73044256aaa4")
 		)
@@ -34135,7 +34199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Standalone 1-cell 1.5-A linear battery charger, Power Path, 4.2-V VBAT, 10.5-V OVP and 4.4-V VOUT"
 			(at 81.28 200.66 0)
 			(effects
 				(font
@@ -34274,6 +34338,45 @@
 				(hide yes)
 			)
 		)
+		(property "Height" "1mm"
+			(at 81.28 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Standard" "IPC 7351B"
+			(at 81.28 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 81.28 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C54313"
+			(at 81.28 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "d35d76b9-6243-4b79-a7e2-5163dacefd4d")
 		)
@@ -34359,7 +34462,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Connector, USB-TYPE-C-16P"
+		(property "Value" "HC-TYPE-C-16P-CB1.6"
 			(at 81.28 39.37 0)
 			(effects
 				(font
@@ -34395,8 +34498,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2927039"
+		(property "LCSC" "C2894902"
 			(at 83.82 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HCTL(华灿天禄)"
+			(at 82.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34545,7 +34657,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SSSS811101"
 			(at 138.43 191.77 0)
 			(effects
 				(font
@@ -34571,7 +34683,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Slide Switch SPDT Surface Mount, Right Angle from Alps Alpine"
+			(at 138.43 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C109335"
+			(at 138.43 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
 			(at 138.43 200.66 0)
 			(effects
 				(font
@@ -35269,6 +35399,35 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "JUSHUO"
+			(at 181.61 628.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "AFA01-S08FCA-00"
+			(at 181.61 728.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C262755"
+			(at 162.56 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "4e27a59e-2249-4aa9-847e-31a89f31defb")
 		)
@@ -35407,7 +35566,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "HC-1.25-2PWT"
 			(at 184.15 204.4701 90)
 			(effects
 				(font
@@ -35434,7 +35593,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.25mm pitch/disconnectable crimp style connectors"
+			(at 180.34 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2845379"
+			(at 180.34 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HCTL(华灿天禄)"
 			(at 180.34 205.74 0)
 			(effects
 				(font
@@ -36062,7 +36239,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "HC-1.25-4PWT"
 			(at 231.14 115.5701 90)
 			(effects
 				(font
@@ -36089,7 +36266,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.25mm pitch/Disconnectable Crimp style connectors"
+			(at 227.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2845381"
+			(at 227.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HCTL(华灿天禄)"
 			(at 227.33 116.84 0)
 			(effects
 				(font
@@ -36452,7 +36647,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL-3512RGBW-WS2812B"
 			(at 367.03 88.2649 90)
 			(effects
 				(font
@@ -36479,7 +36674,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Led full-color luminous module"
+			(at 374.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49237874"
+			(at 374.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
 			(at 374.65 86.36 0)
 			(effects
 				(font
@@ -36527,7 +36740,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Reset, 160gf"
+		(property "Value" "TS24CA"
 			(at 250.19 30.48 90)
 			(effects
 				(font
@@ -36554,7 +36767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Without 50mA 4mm 100MΩ 100000 Times 12V 160gf 3mm 2mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
+		(property "Description" "Without 50mA 4mm 100MΩ 100000 Times 12V 160gf Button Standing paste SPST SMD Tactile Switches ROHS"
 			(at 242.57 29.21 0)
 			(effects
 				(font
@@ -36563,7 +36776,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C720477"
+		(property "LCSC" "C393942"
 			(at 242.57 29.21 0)
 			(effects
 				(font
@@ -36635,7 +36848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "XUNPU"
+		(property "Manufacturer" "SHOU HAN(首韩)"
 			(at 242.57 29.21 0)
 			(effects
 				(font
@@ -38193,7 +38406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "EC12E1240301"
 			(at 220.98 68.5799 90)
 			(effects
 				(font
@@ -38220,7 +38433,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "12mm Size Insulated Shaft Type EC12 Series"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C351235"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
 			(at 213.36 67.31 0)
 			(effects
 				(font
@@ -39214,7 +39445,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TLA2518 Small, 8-Channel, 12-Bit ADC with SPI Interface and GPIOs"
+			(at 292.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1855741"
+			(at 292.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 292.1 161.29 0)
 			(effects
 				(font
@@ -39555,6 +39804,35 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 262.89 728.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "AXK6F20347YG"
+			(at 262.89 828.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C559781"
+			(at 243.84 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -41707,7 +41985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3–17V 2A Step-Down Converter in 3x3 QFN package"
 			(at 81.28 116.84 0)
 			(effects
 				(font
@@ -41843,6 +42121,25 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C129331"
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -42860,7 +43157,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-C6-WROOM-1"
+		(property "Value" "ESP32-C6-WROOM-1-N8"
 			(at 294.2433 50.8 0)
 			(effects
 				(font
@@ -42897,6 +43194,24 @@
 			)
 		)
 		(property "技术规格" "${KIPRJMOD}/docs/esp32-c6-technical-reference-manual-cn.pdf"
+			(at 292.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 292.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Espressif Systems"
 			(at 292.1 83.82 0)
 			(effects
 				(font
@@ -43328,7 +43643,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Joint Download, 160gf"
+		(property "Value" "TS-1088-AR02016, 160gf"
 			(at 359.41 57.15 90)
 			(effects
 				(font

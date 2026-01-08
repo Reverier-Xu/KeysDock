@@ -191,7 +191,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SC4823S6-TR"
 			(at 0 8.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -203,7 +203,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/docs/sc4823-datasheet.pdf"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -216,7 +216,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Hall-effect Sensor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -233,6 +233,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dc6a3673-5151-4c18-84e4-931f59dccbf1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52021064"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "122c4ed7-71eb-4494-beb0-c5661d6d59fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Semiment(赛卓)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "939005e7-b241-44a9-9942-38026ff778a9")
 			(effects
 				(font
 					(size 1 1)
@@ -652,7 +678,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SC4823S6-TR"
 			(at 0 8.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -664,7 +690,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/docs/sc4823-datasheet.pdf"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -677,7 +703,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Hall-effect Sensor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -694,6 +720,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b27c373-c7df-4c4c-a8a3-618210397711")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52021064"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99847ade-d81c-4988-b2a3-99d07805930b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Semiment(赛卓)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8187e1de-320b-4d7f-b576-f094430880df")
 			(effects
 				(font
 					(size 1 1)
@@ -1113,7 +1165,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SC4823S6-TR"
 			(at 0 8.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1125,7 +1177,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/docs/sc4823-datasheet.pdf"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1138,7 +1190,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Hall-effect Sensor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1155,6 +1207,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e24c1ac4-59cd-44a3-9f33-3f9bf25c7bcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52021064"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0653663e-1a45-4652-ad4f-b563ffca2bf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Semiment(赛卓)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b02658fc-861f-4fda-b3fe-3812cdb17ab7")
 			(effects
 				(font
 					(size 1 1)
@@ -1574,7 +1652,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SC4823S6-TR"
 			(at 0 8.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1586,7 +1664,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/docs/sc4823-datasheet.pdf"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1599,7 +1677,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Hall-effect Sensor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1616,6 +1694,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7f3e1dcd-12eb-4711-bb16-d0c0d3a2f0bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52021064"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f03a4ab-880e-435e-8a97-63f172b9231f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Semiment(赛卓)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94016ac7-6b47-45ab-bae8-59550aef28a4")
 			(effects
 				(font
 					(size 1 1)
@@ -2035,7 +2139,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SC4823S6-TR"
 			(at 0 8.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2047,7 +2151,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/docs/sc4823-datasheet.pdf"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2060,7 +2164,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Hall-effect Sensor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2077,6 +2181,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b89133b2-d113-4f61-8013-1f1b324b978e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52021064"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b9bebb3-a8eb-4864-afac-f6513c346e1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Semiment(赛卓)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca2d5439-a511-45e4-961f-c50414dffb94")
 			(effects
 				(font
 					(size 1 1)
@@ -2496,7 +2626,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SC4823S6-TR"
 			(at 0 8.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2508,7 +2638,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/docs/sc4823-datasheet.pdf"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2521,7 +2651,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Hall-effect Sensor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2538,6 +2668,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "be611d9f-99c8-4de9-a370-8069f604a5bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52021064"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51d950bc-78ab-41a3-affb-70de14deb06e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Semiment(赛卓)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbdc076e-75a5-45d3-95f3-da800a0c9a67")
 			(effects
 				(font
 					(size 1 1)
@@ -2957,7 +3113,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SC4823S6-TR"
 			(at 0 8.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2969,7 +3125,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/docs/sc4823-datasheet.pdf"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2982,7 +3138,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Hall-effect Sensor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2999,6 +3155,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0153a458-73a7-4c4e-b027-7eccafaddb0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52021064"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6605c01b-ab22-4dd2-bda6-bcfe9beed96e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Semiment(赛卓)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1a749a7-0542-4695-a98a-904a01f17ee0")
 			(effects
 				(font
 					(size 1 1)
@@ -3418,7 +3600,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SC4823S6-TR"
 			(at 0 8.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3430,7 +3612,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/docs/sc4823-datasheet.pdf"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3443,7 +3625,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Hall-effect Sensor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3460,6 +3642,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "10ff583a-866f-40bd-b854-986928253c78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52021064"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57f78a51-4b81-4efc-808c-cf482478c41c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Semiment(赛卓)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da18017c-7714-449c-8027-900ae5561cbd")
 			(effects
 				(font
 					(size 1 1)
@@ -3879,7 +4087,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SC4823S6-TR"
 			(at 0 8.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3891,7 +4099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/docs/sc4823-datasheet.pdf"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3904,7 +4112,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Hall-effect Sensor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3921,6 +4129,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa082c24-e31b-4624-be14-d43b48b65f45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52021064"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5be6bde0-e327-4081-b447-b41391490814")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Semiment(赛卓)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61630816-6206-41c8-9fba-b706239d2270")
 			(effects
 				(font
 					(size 1 1)
@@ -4340,7 +4574,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SC4823S6-TR"
 			(at 0 8.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4352,7 +4586,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/docs/sc4823-datasheet.pdf"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4365,7 +4599,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Hall-effect Sensor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4382,6 +4616,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8abe1b31-1d1a-4eec-8cad-e919d6512e1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52021064"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdc4c61a-7242-459a-bf22-bcfd37a86d81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Semiment(赛卓)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ab8c9fe-337e-476d-b29d-47c17acfe26f")
 			(effects
 				(font
 					(size 1 1)
@@ -4801,7 +5061,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SC4823S6-TR"
 			(at 0 8.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4813,7 +5073,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/docs/sc4823-datasheet.pdf"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4826,7 +5086,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Hall-effect Sensor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4843,6 +5103,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1eed8b0f-9ca9-4d86-a4b0-b8d016046ba8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52021064"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6324e968-9455-47b2-8524-30b370bfb8b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Semiment(赛卓)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc0eb9c3-a531-4977-8d3a-bb93b0ad3259")
 			(effects
 				(font
 					(size 1 1)
@@ -5262,7 +5548,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SC4823S6-TR"
 			(at 0 8.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5274,7 +5560,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/docs/sc4823-datasheet.pdf"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5287,7 +5573,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Hall-effect Sensor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5304,6 +5590,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "518cd4a5-6125-4ea0-8189-9090c7e9268a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52021064"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe018e1d-f938-4272-92aa-467883c62bea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Semiment(赛卓)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed16adc6-370e-4a4a-a928-9ad235f1974f")
 			(effects
 				(font
 					(size 1 1)
@@ -5723,7 +6035,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SC4823S6-TR"
 			(at 0 8.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5735,7 +6047,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/docs/sc4823-datasheet.pdf"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5748,7 +6060,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Hall-effect Sensor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5765,6 +6077,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fd397968-467a-482e-b745-8e730b8eed00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52021064"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "267e968f-1104-4b00-b636-0f550b915201")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Semiment(赛卓)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a6caee6-9dde-4a44-8a7b-3204c5b2240d")
 			(effects
 				(font
 					(size 1 1)
@@ -6184,7 +6522,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SC4823S6-TR"
 			(at 0 8.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6196,7 +6534,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/docs/sc4823-datasheet.pdf"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6209,7 +6547,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Hall-effect Sensor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6226,6 +6564,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b16b595c-b59e-4e3d-9b0b-ac70a2934372")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52021064"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7d45510-76b3-4c32-9819-c045943e13cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Semiment(赛卓)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bb12312-7210-4481-9996-2dbaa7aaaf2a")
 			(effects
 				(font
 					(size 1 1)
@@ -6658,7 +7022,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "kicad-embed://pogopin-ext.png"
+		(property "Datasheet" "${KIPRJMOD}/docs/pogopin-ext.png"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6865,7 +7229,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "XL4067TS"
 			(at 0 -1 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6878,7 +7242,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "kicad-embed://xl4067-datasheet.pdf"
+		(property "Datasheet" "${KIPRJMOD}/docs/xl4067-datasheet.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6892,12 +7256,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Analog switching multiplexer/resolver"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c879d859-4c61-4249-8e85-f08b56a5f5e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C41427445"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fba0b10b-78d9-4ce2-b4f2-77cbd3968bef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "XINLUDA"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d4106545-4f04-4cfe-939e-a453fd6d43af")
 			(effects
 				(font
 					(size 1 1)
@@ -7289,7 +7681,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+		(property "Datasheet" "${KIPRJMOD}/docs/ur-resistors.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7685,7 +8077,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+		(property "Datasheet" "${KIPRJMOD}/docs/ur-resistors.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8477,7 +8869,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+		(property "Datasheet" "${KIPRJMOD}/docs/ur-resistors.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8873,7 +9265,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf"
+		(property "Datasheet" "${KIPRJMOD}/docs/ur-resistors.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
