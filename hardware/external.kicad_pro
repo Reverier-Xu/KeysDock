@@ -490,7 +490,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../suitekits/external.step",
+      "step": "../suitekits/Keyboard-ExternalPCB.glb",
       "svg": "",
       "vrml": ""
     },

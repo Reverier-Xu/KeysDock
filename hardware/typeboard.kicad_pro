@@ -510,7 +510,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../suitekits/pcb-typeboard.step",
+      "step": "../suitekits/Keyboard-TypeboardPCB.step",
       "svg": "",
       "vrml": ""
     },

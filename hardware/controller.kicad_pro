@@ -516,7 +516,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../suitekits/pcb-controller.step",
+      "step": "../suitekits/Keyboard-ControllerPCB.glb",
       "svg": "",
       "vrml": ""
     },

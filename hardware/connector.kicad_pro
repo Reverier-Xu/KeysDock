@@ -490,7 +490,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../suitekits/pcb-connector.step",
+      "step": "../suitekits/Keyboard-ConnectorPCB.glb",
       "svg": "",
       "vrml": ""
     },
