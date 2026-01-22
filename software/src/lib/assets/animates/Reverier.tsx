@@ -17,7 +17,7 @@ export function Reverier(
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g stroke-width="3" fill="none" stroke={stroke}>
+      <g class="reverier-anim" stroke-width="3" fill="none" stroke={stroke}>
         <path
           d="m 114.7913,280.40374 c -1.36092,-7.93089 -2.06994,-16.08452 -2.06994,-24.40374 0,-17.49322 3.13497,-34.25423 8.87375,-49.75186 H 67.186345 232.58606"
           class="svg-elem-1"
