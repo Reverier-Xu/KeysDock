@@ -59,6 +59,7 @@ features = ["defmt", "embassy", "esp-alloc", "esp-radio", "esp32c6"]
 version  = "0.2"
 
 [profile.dev]
+lto       = "fat"
 opt-level = "z"
 
 [profile.release]
