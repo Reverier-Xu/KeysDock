@@ -54,7 +54,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|60050000|142950000|b97779b0-fd07-4435-86ec-ca5aa071d0e5|ac5ae619-9fc7-49ac-ae9e-87dc2af4d88b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|78050000|142950000|b97779b0-fd07-4435-86ec-ca5aa071d0e5|64953fd6-ee16-4099-b526-0f85a005c704",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -645,7 +654,7 @@
         "uuid": "4162c9f0-7325-4010-974e-29020dac9fdc"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW1,S1-3,U1-3,U6,PC1-2,R1-13,R15-27,LED1,L1,J1-3,D1,C1-15,#PWR1-28,#PWR30-43,#PWR47-55",
     "variants": []
   },
   "sheets": [
