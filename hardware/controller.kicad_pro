@@ -60,12 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|148625000|48975000|eb5057a3-0705-4df7-b5f0-8f3b2cbb2d1c|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -676,7 +671,7 @@
         "uuid": "a4e7072d-1db6-48c9-937c-096c1ce61d37"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C16-17,#PWR20,#PWR31,#PWR50-53,U5",
     "variants": []
   },
   "sheets": [

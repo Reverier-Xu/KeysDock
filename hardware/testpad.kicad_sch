@@ -13576,7 +13576,6 @@
 				)
 			)
 			(embedded_fonts no)
-			(embedded_files)
 		)
 		(symbol "components:XL-6028RGBW-WS2812B"
 			(exclude_from_sim no)
@@ -14445,6 +14444,12 @@
 		(uuid "2f517d1f-246d-49c8-8861-f69f04939c9d")
 	)
 	(junction
+		(at 242.57 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33a00c35-68f0-4d15-9ef9-077f706765a0")
+	)
+	(junction
 		(at 148.59 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14545,6 +14550,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a597989-f71e-4c75-899d-ebd6c47f8460")
+	)
+	(junction
+		(at 248.92 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ae05688-abb3-43ac-98db-40beb2d79382")
 	)
 	(junction
 		(at 71.12 222.25)
@@ -14667,12 +14678,6 @@
 		(uuid "9d137844-e0e6-4d5d-b7ff-627d72ad7662")
 	)
 	(junction
-		(at 248.92 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fdf9733-6ed7-4030-94a0-f078bee3e483")
-	)
-	(junction
 		(at 151.13 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14707,12 +14712,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1948e07-f69a-4425-a6f9-508acf882ed5")
-	)
-	(junction
-		(at 248.92 237.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b759c5cf-6500-4b05-b618-1b561ea6fbd0")
 	)
 	(junction
 		(at 120.65 203.2)
@@ -14839,12 +14838,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de5b18b9-cd17-40ca-95d9-8ccdcc8d1678")
-	)
-	(junction
-		(at 245.11 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2fdc813-96a7-40b5-8424-8e70ef81fc95")
 	)
 	(junction
 		(at 55.88 233.68)
@@ -15224,16 +15217,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 219.71) (xy 248.92 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f0b379f-a4ca-4138-a268-818cc3dec618")
-	)
-	(wire
-		(pts
 			(xy 269.24 218.44) (xy 283.21 218.44)
 		)
 		(stroke
@@ -15444,16 +15427,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 215.9) (xy 248.92 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22db08a9-5842-4904-af41-c7bf1ec69e9b")
-	)
-	(wire
-		(pts
 			(xy 139.7 76.2) (xy 157.48 76.2)
 		)
 		(stroke
@@ -15464,7 +15437,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 219.71) (xy 248.92 237.49)
+			(xy 248.92 213.36) (xy 248.92 237.49)
 		)
 		(stroke
 			(width 0)
@@ -15481,6 +15454,16 @@
 			(type default)
 		)
 		(uuid "26b770a0-91dd-4558-a123-76207746d96c")
+	)
+	(wire
+		(pts
+			(xy 242.57 217.17) (xy 242.57 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27646d26-8802-47e0-ba31-a339e420061f")
 	)
 	(wire
 		(pts
@@ -29647,6 +29630,87 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Generic:P,+3.3")
+		(at 242.57 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "809041ed-d0f6-47f7-a549-3dd904dc390b")
+		(property "Reference" "#PWR057"
+			(at 245.11 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P,+3.3"
+			(at 242.57 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Description" "+3.3 positive potential/voltage (global DC power supply node)"
+			(at 242.57 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "0"
+			(uuid "40113579-9139-4cf8-9f54-e637725ae92f")
+		)
+		(instances
+			(project "testpad"
+				(path "/4162c9f0-7325-4010-974e-29020dac9fdc"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "components:EC12E1240301")
 		(at 168.91 38.1 270)
 		(unit 1)
@@ -33035,7 +33099,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Generic:P,+5")
-		(at 248.92 215.9 0)
+		(at 248.92 213.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33046,7 +33110,7 @@
 		(fields_autoplaced yes)
 		(uuid "bae2744b-eea8-4267-bd7e-20e2cecec73d")
 		(property "Reference" "#PWR031"
-			(at 251.46 215.9 0)
+			(at 251.46 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33058,7 +33122,7 @@
 			)
 		)
 		(property "Value" "P,+5"
-			(at 248.92 213.36 0)
+			(at 248.92 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33070,7 +33134,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 215.9 0)
+			(at 248.92 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33081,7 +33145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 215.9 0)
+			(at 248.92 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33092,7 +33156,7 @@
 			)
 		)
 		(property "Description" "+5 positive potential/voltage (global DC power supply node)"
-			(at 248.92 215.9 0)
+			(at 248.92 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
