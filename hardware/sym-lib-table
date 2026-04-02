@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "components")(type "KiCad")(uri "${KIPRJMOD}/components.kicad_sym")(options "")(descr ""))
   (lib (name "JLCPCB_Inductors_Coils_Transformers")(type "KiCad")(uri "${KIPRJMOD}/library/JLCPCB_Inductors_Coils_Transformers.kicad_sym")(options "")(descr ""))
+  (lib (name "JLCPCB_Connectors")(type "KiCad")(uri "${KIPRJMOD}/library/JLCPCB_Connectors.kicad_sym")(options "")(descr ""))
 )

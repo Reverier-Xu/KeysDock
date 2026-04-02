@@ -50,20 +50,11 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|60050000|142950000|b97779b0-fd07-4435-86ec-ca5aa071d0e5|ac5ae619-9fc7-49ac-ae9e-87dc2af4d88b",
-          ""
-        ],
-        [
-          "silk_edge_clearance|78050000|142950000|b97779b0-fd07-4435-86ec-ca5aa071d0e5|64953fd6-ee16-4099-b526-0f85a005c704",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -654,7 +645,7 @@
         "uuid": "4162c9f0-7325-4010-974e-29020dac9fdc"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U4,U7,R2,R4,R22-23,R30-33,J1-2,D2-3,#PWR5-6,#PWR9,#PWR47-48,#PWR62-64",
     "variants": []
   },
   "sheets": [

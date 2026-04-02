@@ -482,7 +482,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "components"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -671,7 +673,7 @@
         "uuid": "a4e7072d-1db6-48c9-937c-096c1ce61d37"
       }
     ],
-    "used_designators": "R26",
+    "used_designators": "J1,R26",
     "variants": []
   },
   "sheets": [
