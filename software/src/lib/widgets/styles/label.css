@@ -1,5 +1,0 @@
-@layer components {
-  .label {
-    @apply text-sm font-bold text-layer-content/60 flex;
-  }
-}

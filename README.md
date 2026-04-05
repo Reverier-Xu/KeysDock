@@ -5,21 +5,19 @@ The hall-effect powered, high performance, feature riched keyboard!
 > [!WARNING]
 > **STILL IN EARLY DEVELOPMENT!**
 >
-> - [x] PCB design
-> - [x] Suitkit design
+> - [ ] PCB design
+> - [ ] Suitkit design
 > - [ ] Firmware
 > - [ ] Software
 > - [ ] Extended external controllers
 
 ## Keys layout
 
-KeysDock uses main dock with 64-keys ANSI layout, and an extended dock with 14-keys of Esc, F1-F12, Del.
+KeysDock uses main dock with 80-keys ANSI layout.
 
 ## Suitkit design
 
 Designed use [FreeCAD](https://www.freecad.org/) for 3D modeling and [QCAD](https://www.qcad.org/) for nameplate drawn.
-
-![suitkits](arts/preview.webp)
 
 Fonts used in design:
 
@@ -43,7 +41,7 @@ More component info is available under [here](hardware/docs).
 
 ## Firmware
 
-Rust 1.92.0 is required for build firmware.
+Rust 1.94 is required for build firmware.
 
 ## Software
 
