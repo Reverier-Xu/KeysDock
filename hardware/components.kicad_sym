@@ -13866,7 +13866,7 @@
 		)
 		(symbol "TLA2518IRTER_0_1"
 			(pin bidirectional line
-				(at -33.02 10.16 0)
+				(at -20.32 10.16 0)
 				(length 7.62)
 				(name "AIN2/GPIO2"
 					(effects
@@ -13884,7 +13884,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 7.62 0)
+				(at -20.32 7.62 0)
 				(length 7.62)
 				(name "AIN3/GPIO3"
 					(effects
@@ -13902,7 +13902,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 5.08 0)
+				(at -20.32 5.08 0)
 				(length 7.62)
 				(name "AIN4/GPIO4"
 					(effects
@@ -13920,7 +13920,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 2.54 0)
+				(at -20.32 2.54 0)
 				(length 7.62)
 				(name "AIN5/GPIO5"
 					(effects
@@ -13938,7 +13938,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 0 0)
+				(at -20.32 0 0)
 				(length 7.62)
 				(name "AIN6/GPIO6"
 					(effects
@@ -13956,7 +13956,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 -2.54 0)
+				(at -20.32 -2.54 0)
 				(length 7.62)
 				(name "AIN7/GPIO7"
 					(effects
@@ -13974,7 +13974,7 @@
 				)
 			)
 			(pin power_in line
-				(at -33.02 -5.08 0)
+				(at -20.32 -5.08 0)
 				(length 7.62)
 				(name "AVDD"
 					(effects
@@ -13992,7 +13992,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -33.02 -7.62 0)
+				(at -20.32 -7.62 0)
 				(length 7.62)
 				(name "DECAP"
 					(effects
@@ -14010,7 +14010,7 @@
 				)
 			)
 			(pin power_out line
-				(at 33.02 -10.16 180)
+				(at 20.32 -10.16 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -14028,7 +14028,7 @@
 				)
 			)
 			(pin power_in line
-				(at 33.02 -7.62 180)
+				(at 20.32 -7.62 180)
 				(length 7.62)
 				(name "DVDD"
 					(effects
@@ -14046,7 +14046,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 -5.08 180)
+				(at 20.32 -5.08 180)
 				(length 7.62)
 				(name "*CS"
 					(effects
@@ -14064,7 +14064,7 @@
 				)
 			)
 			(pin output line
-				(at 33.02 -2.54 180)
+				(at 20.32 -2.54 180)
 				(length 7.62)
 				(name "SDO"
 					(effects
@@ -14082,7 +14082,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 0 180)
+				(at 20.32 0 180)
 				(length 7.62)
 				(name "SCLK"
 					(effects
@@ -14100,7 +14100,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 2.54 180)
+				(at 20.32 2.54 180)
 				(length 7.62)
 				(name "SDI"
 					(effects
@@ -14118,7 +14118,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 5.08 180)
+				(at 20.32 5.08 180)
 				(length 7.62)
 				(name "AIN0/GPIO0"
 					(effects
@@ -14136,7 +14136,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 7.62 180)
+				(at 20.32 7.62 180)
 				(length 7.62)
 				(name "AIN1/GPIO1"
 					(effects
@@ -14154,7 +14154,7 @@
 				)
 			)
 			(pin power_out line
-				(at 33.02 10.16 180)
+				(at 20.32 10.16 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -14174,8 +14174,8 @@
 		)
 		(symbol "TLA2518IRTER_1_1"
 			(rectangle
-				(start -25.4 15.24)
-				(end 25.4 -15.24)
+				(start -12.7 15.24)
+				(end 12.7 -15.24)
 				(stroke
 					(width 0)
 					(type solid)

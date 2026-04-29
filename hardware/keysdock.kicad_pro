@@ -620,7 +620,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "kicad-embed://sheet.kicad_wks",
+    "page_layout_descr_file": "./sheet.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -639,6 +639,30 @@
     [
       "1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a",
       "keysdock"
+    ],
+    [
+      "6c6eb1af-3117-4164-8341-503973d73dce",
+      "keysgroup-1"
+    ],
+    [
+      "3d396db5-65ce-48f5-916d-f6446b310bdd",
+      "keysgroup-2"
+    ],
+    [
+      "518e80ae-f5bb-4ab1-b13f-a64ba75b23c1",
+      "keysgroup-3"
+    ],
+    [
+      "e7a20c06-2234-4798-a720-143fc969079e",
+      "keysgroup-4"
+    ],
+    [
+      "21d81995-8413-4055-b048-dacf07d430f1",
+      "keysgroup-5"
+    ],
+    [
+      "d823985e-ad41-434d-bf20-2561a17f7aaf",
+      "leds"
     ]
   ],
   "text_variables": {},
