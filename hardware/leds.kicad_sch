@@ -329,123 +329,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Generic:P,0"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 3.81)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 3.81 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "P,0"
-				(at 3.81 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.001 0.001)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-				)
-			)
-			(property "Description" "global node 0; simplified functional (equipotential) bonding (FB); simplified frame/chassis"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "P V 0 GND FB equipotential bonding earth earthing ground grounding simplified frame chassis potential voltage tension global DC power supply node label pin"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "P,0_1_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "0"
-						(effects
-							(font
-								(size 2.54 2.54)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "components:XL-6028RGBW-WS2812B"
+		(symbol "KeysDock:XL-6028RGBW-WS2812B"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -606,6 +490,122 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Generic:P,0"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 3.81)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 3.81 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "P,0"
+				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 0.001 0.001)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
+			(property "Description" "global node 0; simplified functional (equipotential) bonding (FB); simplified frame/chassis"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "P V 0 GND FB equipotential bonding earth earthing ground grounding simplified frame chassis potential voltage tension global DC power supply node label pin"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "P,0_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "0"
+						(effects
+							(font
+								(size 2.54 2.54)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 0 0)
 							)
 						)
 					)
@@ -7575,7 +7575,7 @@
 		(uuid "8270dceb-28cb-4318-89b2-c18384cc3643")
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 220.98 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -7683,7 +7683,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 312.42 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -7791,7 +7791,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 381 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -7899,7 +7899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 175.26 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -8007,7 +8007,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 38.1 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -8115,7 +8115,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 129.54 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -8223,7 +8223,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 220.98 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -8331,7 +8331,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 175.26 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -8439,7 +8439,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 198.12 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -8547,7 +8547,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 358.14 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -8655,7 +8655,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 83.82 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -8763,7 +8763,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 243.84 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -8871,7 +8871,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 106.68 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -8979,7 +8979,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 381 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -9087,7 +9087,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 106.68 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -9195,7 +9195,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 198.12 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -9303,7 +9303,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 358.14 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -9411,7 +9411,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 266.7 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -9786,7 +9786,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 38.1 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -9894,7 +9894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 198.12 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -10002,7 +10002,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 266.7 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -10110,7 +10110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 106.68 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -10218,7 +10218,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 198.12 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -10326,7 +10326,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 60.96 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -10434,7 +10434,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 381 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -10542,7 +10542,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 289.56 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -10650,7 +10650,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 220.98 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -10758,7 +10758,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 358.14 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -10866,7 +10866,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 335.28 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -10974,7 +10974,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 83.82 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -11082,7 +11082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 129.54 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -11190,7 +11190,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 175.26 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -11298,7 +11298,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 243.84 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -11406,7 +11406,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 243.84 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -11514,7 +11514,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 152.4 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -11622,7 +11622,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 106.68 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -11730,7 +11730,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 266.7 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -11838,7 +11838,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 60.96 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -11946,7 +11946,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 289.56 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -12054,7 +12054,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 129.54 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -12162,7 +12162,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 83.82 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -12270,7 +12270,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 220.98 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -12378,7 +12378,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 106.68 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -12486,7 +12486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 152.4 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -12594,7 +12594,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 243.84 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -12702,7 +12702,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 335.28 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -12810,7 +12810,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 335.28 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -12918,7 +12918,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 381 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -13026,7 +13026,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 289.56 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -13134,7 +13134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 335.28 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -13242,7 +13242,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 129.54 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -13350,7 +13350,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 175.26 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -13458,7 +13458,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 312.42 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -13566,7 +13566,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 266.7 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -13674,7 +13674,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 60.96 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -13782,7 +13782,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 220.98 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -13890,7 +13890,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 60.96 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -13998,7 +13998,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 38.1 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -14106,7 +14106,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 289.56 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -14214,7 +14214,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 60.96 172.72 180)
 		(unit 1)
 		(body_style 1)
@@ -14322,7 +14322,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 289.56 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -14430,7 +14430,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 358.14 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -14619,7 +14619,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 175.26 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -14727,7 +14727,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 152.4 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -14835,7 +14835,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 312.42 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -14943,7 +14943,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 266.7 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -15051,7 +15051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 312.42 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -15159,7 +15159,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 83.82 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -15267,7 +15267,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 38.1 172.72 180)
 		(unit 1)
 		(body_style 1)
@@ -15375,7 +15375,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 243.84 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -15483,7 +15483,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 60.96 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -15591,7 +15591,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 83.82 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -15699,7 +15699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 152.4 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -15807,7 +15807,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 358.14 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -15915,7 +15915,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 381 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -16023,7 +16023,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 312.42 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -16131,7 +16131,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 152.4 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -16239,7 +16239,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 38.1 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -16347,7 +16347,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 335.28 137.16 180)
 		(unit 1)
 		(body_style 1)
@@ -16455,7 +16455,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 129.54 154.94 180)
 		(unit 1)
 		(body_style 1)
@@ -16563,7 +16563,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 38.1 119.38 180)
 		(unit 1)
 		(body_style 1)
@@ -16671,7 +16671,7 @@
 		)
 	)
 	(symbol
-		(lib_id "components:XL-6028RGBW-WS2812B")
+		(lib_id "KeysDock:XL-6028RGBW-WS2812B")
 		(at 198.12 137.16 180)
 		(unit 1)
 		(body_style 1)
