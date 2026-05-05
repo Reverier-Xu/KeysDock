@@ -13588,6 +13588,10 @@
 		(uuid "7cdfb2a3-191f-4b2d-b07e-98f2d3c2da56")
 	)
 	(no_connect
+		(at 73.66 191.77)
+		(uuid "7f285a4f-3040-4762-840b-a8e8138c2849")
+	)
+	(no_connect
 		(at 78.74 218.44)
 		(uuid "e7f1b4c4-442c-48ac-94d4-2eca21984545")
 	)
@@ -17554,6 +17558,87 @@
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Generic:P,0")
+		(at 311.15 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01bca673-5be1-4e67-8b5b-e732017b7154")
+		(property "Reference" "#PWR031"
+			(at 314.96 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P,0"
+			(at 314.96 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Description" "global node 0; simplified functional (equipotential) bonding (FB); simplified frame/chassis"
+			(at 311.15 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "0"
+			(uuid "c4102766-7e9d-4811-af36-eee615f0a467")
+		)
+		(instances
+			(project "keysdock"
+				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -24653,87 +24738,6 @@
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Generic:P,E")
-		(at 311.15 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77bf37c0-e23c-4c6d-a4cf-f6c2880272da")
-		(property "Reference" "#PWR031"
-			(at 314.96 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P,E"
-			(at 314.96 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.001 0.001)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Description" "earth/ground/earthing/grounding (E)"
-			(at 311.15 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "0"
-			(uuid "761cd69a-5d20-4b26-9318-67c04b898297")
-		)
-		(instances
-			(project "keysdock"
-				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)

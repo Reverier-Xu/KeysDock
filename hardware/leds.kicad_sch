@@ -7586,7 +7586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08a3b71e-d07e-464f-b69f-519e8bc2c6db")
-		(property "Reference" "LED47"
+		(property "Reference" "LED73"
 			(at 220.98 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7676,7 +7676,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED47")
+					(reference "LED73")
 					(unit 1)
 				)
 			)
@@ -7694,7 +7694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bc0668a-8a39-4e2e-aefc-4d24240909cd")
-		(property "Reference" "LED66"
+		(property "Reference" "LED61"
 			(at 312.42 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7784,7 +7784,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED66")
+					(reference "LED61")
 					(unit 1)
 				)
 			)
@@ -7802,7 +7802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d339974-e2b7-48e2-bb72-a4c285baab6e")
-		(property "Reference" "LED82"
+		(property "Reference" "LED80"
 			(at 381 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7892,7 +7892,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED82")
+					(reference "LED80")
 					(unit 1)
 				)
 			)
@@ -7910,7 +7910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "142676d4-ea19-4ff0-9bd7-bb3afbe3e170")
-		(property "Reference" "LED36"
+		(property "Reference" "LED55"
 			(at 175.26 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8000,7 +8000,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED36")
+					(reference "LED55")
 					(unit 1)
 				)
 			)
@@ -8126,7 +8126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d4de76a-9ea1-4d94-a4a4-efa1a1e5a1aa")
-		(property "Reference" "LED24"
+		(property "Reference" "LED21"
 			(at 129.54 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8216,7 +8216,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED24")
+					(reference "LED21")
 					(unit 1)
 				)
 			)
@@ -8234,7 +8234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d654d54-b94e-4569-98a0-dee480edc37e")
-		(property "Reference" "LED46"
+		(property "Reference" "LED57"
 			(at 220.98 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8324,7 +8324,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED46")
+					(reference "LED57")
 					(unit 1)
 				)
 			)
@@ -8342,7 +8342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dd271fb-6d88-494c-b867-f0a30891cf81")
-		(property "Reference" "LED37"
+		(property "Reference" "LED71"
 			(at 175.26 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8432,7 +8432,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED37")
+					(reference "LED71")
 					(unit 1)
 				)
 			)
@@ -8558,7 +8558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22d66475-1d27-4799-bfb1-0c10a1ee8f02")
-		(property "Reference" "LED77"
+		(property "Reference" "LED79"
 			(at 358.14 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8648,7 +8648,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED77")
+					(reference "LED79")
 					(unit 1)
 				)
 			)
@@ -8666,7 +8666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d8bd3b0-2ef5-4c35-9d7d-9d20eb5980e1")
-		(property "Reference" "LED14"
+		(property "Reference" "LED19"
 			(at 83.82 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8756,7 +8756,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED14")
+					(reference "LED19")
 					(unit 1)
 				)
 			)
@@ -8774,7 +8774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36b3cbd4-3d5e-4fe2-84e9-5eb98cdeb817")
-		(property "Reference" "LED48"
+		(property "Reference" "LED10"
 			(at 243.84 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8864,7 +8864,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED48")
+					(reference "LED10")
 					(unit 1)
 				)
 			)
@@ -8882,7 +8882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "378b1f30-cf14-46ba-b247-fa42d7a7a4d7")
-		(property "Reference" "LED22"
+		(property "Reference" "LED68"
 			(at 106.68 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8972,7 +8972,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED22")
+					(reference "LED68")
 					(unit 1)
 				)
 			)
@@ -8990,7 +8990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37a1daa0-658b-4f82-8141-c779e3341bad")
-		(property "Reference" "LED79"
+		(property "Reference" "LED32"
 			(at 381 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9080,7 +9080,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED79")
+					(reference "LED32")
 					(unit 1)
 				)
 			)
@@ -9098,7 +9098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "382a0a5e-28f2-4ecd-ace7-0b4b37897c23")
-		(property "Reference" "LED20"
+		(property "Reference" "LED36"
 			(at 106.68 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9188,7 +9188,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED20")
+					(reference "LED36")
 					(unit 1)
 				)
 			)
@@ -9206,7 +9206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39939533-f60a-4bb6-82bb-269e28350a31")
-		(property "Reference" "LED39"
+		(property "Reference" "LED24"
 			(at 198.12 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9296,7 +9296,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED39")
+					(reference "LED24")
 					(unit 1)
 				)
 			)
@@ -9314,7 +9314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bf1340a-9a7e-41ba-a154-2e8e192610cd")
-		(property "Reference" "LED73"
+		(property "Reference" "LED15"
 			(at 358.14 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9404,7 +9404,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED73")
+					(reference "LED15")
 					(unit 1)
 				)
 			)
@@ -9422,7 +9422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f02d876-05d5-4c44-8a23-9a797be3b198")
-		(property "Reference" "LED55"
+		(property "Reference" "LED43"
 			(at 266.7 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9512,7 +9512,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED55")
+					(reference "LED43")
 					(unit 1)
 				)
 			)
@@ -9797,7 +9797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f663bfa-89f4-45b4-8899-849c258205a0")
-		(property "Reference" "LED5"
+		(property "Reference" "LED65"
 			(at 38.1 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9887,7 +9887,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED5")
+					(reference "LED65")
 					(unit 1)
 				)
 			)
@@ -9905,7 +9905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fc7c461-19e3-4cb5-b073-72d6d5bb8c32")
-		(property "Reference" "LED42"
+		(property "Reference" "LED72"
 			(at 198.12 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9995,7 +9995,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED42")
+					(reference "LED72")
 					(unit 1)
 				)
 			)
@@ -10013,7 +10013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ff2ee61-bdf3-482c-a735-3a2f3ca5d745")
-		(property "Reference" "LED57"
+		(property "Reference" "LED75"
 			(at 266.7 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10103,7 +10103,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED57")
+					(reference "LED75")
 					(unit 1)
 				)
 			)
@@ -10121,7 +10121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41e7ed97-f02e-4e9b-936d-a99b567c81fb")
-		(property "Reference" "LED19"
+		(property "Reference" "LED20"
 			(at 106.68 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10211,7 +10211,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED19")
+					(reference "LED20")
 					(unit 1)
 				)
 			)
@@ -10229,7 +10229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45a3c695-fc12-4e98-baa3-609f8f7a2cec")
-		(property "Reference" "LED38"
+		(property "Reference" "LED8"
 			(at 198.12 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10319,7 +10319,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED38")
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -10337,7 +10337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4768d920-75e3-45d6-ade6-53c9a4f8fcf0")
-		(property "Reference" "LED11"
+		(property "Reference" "LED66"
 			(at 60.96 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10427,7 +10427,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED11")
+					(reference "LED66")
 					(unit 1)
 				)
 			)
@@ -10445,7 +10445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d6f1647-d3fa-49db-8ec2-dc1920c7fb8e")
-		(property "Reference" "LED78"
+		(property "Reference" "LED16"
 			(at 381 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10535,7 +10535,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED78")
+					(reference "LED16")
 					(unit 1)
 				)
 			)
@@ -10553,7 +10553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "507c8ea9-8f79-4109-a765-f81005fce078")
-		(property "Reference" "LED58"
+		(property "Reference" "LED12"
 			(at 289.56 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10643,7 +10643,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED58")
+					(reference "LED12")
 					(unit 1)
 				)
 			)
@@ -10661,7 +10661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53b76658-a624-41d3-a1c5-c089cb0d8d1a")
-		(property "Reference" "LED44"
+		(property "Reference" "LED25"
 			(at 220.98 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10751,7 +10751,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED44")
+					(reference "LED25")
 					(unit 1)
 				)
 			)
@@ -10769,7 +10769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5661e353-5091-4251-8aa6-e4df705c1ed3")
-		(property "Reference" "LED76"
+		(property "Reference" "LED63"
 			(at 358.14 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10859,7 +10859,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED76")
+					(reference "LED63")
 					(unit 1)
 				)
 			)
@@ -10877,7 +10877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "579931ac-5b84-48b5-b691-64e158d56ba2")
-		(property "Reference" "LED68"
+		(property "Reference" "LED14"
 			(at 335.28 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10967,7 +10967,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED68")
+					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -10985,7 +10985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dc3c0cf-777f-40e1-a34b-43a86b59be60")
-		(property "Reference" "LED15"
+		(property "Reference" "LED35"
 			(at 83.82 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11075,7 +11075,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED15")
+					(reference "LED35")
 					(unit 1)
 				)
 			)
@@ -11093,7 +11093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6129e69b-5cef-424d-b8eb-441585b155fb")
-		(property "Reference" "LED23"
+		(property "Reference" "LED5"
 			(at 129.54 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11183,7 +11183,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED23")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -11201,7 +11201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61768a43-ae32-4ec4-80c6-e95f65175baa")
-		(property "Reference" "LED34"
+		(property "Reference" "LED23"
 			(at 175.26 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11291,7 +11291,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED34")
+					(reference "LED23")
 					(unit 1)
 				)
 			)
@@ -11309,7 +11309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64af6264-0d36-445a-b9e5-26658066e79f")
-		(property "Reference" "LED51"
+		(property "Reference" "LED58"
 			(at 243.84 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11399,7 +11399,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED51")
+					(reference "LED58")
 					(unit 1)
 				)
 			)
@@ -11417,7 +11417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a29e20b-0ef8-48be-af90-d4dc3024e30b")
-		(property "Reference" "LED49"
+		(property "Reference" "LED26"
 			(at 243.84 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11507,7 +11507,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED49")
+					(reference "LED26")
 					(unit 1)
 				)
 			)
@@ -11525,7 +11525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a2a8273-81f2-4798-afa2-716b64831232")
-		(property "Reference" "LED31"
+		(property "Reference" "LED54"
 			(at 152.4 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11615,7 +11615,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED31")
+					(reference "LED54")
 					(unit 1)
 				)
 			)
@@ -11633,7 +11633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74bb7699-3590-4bb3-8a3d-8b51ead4f932")
-		(property "Reference" "LED18"
+		(property "Reference" "LED4"
 			(at 106.68 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11723,7 +11723,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED18")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -11741,7 +11741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75b6939e-aac3-4451-9cc6-bfeea7f684c8")
-		(property "Reference" "LED53"
+		(property "Reference" "LED11"
 			(at 266.7 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11831,7 +11831,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED53")
+					(reference "LED11")
 					(unit 1)
 				)
 			)
@@ -11849,7 +11849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bc7e549-8974-4299-a3b1-503542e94571")
-		(property "Reference" "LED7"
+		(property "Reference" "LED2"
 			(at 60.96 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11939,7 +11939,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED7")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -11957,7 +11957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "803195b0-7c28-4dec-a878-8b5a0bc0652e")
-		(property "Reference" "LED60"
+		(property "Reference" "LED44"
 			(at 289.56 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12047,7 +12047,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED60")
+					(reference "LED44")
 					(unit 1)
 				)
 			)
@@ -12065,7 +12065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8192f183-5129-490b-9149-24d226255a62")
-		(property "Reference" "LED25"
+		(property "Reference" "LED37"
 			(at 129.54 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12155,7 +12155,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED25")
+					(reference "LED37")
 					(unit 1)
 				)
 			)
@@ -12173,7 +12173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8399b02a-47eb-46ed-bfe1-8faac863c25e")
-		(property "Reference" "LED13"
+		(property "Reference" "LED3"
 			(at 83.82 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12263,7 +12263,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED13")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -12281,7 +12281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a642b33-1a97-485f-9c53-f37342ae655f")
-		(property "Reference" "LED43"
+		(property "Reference" "LED9"
 			(at 220.98 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12371,7 +12371,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED43")
+					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -12389,7 +12389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aa774fd-2200-4651-9593-b2126240d225")
-		(property "Reference" "LED21"
+		(property "Reference" "LED52"
 			(at 106.68 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12479,7 +12479,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED21")
+					(reference "LED52")
 					(unit 1)
 				)
 			)
@@ -12497,7 +12497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9012f89a-ae63-4452-9f1c-8ef667c37f7c")
-		(property "Reference" "LED32"
+		(property "Reference" "LED70"
 			(at 152.4 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12587,7 +12587,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED32")
+					(reference "LED70")
 					(unit 1)
 				)
 			)
@@ -12605,7 +12605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95045c7b-4c76-4515-8a4c-ecea20033201")
-		(property "Reference" "LED52"
+		(property "Reference" "LED74"
 			(at 243.84 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12695,7 +12695,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED52")
+					(reference "LED74")
 					(unit 1)
 				)
 			)
@@ -12713,7 +12713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97eae1a7-32dc-4545-9411-02c04f6d5fb4")
-		(property "Reference" "LED69"
+		(property "Reference" "LED30"
 			(at 335.28 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12803,7 +12803,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED69")
+					(reference "LED30")
 					(unit 1)
 				)
 			)
@@ -12821,7 +12821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "984e017b-02e2-4435-9ae1-6d6aa1bbdfa7")
-		(property "Reference" "LED70"
+		(property "Reference" "LED46"
 			(at 335.28 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12911,7 +12911,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED70")
+					(reference "LED46")
 					(unit 1)
 				)
 			)
@@ -12929,7 +12929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99d2ce39-5dd6-41b0-a6c5-e83f494e2a1d")
-		(property "Reference" "LED81"
+		(property "Reference" "LED64"
 			(at 381 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13019,7 +13019,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED81")
+					(reference "LED64")
 					(unit 1)
 				)
 			)
@@ -13037,7 +13037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b8a9bb2-d2f4-4d44-a6b5-854d4178a1ee")
-		(property "Reference" "LED61"
+		(property "Reference" "LED60"
 			(at 289.56 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13127,7 +13127,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED61")
+					(reference "LED60")
 					(unit 1)
 				)
 			)
@@ -13145,7 +13145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bd65c9e-2d5a-4ecf-9841-5dadcd4b7692")
-		(property "Reference" "LED72"
+		(property "Reference" "LED78"
 			(at 335.28 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13235,7 +13235,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED72")
+					(reference "LED78")
 					(unit 1)
 				)
 			)
@@ -13253,7 +13253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a294a1d2-26cc-4116-a03d-78056d03588e")
-		(property "Reference" "LED26"
+		(property "Reference" "LED53"
 			(at 129.54 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13343,7 +13343,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED26")
+					(reference "LED53")
 					(unit 1)
 				)
 			)
@@ -13361,7 +13361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a66f657d-1e5a-4331-a522-773ed4bd86ed")
-		(property "Reference" "LED35"
+		(property "Reference" "LED39"
 			(at 175.26 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13451,7 +13451,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED35")
+					(reference "LED39")
 					(unit 1)
 				)
 			)
@@ -13469,7 +13469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7aaa92c-fffb-4f57-882a-39bab60bc4ad")
-		(property "Reference" "LED67"
+		(property "Reference" "LED77"
 			(at 312.42 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13559,7 +13559,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED67")
+					(reference "LED77")
 					(unit 1)
 				)
 			)
@@ -13577,7 +13577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa54aafa-2c0f-481e-89e3-a892a83cd30a")
-		(property "Reference" "LED56"
+		(property "Reference" "LED59"
 			(at 266.7 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13667,7 +13667,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED56")
+					(reference "LED59")
 					(unit 1)
 				)
 			)
@@ -13685,7 +13685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af3fb150-5e3c-4aa4-aafa-f64afce66cfc")
-		(property "Reference" "LED9"
+		(property "Reference" "LED34"
 			(at 60.96 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13775,7 +13775,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED9")
+					(reference "LED34")
 					(unit 1)
 				)
 			)
@@ -13793,7 +13793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8884c60-281d-472d-ac94-e92b373fd43d")
-		(property "Reference" "LED45"
+		(property "Reference" "LED41"
 			(at 220.98 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13883,7 +13883,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED45")
+					(reference "LED41")
 					(unit 1)
 				)
 			)
@@ -13901,7 +13901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcd40940-d3de-4334-8177-d36d5e34f4c9")
-		(property "Reference" "LED8"
+		(property "Reference" "LED18"
 			(at 60.96 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13991,7 +13991,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED8")
+					(reference "LED18")
 					(unit 1)
 				)
 			)
@@ -14009,7 +14009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd3d0715-2575-40f4-b0f4-0d2fce790dc2")
-		(property "Reference" "LED4"
+		(property "Reference" "LED49"
 			(at 38.1 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14099,7 +14099,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED4")
+					(reference "LED49")
 					(unit 1)
 				)
 			)
@@ -14117,7 +14117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be311258-7081-481d-a67c-dcd436a052ca")
-		(property "Reference" "LED62"
+		(property "Reference" "LED76"
 			(at 289.56 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14207,7 +14207,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED62")
+					(reference "LED76")
 					(unit 1)
 				)
 			)
@@ -14225,7 +14225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beec4072-67e5-46b2-9c7d-303c03e5dab8")
-		(property "Reference" "LED12"
+		(property "Reference" "LED82"
 			(at 60.96 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14315,7 +14315,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED12")
+					(reference "LED82")
 					(unit 1)
 				)
 			)
@@ -14333,7 +14333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0db573e-7055-44fd-85b4-bdcb1ad757a6")
-		(property "Reference" "LED59"
+		(property "Reference" "LED28"
 			(at 289.56 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14423,7 +14423,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED59")
+					(reference "LED28")
 					(unit 1)
 				)
 			)
@@ -14441,7 +14441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2a00e7c-9909-4b71-9378-d31c9ef9cc10")
-		(property "Reference" "LED75"
+		(property "Reference" "LED47"
 			(at 358.14 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14531,7 +14531,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED75")
+					(reference "LED47")
 					(unit 1)
 				)
 			)
@@ -14561,7 +14561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "P,E"
+		(property "Value" "P,0"
 			(at 27.94 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14630,7 +14630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c97e72c8-769c-4e19-8ef0-14810924bb83")
-		(property "Reference" "LED33"
+		(property "Reference" "LED7"
 			(at 175.26 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14720,7 +14720,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED33")
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -14738,7 +14738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb1ba9ef-4f28-4c6b-8663-c6b668e2c3cb")
-		(property "Reference" "LED28"
+		(property "Reference" "LED6"
 			(at 152.4 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14828,7 +14828,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED28")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -14846,7 +14846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb80dbd0-ebde-480a-843b-f21c7de99dd9")
-		(property "Reference" "LED65"
+		(property "Reference" "LED45"
 			(at 312.42 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14936,7 +14936,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED65")
+					(reference "LED45")
 					(unit 1)
 				)
 			)
@@ -14954,7 +14954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc1b5703-f665-4097-afd1-893f468cc84b")
-		(property "Reference" "LED54"
+		(property "Reference" "LED27"
 			(at 266.7 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15044,7 +15044,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED54")
+					(reference "LED27")
 					(unit 1)
 				)
 			)
@@ -15062,7 +15062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2069ecd-8c70-4a52-9022-096bbb30391e")
-		(property "Reference" "LED64"
+		(property "Reference" "LED29"
 			(at 312.42 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15152,7 +15152,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED64")
+					(reference "LED29")
 					(unit 1)
 				)
 			)
@@ -15170,7 +15170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4fd4426-9aba-48ed-a57b-0273ddff385d")
-		(property "Reference" "LED16"
+		(property "Reference" "LED51"
 			(at 83.82 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15260,7 +15260,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED16")
+					(reference "LED51")
 					(unit 1)
 				)
 			)
@@ -15278,7 +15278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5bb2313-e65f-46eb-a282-b76f6e9b2b6c")
-		(property "Reference" "LED6"
+		(property "Reference" "LED81"
 			(at 38.1 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15368,7 +15368,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED6")
+					(reference "LED81")
 					(unit 1)
 				)
 			)
@@ -15386,7 +15386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfc49c12-dcbb-420d-a1bb-f751fa0d97e9")
-		(property "Reference" "LED50"
+		(property "Reference" "LED42"
 			(at 243.84 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15476,7 +15476,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED50")
+					(reference "LED42")
 					(unit 1)
 				)
 			)
@@ -15494,7 +15494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e160836a-9007-4457-8539-9adf1d5323c1")
-		(property "Reference" "LED10"
+		(property "Reference" "LED50"
 			(at 60.96 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15584,7 +15584,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED10")
+					(reference "LED50")
 					(unit 1)
 				)
 			)
@@ -15602,7 +15602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6a645eb-ff3b-4e2d-b533-9b101f8bd367")
-		(property "Reference" "LED17"
+		(property "Reference" "LED67"
 			(at 83.82 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15692,7 +15692,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED17")
+					(reference "LED67")
 					(unit 1)
 				)
 			)
@@ -15710,7 +15710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea130140-7789-48a7-b8ca-abd52e98d8f0")
-		(property "Reference" "LED29"
+		(property "Reference" "LED22"
 			(at 152.4 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15800,7 +15800,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED29")
+					(reference "LED22")
 					(unit 1)
 				)
 			)
@@ -15818,7 +15818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef771cf5-d6d5-453e-8f57-9b918c1e1842")
-		(property "Reference" "LED74"
+		(property "Reference" "LED31"
 			(at 358.14 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15908,7 +15908,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED74")
+					(reference "LED31")
 					(unit 1)
 				)
 			)
@@ -15926,7 +15926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef9d6f33-f3d6-41fb-aa2e-5d7cd3968d31")
-		(property "Reference" "LED80"
+		(property "Reference" "LED48"
 			(at 381 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16016,7 +16016,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED80")
+					(reference "LED48")
 					(unit 1)
 				)
 			)
@@ -16034,7 +16034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efe0309a-012b-4992-8c2b-4c1ca8a2ecaa")
-		(property "Reference" "LED63"
+		(property "Reference" "LED13"
 			(at 312.42 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16124,7 +16124,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED63")
+					(reference "LED13")
 					(unit 1)
 				)
 			)
@@ -16142,7 +16142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0c7d3c7-b988-4413-b47b-3a1ba5d3b74e")
-		(property "Reference" "LED30"
+		(property "Reference" "LED38"
 			(at 152.4 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16232,7 +16232,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED30")
+					(reference "LED38")
 					(unit 1)
 				)
 			)
@@ -16250,7 +16250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f129438d-de96-4bcf-ba37-193e1e97c27d")
-		(property "Reference" "LED2"
+		(property "Reference" "LED17"
 			(at 38.1 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16340,7 +16340,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED2")
+					(reference "LED17")
 					(unit 1)
 				)
 			)
@@ -16358,7 +16358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f18f7a81-9fef-4721-8f19-288d8f592449")
-		(property "Reference" "LED71"
+		(property "Reference" "LED62"
 			(at 335.28 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16448,7 +16448,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED71")
+					(reference "LED62")
 					(unit 1)
 				)
 			)
@@ -16466,7 +16466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa183bec-12a4-4aba-9217-0df499644b3e")
-		(property "Reference" "LED27"
+		(property "Reference" "LED69"
 			(at 129.54 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16556,7 +16556,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED27")
+					(reference "LED69")
 					(unit 1)
 				)
 			)
@@ -16574,7 +16574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbafa977-d374-4977-9ba3-2dd61b2574b6")
-		(property "Reference" "LED3"
+		(property "Reference" "LED33"
 			(at 38.1 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16664,7 +16664,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED3")
+					(reference "LED33")
 					(unit 1)
 				)
 			)
@@ -16682,7 +16682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe200265-399e-4f47-a2cf-e791c902df56")
-		(property "Reference" "LED41"
+		(property "Reference" "LED56"
 			(at 198.12 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16772,7 +16772,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/d823985e-ad41-434d-bf20-2561a17f7aaf"
-					(reference "LED41")
+					(reference "LED56")
 					(unit 1)
 				)
 			)
