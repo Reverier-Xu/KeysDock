@@ -1207,7 +1207,7 @@
         "uuid": "1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
       }
     ],
-    "used_designators": "R23,LED1-82,#PWR31,#PWR71",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
