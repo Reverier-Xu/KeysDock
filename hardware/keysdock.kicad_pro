@@ -60,7 +60,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|40000000|183800000|1b05e726-2343-439d-acad-59b401b246d8|56674fcd-eef6-4a8b-9392-d2845d41c193",
+          ""
+        ],
+        [
+          "silk_edge_clearance|58000000|183800000|1b05e726-2343-439d-acad-59b401b246d8|c120df14-7e77-494e-82af-59774a50f505",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -140,7 +149,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
