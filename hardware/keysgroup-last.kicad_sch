@@ -1968,13 +1968,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Generic:P,+3.3"
+		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.27)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1983,27 +1983,24 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 2.54 0 0)
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
-						(size 2.54 2.54)
+						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "P,+3.3"
-				(at 0 2.54 0)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
-						(size 0.001 0.001)
+						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -2013,7 +2010,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 2.54 2.54)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -2024,11 +2021,11 @@
 				(hide yes)
 				(effects
 					(font
-						(size 2.54 2.54)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Description" "+3.3 positive potential/voltage (global DC power supply node)"
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2039,7 +2036,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "P V + +3.3 3.3 positive potential voltage tension global DC power supply node label pin equipotential bonding"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2050,10 +2047,10 @@
 					)
 				)
 			)
-			(symbol "P,+3.3_1_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
-						(xy -1.0668 0) (xy 0 1.8288) (xy 1.0668 0)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2065,7 +2062,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 1.8288)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2075,30 +2072,34 @@
 						(type none)
 					)
 				)
-				(text "+3.3"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify bottom)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
+			)
+			(symbol "+3.3V_1_1"
 				(pin power_in line
-					(at 0 0 0)
+					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3.3"
+					(name ""
 						(effects
 							(font
-								(size 2.54 2.54)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "0"
+					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2106,13 +2107,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Generic:P,GND"
+		(symbol "power:GNDA"
 			(power global)
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 3.81)
+				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2120,27 +2122,24 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 3.81 3.81 0)
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
-						(size 2.54 2.54)
+						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "P,GND"
-				(at 3.81 0 0)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
-						(size 0.001 0.001)
+						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -2150,7 +2149,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 2.54 2.54)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -2161,11 +2160,11 @@
 				(hide yes)
 				(effects
 					(font
-						(size 2.54 2.54)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Description" "compatibility ground/earth; protective (equipotential) bonding (PB); equipotentiality"
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2176,7 +2175,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "P V 0 GND FB equipotential bonding earth earthing ground grounding simplified frame chassis potential voltage tension global DC power supply node label pin"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2187,10 +2186,10 @@
 					)
 				)
 			)
-			(symbol "P,GND_1_1"
+			(symbol "GNDA_0_1"
 				(polyline
 					(pts
-						(xy 0 -3.81) (xy 3.81 0) (xy -3.81 0) (xy 0 -3.81)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -2200,21 +2199,22 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "GNDA_1_1"
 				(pin power_in line
-					(at 0 0 0)
+					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name ""
 						(effects
 							(font
-								(size 2.54 2.54)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "0"
+					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5152,7 +5152,7 @@
 		(uuid "f7715965-04f1-45e7-8ee2-94b10699b1ae")
 	)
 	(symbol
-		(lib_id "PCM_Generic:P,+3.3")
+		(lib_id "power:+3.3V")
 		(at 303.53 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -5162,53 +5162,28 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0edae04d-91b4-4444-afe2-fad38a50e46d")
-		(property "Reference" "#PWR069"
-			(at 306.07 134.62 0)
+		(property "Reference" "#PWR072"
+			(at 303.53 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "P,+3.3"
-			(at 303.53 132.08 0)
-			(hide yes)
+		(property "Value" "+3.3V"
+			(at 303.53 131.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.001 0.001)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 303.53 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Description" "+3.3 positive potential/voltage (global DC power supply node)"
 			(at 303.53 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5219,20 +5194,42 @@
 				)
 			)
 		)
-		(pin "0"
+		(property "Datasheet" ""
+			(at 303.53 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 303.53 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "70109395-6934-4901-9bc6-2b935ec10003")
 		)
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "#PWR069")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Generic:P,GND")
+		(lib_id "power:GNDA")
 		(at 35.56 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -5242,53 +5239,28 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a823b70-3f24-40f3-b725-59a2be0b569a")
-		(property "Reference" "#PWR064"
-			(at 39.37 90.17 0)
+		(property "Reference" "#PWR067"
+			(at 35.56 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "P,GND"
-			(at 39.37 93.98 0)
-			(hide yes)
+		(property "Value" "GNDA"
+			(at 35.56 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.001 0.001)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Description" "compatibility ground/earth; protective (equipotential) bonding (PB); equipotentiality"
 			(at 35.56 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5299,13 +5271,35 @@
 				)
 			)
 		)
-		(pin "0"
+		(property "Datasheet" ""
+			(at 35.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 35.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "ab1b84b6-64a9-43b8-aa1a-41acb0e11ff9")
 		)
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "#PWR064")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5324,7 +5318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ad8083a-c1dc-4216-a8c6-2f5dec55e413")
-		(property "Reference" "SW68"
+		(property "Reference" "SW74"
 			(at 100.33 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5419,7 +5413,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "SW68")
+					(reference "SW74")
 					(unit 1)
 				)
 			)
@@ -5672,7 +5666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f3114e6-784a-433e-a7a7-7b071ab06db7")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 261.62 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5922,14 +5916,14 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Generic:P,GND")
+		(lib_id "power:GNDA")
 		(at 31.75 165.1 0)
 		(unit 1)
 		(body_style 1)
@@ -5940,53 +5934,28 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "440b65fe-11e9-4b12-9c00-9e5fe1a78eed")
-		(property "Reference" "#PWR063"
-			(at 35.56 161.29 0)
+		(property "Reference" "#PWR073"
+			(at 31.75 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "P,GND"
-			(at 35.56 165.1 0)
-			(hide yes)
+		(property "Value" "GNDA"
+			(at 31.75 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.001 0.001)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Description" "compatibility ground/earth; protective (equipotential) bonding (PB); equipotentiality"
 			(at 31.75 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -5997,13 +5966,35 @@
 				)
 			)
 		)
-		(pin "0"
+		(property "Datasheet" ""
+			(at 31.75 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 31.75 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "dbd5d3a5-fad7-4ac2-8d89-8708f59727c1")
 		)
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "#PWR063")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -6021,7 +6012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e7603c4-74a1-4818-85e8-569f6b6afb74")
-		(property "Reference" "SW67"
+		(property "Reference" "SW66"
 			(at 100.33 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6116,7 +6107,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "SW67")
+					(reference "SW66")
 					(unit 1)
 				)
 			)
@@ -6134,7 +6125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "742d83e8-7209-435c-b6a2-5b25bd53b033")
-		(property "Reference" "SW71"
+		(property "Reference" "SW68"
 			(at 186.69 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6229,7 +6220,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "SW71")
+					(reference "SW68")
 					(unit 1)
 				)
 			)
@@ -6482,7 +6473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c39fe74-5ced-4706-ae67-6b93bf0efc4c")
-		(property "Reference" "SW69"
+		(property "Reference" "SW67"
 			(at 143.51 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6577,7 +6568,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "SW69")
+					(reference "SW67")
 					(unit 1)
 				)
 			)
@@ -6596,7 +6587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82f4a448-6e1d-4df2-ab30-62abe068acbe")
-		(property "Reference" "SW66"
+		(property "Reference" "SW73"
 			(at 57.15 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6691,7 +6682,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "SW66")
+					(reference "SW73")
 					(unit 1)
 				)
 			)
@@ -6709,7 +6700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "849f46ff-a5f6-4035-b728-341b49112a1d")
-		(property "Reference" "SW75"
+		(property "Reference" "SW70"
 			(at 273.05 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6804,7 +6795,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "SW75")
+					(reference "SW70")
 					(unit 1)
 				)
 			)
@@ -6822,7 +6813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8910fcd5-9fc7-4a89-a0ab-db01b86f8a43")
-		(property "Reference" "SW73"
+		(property "Reference" "SW69"
 			(at 229.87 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6917,7 +6908,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "SW73")
+					(reference "SW69")
 					(unit 1)
 				)
 			)
@@ -6936,7 +6927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "969bd2d8-46d3-4f8c-84d5-6fe91e76c749")
-		(property "Reference" "SW74"
+		(property "Reference" "SW77"
 			(at 229.87 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7031,7 +7022,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "SW74")
+					(reference "SW77")
 					(unit 1)
 				)
 			)
@@ -7050,7 +7041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa273989-6365-42d7-b3fa-345997106ac0")
-		(property "Reference" "SW72"
+		(property "Reference" "SW76"
 			(at 186.69 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7145,7 +7136,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "SW72")
+					(reference "SW76")
 					(unit 1)
 				)
 			)
@@ -7669,7 +7660,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Generic:P,GND")
+		(lib_id "power:GNDA")
 		(at 181.61 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -7680,53 +7671,28 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4c066a4-809e-4329-8f47-95ef9eb146ce")
-		(property "Reference" "#PWR065"
-			(at 185.42 105.41 0)
+		(property "Reference" "#PWR068"
+			(at 181.61 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "P,GND"
-			(at 185.42 109.22 0)
-			(hide yes)
+		(property "Value" "GNDA"
+			(at 181.61 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.001 0.001)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Description" "compatibility ground/earth; protective (equipotential) bonding (PB); equipotentiality"
 			(at 181.61 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7737,20 +7703,42 @@
 				)
 			)
 		)
-		(pin "0"
+		(property "Datasheet" ""
+			(at 181.61 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 181.61 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "0afb3fe6-32f8-4cda-b9e9-9cd4e549d107")
 		)
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "#PWR065")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Generic:P,+3.3")
+		(lib_id "power:+3.3V")
 		(at 247.65 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -7761,53 +7749,28 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6884412-c85d-443d-8e98-ee246b4abbbc")
-		(property "Reference" "#PWR066"
-			(at 250.19 123.19 0)
+		(property "Reference" "#PWR069"
+			(at 247.65 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "P,+3.3"
-			(at 247.65 120.65 0)
-			(hide yes)
+		(property "Value" "+3.3V"
+			(at 247.65 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.001 0.001)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Description" "+3.3 positive potential/voltage (global DC power supply node)"
 			(at 247.65 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7818,20 +7781,42 @@
 				)
 			)
 		)
-		(pin "0"
+		(property "Datasheet" ""
+			(at 247.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 247.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "fb5b136d-1b11-4ba7-a327-16e41119da50")
 		)
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "#PWR066")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Generic:P,+3.3")
+		(lib_id "power:+3.3V")
 		(at 381 38.1 0)
 		(unit 1)
 		(body_style 1)
@@ -7842,53 +7827,28 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca81ccde-59c8-4460-bbb1-649449e0579f")
-		(property "Reference" "#PWR070"
-			(at 383.54 38.1 0)
+		(property "Reference" "#PWR066"
+			(at 381 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "P,+3.3"
-			(at 381 35.56 0)
-			(hide yes)
+		(property "Value" "+3.3V"
+			(at 381 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.001 0.001)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 381 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 381 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Description" "+3.3 positive potential/voltage (global DC power supply node)"
 			(at 381 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7899,13 +7859,35 @@
 				)
 			)
 		)
-		(pin "0"
+		(property "Datasheet" ""
+			(at 381 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 381 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "38ca3ab7-741a-4aa7-bee9-1975f44f8a17")
 		)
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "#PWR070")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -7923,7 +7905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf39b059-ae8d-4e26-932b-8a6fc9a948c1")
-		(property "Reference" "SW77"
+		(property "Reference" "SW71"
 			(at 316.23 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8018,14 +8000,14 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "SW77")
+					(reference "SW71")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Generic:P,GND")
+		(lib_id "power:GNDA")
 		(at 247.65 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -8036,53 +8018,28 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4d9a99a-e8bc-44f6-8c1b-09a48f6d6398")
-		(property "Reference" "#PWR067"
-			(at 251.46 130.81 0)
+		(property "Reference" "#PWR071"
+			(at 247.65 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "P,GND"
-			(at 251.46 134.62 0)
-			(hide yes)
+		(property "Value" "GNDA"
+			(at 247.65 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.001 0.001)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Description" "compatibility ground/earth; protective (equipotential) bonding (PB); equipotentiality"
 			(at 247.65 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8093,20 +8050,42 @@
 				)
 			)
 		)
-		(pin "0"
+		(property "Datasheet" ""
+			(at 247.65 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 247.65 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "75ed9d28-33b1-49ed-9439-80bba78325fe")
 		)
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "#PWR067")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Generic:P,+3.3")
+		(lib_id "power:+3.3V")
 		(at 259.08 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -8116,53 +8095,28 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e651f446-1e65-4124-8c82-c6661ae0d2f0")
-		(property "Reference" "#PWR068"
-			(at 261.62 123.19 0)
+		(property "Reference" "#PWR070"
+			(at 259.08 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "P,+3.3"
-			(at 259.08 120.65 0)
-			(hide yes)
+		(property "Value" "+3.3V"
+			(at 259.08 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.001 0.001)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Description" "+3.3 positive potential/voltage (global DC power supply node)"
 			(at 259.08 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8173,13 +8127,35 @@
 				)
 			)
 		)
-		(pin "0"
+		(property "Datasheet" ""
+			(at 259.08 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 259.08 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "456db7b5-cc72-4b5e-aecd-0767db22f033")
 		)
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "#PWR068")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -8197,7 +8173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb68c67e-85d2-4146-be69-cfa63666e5b1")
-		(property "Reference" "SW78"
+		(property "Reference" "SW72"
 			(at 359.41 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8292,7 +8268,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "SW78")
+					(reference "SW72")
 					(unit 1)
 				)
 			)
@@ -8311,7 +8287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1763d65-cc3d-4ba7-91ee-182b6a6e9937")
-		(property "Reference" "SW70"
+		(property "Reference" "SW75"
 			(at 143.51 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8406,7 +8382,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "SW70")
+					(reference "SW75")
 					(unit 1)
 				)
 			)
@@ -8425,7 +8401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f22e47f2-8da8-4888-a5ed-c120d0a8383c")
-		(property "Reference" "SW76"
+		(property "Reference" "SW78"
 			(at 273.05 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8520,7 +8496,7 @@
 		(instances
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a/21d81995-8413-4055-b048-dacf07d430f1"
-					(reference "SW76")
+					(reference "SW78")
 					(unit 1)
 				)
 			)
