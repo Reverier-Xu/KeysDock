@@ -1232,7 +1232,7 @@
         "uuid": "1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
       }
     ],
-    "used_designators": "T1-5,S1-3,U1-6,PC1-2,L1,J1,D1-2,C1-31,LED1-82,R1-24,SW1-78,NT1,#PWR1-75",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
