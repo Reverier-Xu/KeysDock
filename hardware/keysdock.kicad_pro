@@ -76,7 +76,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|40000000|183800000|1b05e726-2343-439d-acad-59b401b246d8|56674fcd-eef6-4a8b-9392-d2845d41c193",
+          ""
+        ],
+        [
+          "silk_edge_clearance|58000000|183800000|1b05e726-2343-439d-acad-59b401b246d8|c120df14-7e77-494e-82af-59774a50f505",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -1173,6 +1182,42 @@
           "label": "MANUFACTURER",
           "name": "Manufacturer",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1223,7 +1268,7 @@
         "uuid": "1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C32-118",
     "variants": []
   },
   "sheets": [

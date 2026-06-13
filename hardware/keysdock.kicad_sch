@@ -4478,6 +4478,323 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KeysDock:0402,499Ω"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 1.778 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "499Ω"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "KeysDock:R_0402"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KIPRJMOD}/docs/ur-resistors.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 499Ω 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C4125"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Stock" "7644059"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.004USD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Resistors,Chip Resistor - Surface Mount"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "0402WGF4990TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Resistance" "499Ω"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power(Watts)" "62.5mW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "Thick Film Resistors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Overload Voltage (Max)" "50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Operating Temperature Range" "-55°C~+155°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temperature Coefficient" "±100ppm/°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402,499Ω_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402,499Ω_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KeysDock:0402,5.1kΩ"
 			(pin_numbers
 				(hide yes)
@@ -5094,6 +5411,243 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KeysDock:1206,100uF"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 1.778 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "100uF"
+				(at 1.778 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "KeysDock:C_1206"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "file://${KIPRJMOD}/docs/samsung-capacitors.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Samsung Electro-Mechanics 1206 (3216M) 100uF MLCC 6.3V dc +/-20% SMD CL31A107MQHNNNE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.8"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "SAMSUNG"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CL31A107MQHNNNE"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "187-CL31A107MQHNNNE"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31A107MQHNNNE?qs=v327UlYrT951En0U6aCdRg%3D%3D"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "CL31A107MQHNNNE"
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl31a107mqhnnne/samsung-electro-mechanics?utm_currency=USD&region=nac"
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Voltage Rated" "6.3V"
+				(at 3.302 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "LCSC" "C15008"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1206,100uF_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1206,100uF_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.175)
 					(name ""
 						(effects
 							(font
@@ -13140,6 +13694,12 @@
 		(uuid "82b2f412-0e92-4aa2-acba-1bee7ca718ed")
 	)
 	(junction
+		(at 261.62 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01fe4b05-618d-49a0-b8e9-0a5c1d94ce1e")
+	)
+	(junction
 		(at 86.36 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13182,6 +13742,12 @@
 		(uuid "1159c824-5ef4-4658-b002-26c031d8eba8")
 	)
 	(junction
+		(at 246.38 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "162d582d-ba6e-4f76-937d-eee64407c297")
+	)
+	(junction
 		(at 203.2 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13204,6 +13770,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20171223-6156-4c42-a11a-3d70a8aff401")
+	)
+	(junction
+		(at 269.24 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21ebc1e9-8217-45b5-ba85-8dd159c90f24")
 	)
 	(junction
 		(at 288.29 41.91)
@@ -13278,6 +13850,12 @@
 		(uuid "2b461a7f-6cea-414c-8140-26554834a547")
 	)
 	(junction
+		(at 246.38 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33ef4786-66bb-49c1-ba30-60c3a903b324")
+	)
+	(junction
 		(at 99.06 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13306,6 +13884,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41121d6f-0723-438f-8bca-4423bc80f283")
+	)
+	(junction
+		(at 254 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "429e52bd-b248-4652-b6bf-a309dfaad712")
 	)
 	(junction
 		(at 74.93 261.62)
@@ -13374,10 +13958,22 @@
 		(uuid "59421849-2c27-49cf-9733-cd06be021db8")
 	)
 	(junction
+		(at 254 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ba81ec8-e16d-4ea3-9c5c-522171a64e13")
+	)
+	(junction
 		(at 317.5 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c3cfb0c-2147-4881-9d51-454b13e56744")
+	)
+	(junction
+		(at 261.62 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dfe6fc3-4ec1-4908-a850-7ac904868ee9")
 	)
 	(junction
 		(at 259.08 39.37)
@@ -13668,6 +14264,12 @@
 		(uuid "e597d4b1-a0dc-40e9-8ca2-9ce97cff9b67")
 	)
 	(junction
+		(at 269.24 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6351595-f9a0-48e5-888e-e2bb89386c4f")
+	)
+	(junction
 		(at 247.65 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13772,6 +14374,16 @@
 			(type default)
 		)
 		(uuid "01ecdce7-633e-46da-a8c2-b4c12ab40cd8")
+	)
+	(wire
+		(pts
+			(xy 254 259.08) (xy 246.38 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021c519b-c60a-41b0-ae51-23d73644a2bd")
 	)
 	(wire
 		(pts
@@ -13985,6 +14597,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 248.92) (xy 261.62 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b500de-8818-4e94-b0f6-42bc9825d165")
+	)
+	(wire
+		(pts
 			(xy 85.09 144.78) (xy 83.82 144.78)
 		)
 		(stroke
@@ -14022,6 +14644,16 @@
 			(type default)
 		)
 		(uuid "1642fbd0-ea6f-44a4-80ef-f08364b89fd0")
+	)
+	(wire
+		(pts
+			(xy 254 248.92) (xy 254 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16cca353-285f-4418-88c7-10c760a32a28")
 	)
 	(wire
 		(pts
@@ -14095,6 +14727,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 257.81) (xy 254 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aeed3ae-70a4-4661-a4b4-02ceaf998fac")
+	)
+	(wire
+		(pts
 			(xy 83.82 139.7) (xy 96.52 139.7)
 		)
 		(stroke
@@ -14122,6 +14764,16 @@
 			(type default)
 		)
 		(uuid "1dc447cc-36ef-4770-8392-8f90e1624f2c")
+	)
+	(wire
+		(pts
+			(xy 246.38 259.08) (xy 238.76 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f810238-e4db-49ea-930d-ab4f1779897a")
 	)
 	(wire
 		(pts
@@ -14162,6 +14814,16 @@
 			(type default)
 		)
 		(uuid "22948cf1-8f00-493b-9456-9f9a65bb85d5")
+	)
+	(wire
+		(pts
+			(xy 269.24 248.92) (xy 269.24 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25392ff9-9067-4b13-ab2a-dd6253b8f562")
 	)
 	(wire
 		(pts
@@ -14275,6 +14937,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 248.92) (xy 261.62 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef645ef-c58c-4c13-b028-53bf4c8dc762")
+	)
+	(wire
+		(pts
 			(xy 154.94 45.72) (xy 154.94 54.61)
 		)
 		(stroke
@@ -14362,6 +15034,16 @@
 			(type default)
 		)
 		(uuid "336ec4fb-9c51-4421-a0d8-7f29be9f3aed")
+	)
+	(wire
+		(pts
+			(xy 269.24 259.08) (xy 261.62 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f9bf8d-9ddb-4e24-b2f5-96c72841a14d")
 	)
 	(wire
 		(pts
@@ -14522,6 +15204,16 @@
 			(type default)
 		)
 		(uuid "401e19a0-cd17-4eb4-bc47-a157c7761d58")
+	)
+	(wire
+		(pts
+			(xy 276.86 250.19) (xy 276.86 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425c3a02-915f-49c3-96ec-8179f8445610")
 	)
 	(wire
 		(pts
@@ -15225,6 +15917,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 248.92) (xy 246.38 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f1e5186-f202-4a6b-aba8-e9d487f98a10")
+	)
+	(wire
+		(pts
 			(xy 299.72 129.54) (xy 307.34 129.54)
 		)
 		(stroke
@@ -15452,6 +16154,16 @@
 			(type default)
 		)
 		(uuid "83e094cd-b1d3-43be-91d5-34388906141f")
+	)
+	(wire
+		(pts
+			(xy 261.62 248.92) (xy 254 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84898e1b-9ddc-42ed-83ed-ed6741a8217e")
 	)
 	(wire
 		(pts
@@ -16015,6 +16727,26 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 248.92) (xy 269.24 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac529534-f986-4c45-94c2-3b84c4461395")
+	)
+	(wire
+		(pts
+			(xy 276.86 259.08) (xy 269.24 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfda668-8d51-4f9c-8879-8bc08925bc5b")
+	)
+	(wire
+		(pts
 			(xy 38.1 152.4) (xy 38.1 170.18)
 		)
 		(stroke
@@ -16215,6 +16947,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 248.92) (xy 238.76 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4273a7-686a-4068-aa67-b2de7a84da3d")
+	)
+	(wire
+		(pts
 			(xy 137.16 68.58) (xy 152.4 68.58)
 		)
 		(stroke
@@ -16302,6 +17044,16 @@
 			(type default)
 		)
 		(uuid "c22b1895-30a4-4be8-b585-f0f176cf95d5")
+	)
+	(wire
+		(pts
+			(xy 269.24 257.81) (xy 269.24 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2afd5cf-02a8-4031-a886-93edee065f49")
 	)
 	(wire
 		(pts
@@ -16405,6 +17157,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 248.92) (xy 246.38 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c986c23a-a7d8-4973-8515-4a92951119e9")
+	)
+	(wire
+		(pts
 			(xy 48.26 144.78) (xy 45.72 144.78)
 		)
 		(stroke
@@ -16435,6 +17197,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 257.81) (xy 261.62 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbddbb49-2afb-4fc2-b17b-a3447ccf10af")
+	)
+	(wire
+		(pts
 			(xy 297.18 109.22) (xy 312.42 109.22)
 		)
 		(stroke
@@ -16455,6 +17227,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 259.08) (xy 254 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8e7638-3aa0-4cee-8336-2ed89449ae04")
+	)
+	(wire
+		(pts
 			(xy 50.8 40.64) (xy 50.8 58.42)
 		)
 		(stroke
@@ -16472,6 +17254,16 @@
 			(type default)
 		)
 		(uuid "cf0609a4-73bd-4e1b-bba4-963d9d9f7d50")
+	)
+	(wire
+		(pts
+			(xy 246.38 257.81) (xy 246.38 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8ec3ec-44da-4960-b7e6-bdb1c3d2a918")
 	)
 	(wire
 		(pts
@@ -16652,6 +17444,16 @@
 			(type default)
 		)
 		(uuid "df19270e-9a21-4a10-a93f-705f9dba8094")
+	)
+	(wire
+		(pts
+			(xy 276.86 257.81) (xy 276.86 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31be945-6008-4410-977f-29f72d6307ac")
 	)
 	(wire
 		(pts
@@ -19393,6 +20195,196 @@
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KeysDock:1206,100uF")
+		(at 269.24 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19d4f38f-3369-4e51-b1f2-77528f06a09f")
+		(property "Reference" "C35"
+			(at 271.78 251.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 271.78 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KeysDock:C_1206"
+			(at 278.13 350.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "file://${KIPRJMOD}/docs/samsung-capacitors.pdf"
+			(at 278.13 450.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Samsung Electro-Mechanics 1206 (3216M) 100uF MLCC 6.3V dc +/-20% SMD CL31A107MQHNNNE"
+			(at 269.24 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.8"
+			(at 278.13 650.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 278.13 750.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A107MQHNNNE"
+			(at 278.13 850.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "187-CL31A107MQHNNNE"
+			(at 278.13 950.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31A107MQHNNNE?qs=v327UlYrT951En0U6aCdRg%3D%3D"
+			(at 278.13 1050.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "CL31A107MQHNNNE"
+			(at 278.13 1150.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl31a107mqhnnne/samsung-electro-mechanics?utm_currency=USD&region=nac"
+			(at 278.13 1250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Voltage Rated" "6.3V"
+			(at 271.78 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 269.24 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "952505c7-bc00-4888-849d-348a23439d8f")
+		)
+		(pin "1"
+			(uuid "7644d490-1db3-4b48-a6e4-5d68851eff6c")
+		)
+		(instances
+			(project "keysdock"
+				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -24161,6 +25153,242 @@
 		)
 	)
 	(symbol
+		(lib_id "KeysDock:0402,1uF")
+		(at 246.38 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "656b37f1-6a2e-4045-b0f4-aa7d71f9999e")
+		(property "Reference" "C32"
+			(at 248.92 251.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 248.92 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KeysDock:C_0402"
+			(at 244.602 254 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/docs/samsung-capacitors.pdf"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "7021828"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.006USD"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CL05A105KA5NQNC"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" "25V"
+			(at 248.92 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "1uF"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 246.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cba83510-986a-408f-9904-f5837e4afc95")
+		)
+		(pin "2"
+			(uuid "4b63bec4-417e-4562-b8e7-83dcefda0c13")
+		)
+		(instances
+			(project "keysdock"
+				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KeysDock:TLA2518IRTER")
 		(at 332.74 114.3 0)
 		(unit 1)
@@ -24538,6 +25766,196 @@
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KeysDock:1206,100uF")
+		(at 276.86 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72d2f91d-5993-4941-b1c1-a155ec127b15")
+		(property "Reference" "C36"
+			(at 279.4 251.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 279.4 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KeysDock:C_1206"
+			(at 285.75 350.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "file://${KIPRJMOD}/docs/samsung-capacitors.pdf"
+			(at 285.75 450.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Samsung Electro-Mechanics 1206 (3216M) 100uF MLCC 6.3V dc +/-20% SMD CL31A107MQHNNNE"
+			(at 276.86 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.8"
+			(at 285.75 650.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 285.75 750.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A107MQHNNNE"
+			(at 285.75 850.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "187-CL31A107MQHNNNE"
+			(at 285.75 950.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31A107MQHNNNE?qs=v327UlYrT951En0U6aCdRg%3D%3D"
+			(at 285.75 1050.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "CL31A107MQHNNNE"
+			(at 285.75 1150.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl31a107mqhnnne/samsung-electro-mechanics?utm_currency=USD&region=nac"
+			(at 285.75 1250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Voltage Rated" "6.3V"
+			(at 279.4 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 276.86 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3b36afe6-b35b-4d6e-965e-0f19660d60ff")
+		)
+		(pin "1"
+			(uuid "3b215138-e689-4c86-a9af-86cbd9513954")
+		)
+		(instances
+			(project "keysdock"
+				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -25706,6 +27124,242 @@
 		)
 	)
 	(symbol
+		(lib_id "KeysDock:0402,10uF")
+		(at 261.62 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8355de3c-1e58-4844-b230-b799e33cbf7f")
+		(property "Reference" "C34"
+			(at 264.16 251.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 264.16 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KeysDock:C_0402"
+			(at 259.842 254 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/docs/samsung-capacitors.pdf"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6.3V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15525"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "3940889"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.009USD"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CL05A106MQ5NUNC"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" "6.3V"
+			(at 264.16 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "10uF"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bc5e8662-16af-46fa-9fc7-01f5bb741e05")
+		)
+		(pin "1"
+			(uuid "cac7e813-a739-4656-8ba4-3e4cecd78ad9")
+		)
+		(instances
+			(project "keysdock"
+				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KeysDock:TS24CA")
 		(at 39.37 53.34 90)
 		(unit 1)
@@ -26122,6 +27776,242 @@
 			(project "keysdock"
 				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KeysDock:0402,10uF")
+		(at 254 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93630ae9-3ad6-462c-8c70-c3a9749565a7")
+		(property "Reference" "C33"
+			(at 256.54 251.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 256.54 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KeysDock:C_0402"
+			(at 252.222 254 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/docs/samsung-capacitors.pdf"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6.3V 10uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15525"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "3940889"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.009USD"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CL05A106MQ5NUNC"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" "6.3V"
+			(at 256.54 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "10uF"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "59137d0d-692a-462e-83a9-06b0c396b507")
+		)
+		(pin "1"
+			(uuid "6d80c596-41a6-4270-bdad-a4310492d660")
+		)
+		(instances
+			(project "keysdock"
+				(path "/1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -31316,7 +33206,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KeysDock:0402,100Ω")
+		(lib_id "KeysDock:0402,499Ω")
 		(at 191.77 109.22 90)
 		(unit 1)
 		(body_style 1)
@@ -31337,7 +33227,7 @@
 				)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "499Ω"
 			(at 191.77 109.22 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -31369,7 +33259,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 100Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 499Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 191.77 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -31380,7 +33270,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25076"
+		(property "LCSC" "C4125"
 			(at 191.77 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -31391,7 +33281,7 @@
 				)
 			)
 		)
-		(property "Stock" "5907585"
+		(property "Stock" "7644059"
 			(at 191.77 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -31479,7 +33369,7 @@
 				)
 			)
 		)
-		(property "Part" "0402WGF1000TCE"
+		(property "Part" "0402WGF4990TCE"
 			(at 191.77 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -31490,7 +33380,7 @@
 				)
 			)
 		)
-		(property "Resistance" "100Ω"
+		(property "Resistance" "499Ω"
 			(at 191.77 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -31556,7 +33446,7 @@
 				)
 			)
 		)
-		(property "Temperature Coefficient" "±200ppm/°C"
+		(property "Temperature Coefficient" "±100ppm/°C"
 			(at 191.77 109.22 0)
 			(hide yes)
 			(show_name no)
