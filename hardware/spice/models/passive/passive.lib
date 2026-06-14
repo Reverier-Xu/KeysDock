@@ -1,0 +1,138 @@
+*==============================================================================
+* Passive Components Library for KeysDock PCB Simulation
+* Includes realistic parasitic models for PCB-level analysis
+*==============================================================================
+
+*------------------------------------------------------------------------------
+* 0402 Ceramic Capacitor — X7R, 100nF, 16V
+* With realistic ESR and ESL for PDN analysis
+* Parameters: C=100nF, ESR=30mΩ, ESL=0.3nH, Rleak=10GΩ
+*------------------------------------------------------------------------------
+.subckt CAP_0402_100NF 1 2
+.param C_nom = 100nF
+.param ESR = 30m
+.param ESL = 0.3n
+.param Rleak = 10G
+C1  1  10  {C_nom}
+R1  10 11  {ESR}
+L1  11 2   {ESL}
+Rleak 1 2  {Rleak}
+.ends CAP_0402_100NF
+
+*------------------------------------------------------------------------------
+* 0603 Ceramic Capacitor — X7R, 1µF, 10V
+* For decoupling and bypass applications
+* Parameters: C=1µF, ESR=10mΩ, ESL=0.5nH, Rleak=5GΩ
+*------------------------------------------------------------------------------
+.subckt CAP_0603_1UF 1 2
+.param C_nom = 1uF
+.param ESR = 10m
+.param ESL = 0.5n
+.param Rleak = 5G
+C1  1  10  {C_nom}
+R1  10 11  {ESR}
+L1  11 2   {ESL}
+Rleak 1 2  {Rleak}
+.ends CAP_0603_1UF
+
+*------------------------------------------------------------------------------
+* 0603 Ceramic Capacitor — X7R, 10µF, 10V
+* For bulk decoupling
+* Parameters: C=10µF, ESR=5mΩ, ESL=0.8nH, Rleak=1GΩ
+*------------------------------------------------------------------------------
+.subckt CAP_0603_10UF 1 2
+.param C_nom = 10uF
+.param ESR = 5m
+.param ESL = 0.8n
+.param Rleak = 1G
+C1  1  10  {C_nom}
+R1  10 11  {ESR}
+L1  11 2   {ESL}
+Rleak 1 2  {Rleak}
+.ends CAP_0603_10UF
+
+*------------------------------------------------------------------------------
+* 0402 Resistor — Generic ±1%
+* Parameters: R_nom, parasitic L and C
+*------------------------------------------------------------------------------
+.subckt RES_0402 1 2
+.param R_nom = 1k
+.param L_par = 0.2nH
+.param C_par = 0.05pF
+R1  1  10 {R_nom}
+L1  10 2  {L_par}
+Cpar 1  2  {C_par}
+.ends RES_0402
+
+*------------------------------------------------------------------------------
+* Ferrite Bead — Simplified Model (e.g., BLM18 series)
+* Rdc=0.15Ω, Z@100MHz=120Ω
+*------------------------------------------------------------------------------
+.subckt FERRITE_BEAD_0603 1 2
+.param Rdc = 0.15
+.param Lbead = 0.5u
+.param Cpar = 0.2pF
+.param Rpar = 120
+Rdc   1   10  {Rdc}
+Lbead 10  11  {Lbead}
+Rpar  10  11  {Rpar}
+Cpar  1   2   {Cpar}
+.ends FERRITE_BEAD_0603
+
+*------------------------------------------------------------------------------
+* PCB Trace Model — 1 cm Microstrip (simplified RLC)
+* Assumes 4-layer board, ~0.15mm dielectric, 50Ω impedance
+* Parameters per cm: R=0.05Ω, L=3.5nH, C=1.1pF
+*------------------------------------------------------------------------------
+.subckt TRACE_1CM 1 2
+.param R = 0.05
+.param L = 3.5nH
+.param C = 1.1pF
+R1  1  10 {R}
+L1  10 2  {L}
+C1  10 0  {C}
+C2  2  0  {C/2}
+.ends TRACE_1CM
+
+*------------------------------------------------------------------------------
+* PCB Trace Model — 10 cm Microstrip
+* For inter-board connections (controller → typeboard, ~10cm)
+*------------------------------------------------------------------------------
+.subckt TRACE_10CM 1 2
+.param R = 0.5
+.param L = 35nH
+.param C = 11pF
+R1  1  10 {R}
+L1  10 2  {L}
+C1  10 0  {C/2}
+C2  2  0  {C/2}
+.ends TRACE_10CM
+
+*==============================================================================
+* Battery Model — Li-Ion 1S (3.0V ~ 4.2V)
+* Simplified: ideal voltage source + internal resistance
+*==============================================================================
+.subckt BAT_LIION_1S PLUS MINUS
+.param V_nom = 3.7
+.param R_int = 0.15       ; internal resistance (aged cell ~150mΩ)
+.param C_eq = 1000F        ; equivalent capacitance (huge, for DC)
+
+* Thevenin equivalent with RC for transient
+V_ocv  N_OCV  MINUS DC {V_nom}
+R_ser  N_OCV  PLUS  {R_int}
+
+.ends BAT_LIION_1S
+
+*==============================================================================
+* USB VBUS Source — 5V ±5%, with cable resistance
+*==============================================================================
+.subckt USB_VBUS VBUS GND
+.param V_usb = 5.0
+.param R_cable = 0.3     ; cable + connector resistance
+.param L_cable = 200nH   ; cable inductance
+
+V_src N_src GND DC {V_usb}
+R_cbl N_src N_cbl {R_cable}
+L_cbl N_cbl VBUS {L_cable}
+
+.ends USB_VBUS

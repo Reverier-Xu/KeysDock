@@ -1,0 +1,67 @@
+*==============================================================================
+* TLA2518 — 8-Ch 12-Bit SAR ADC Analog Front-End Behavioral Model
+* Texas Instruments TLA2518IRTER (WQFN-16)
+* AVDD = 3.3V, ngspice-compatible version
+*==============================================================================
+* Key parameters from datasheet:
+*   CSH    = 12 pF  (sampling capacitor)
+*   RIN    = 500 Ω  (input mux switch resistance, estimated)
+*   CIN    = 5 pF   (input pin capacitance)
+*   FSR    = 0 ~ AVDD
+*   VIN max absolute = AVDD + 0.3V
+*==============================================================================
+
+.subckt TLA2518_AIN AIN AVDD GND
+.param CSH   = 12pF
+.param RIN   = 500
+.param CIN   = 5pF
+.param ILEAK = 1u
+
+Rsw   AIN CSH_NODE {RIN}
+Csh   CSH_NODE GND {CSH}
+Cpin  AIN GND {CIN}
+Ileak AIN GND DC {ILEAK}
+
+* ESD clamp diodes (model as standard silicon diodes)
+Desd_hi AIN AVDD DESD_CLAMP
+Desd_lo GND AIN DESD_CLAMP
+.model DESD_CLAMP D (Is=1e-12 Rs=10 Cjo=2pF BV=5.5)
+
+.ends TLA2518_AIN
+
+*==============================================================================
+* TLA2518_AIN7_BAT — AIN7 channel with overvoltage behavior
+*==============================================================================
+.subckt TLA2518_AIN7_BAT AIN AVDD GND
+.param CSH = 12pF
+.param RIN = 500
+.param CIN = 5pF
+
+Rsw  AIN CSH_NODE {RIN}
+Csh  CSH_NODE GND {CSH}
+Cpin AIN GND {CIN}
+
+* ESD clamp: conducts when VAIN > AVDD + 0.7V
+Dclamp AIN AVDD DCLAMP_ESD
+Dgnd   GND AIN DCLAMP_ESD
+.model DCLAMP_ESD D (Is=1e-12 Rs=10 Cjo=2pF BV=5.5)
+
+.ends TLA2518_AIN7_BAT
+
+*==============================================================================
+* TLA2518_ADC_CH — Single channel with buffered measurement node
+* VOUT_MEAS = voltage at the sampling capacitor
+*==============================================================================
+.subckt TLA2518_ADC_CH AIN AVDD GND VOUT_MEAS
+.param CSH = 12pF
+.param RIN = 500
+.param CIN = 5pF
+
+Cpin AIN GND {CIN}
+Rsw  AIN CSH_NODE {RIN}
+Csh  CSH_NODE GND {CSH}
+
+* Unity-gain buffer for non-invasive measurement
+Ebuf VOUT_MEAS GND CSH_NODE GND 1.0
+
+.ends TLA2518_ADC_CH

@@ -1268,7 +1268,7 @@
         "uuid": "1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
       }
     ],
-    "used_designators": "C32-118",
+    "used_designators": "#PWR15,C32-118",
     "variants": []
   },
   "sheets": [

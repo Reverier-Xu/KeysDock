@@ -1,0 +1,87 @@
+*==============================================================================
+* SC4823S6 — Linear Hall-Effect Sensor Behavioral SPICE Model
+* Semiment SC4823S6-TR (SOT-23-6)
+* Sensitivity: 3.3 mV/Gs @ VCC=3.3V
+* ngspice-compatible version
+*==============================================================================
+* Pin mapping:
+*   1: VCC   — power supply (2.5V ~ 5.5V)
+*   2: VSS   — ground
+*   3: VOUT  — analog output
+*   4: SLEEP — sleep control (HIGH = sleep / LOW = active)
+*   5: VSS   — ground (pin 5)
+*   6: AWAKE — wake output / mode input
+*
+* Operating modes:
+*   ACTIVE:  SLEEP < 0.5V, AWAKE > 1.0V → VOUT = VCC/2 + Sens*B
+*   SLEEP:   SLEEP > 1.0V → VOUT = Hi-Z, Iq=1.5uA
+*   MUTED:   SLEEP < 0.5V, AWAKE < 1.0V → VOUT = Hi-Z
+*
+* Hidden node: B_MAG — magnetic field input in Gauss
+*==============================================================================
+
+.subckt SC4823S6 VCC VSS VOUT SLEEP AWAKE
+.param Vq     = 1.65
+.param Sens   = 3.3e-3
+.param Rout   = 1k
+.param Roff   = 10Meg
+.param Cvout  = 50pF
+.param Iq_on  = 0.6m
+.param Iq_off = 1.5u
+
+* Supply current (mode-dependent, simplified to active)
+Isupply VCC VSS DC {Iq_on}
+
+* SLEEP and AWAKE input capacitance
+C_sleep  SLEEP VSS 5pF
+C_awake  AWAKE VSS 5pF
+
+* AWAKE weak pull-up resistor
+R_awake_pu AWAKE VCC 100k
+
+* VOUT capacitance
+C_vout VOUT VSS {Cvout}
+
+* Behavioral VOUT voltage source
+* Mode detection via internal nodes
+* N_MODE_ACTIVE = 1 when SLEEP<1V AND AWAKE>1V, else 0
+* N_MODE_HIZ   = 1 when in Hi-Z mode (sleep or muted)
+
+* Voltage-controlled resistor between VOUT and VSS
+* When active: Rout=1k to thevenin voltage Vq+Sens*B
+* When Hi-Z:   10Meg to VSS (practical Hi-Z)
+
+* Output voltage: thevenin equivalent
+* Active:  VOUT_thev = 1.65 + 3.3e-3 * B
+* Hi-Z:    VOUT pulled weakly to VSS
+B_thev N_THEV VSS V = 1.65 + 3.3e-3 * V(B_MAG)
+
+* Output resistance: low when active, high when Hi-Z
+* Use a voltage-controlled resistor approximation
+* R_eff = 1k (active) or 10Meg (Hi-Z)
+* Implement as G-source: I = (VOUT - Vthev) / R_eff
+G_out VOUT N_THEV VALUE = { 
++ (V(VOUT) - V(N_THEV)) / 
++ (1e3 * (1 - V(N_HIZ)) + 1e7 * V(N_HIZ) + 1e-12) }
+
+* Mode detection: Hi-Z when SLEEP>1V OR AWAKE<1V
+* N_HIZ = 1 when in Hi-Z mode, 0 when active
+B_hiz N_HIZ VSS V = (V(SLEEP) > 1.0) | (V(AWAKE) < 1.0)
+
+.ends SC4823S6
+
+*==============================================================================
+* SC4823S6_SIMPLE — Simplified model for signal chain analysis
+* Assumes sensor is active (SLEEP=LOW, AWAKE=HIGH)
+*==============================================================================
+.subckt SC4823S6_SIMPLE VCC VSS VOUT B_MAG
+.param Vq   = 1.65
+.param Sens = 3.3e-3
+.param Rout = 1k
+.param Cvout = 50pF
+
+R_out  VOUT VSS {Rout}
+C_out  VOUT VSS {Cvout}
+B_vout VOUT VSS V = {Vq} + {Sens} * V(B_MAG)
+
+.ends SC4823S6_SIMPLE

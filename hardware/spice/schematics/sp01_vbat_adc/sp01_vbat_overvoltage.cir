@@ -1,0 +1,92 @@
+*==============================================================================
+* SP01: VBAT Battery Voltage Monitor — Actual PCB (rev 0.3.0)
+* KeysDock Controller — TLA2518 AIN7 connection
+*==============================================================================
+* Actual circuit:
+*   /VBAT ── R8(100k) ──┬── AIN7 ── R9(100k) ── +3.3V
+*                        ├── C3(100nF) ── +3.3V
+*                        └── U2 pin 6 (TLA2518 AIN7/GPIO7)
+*
+* WARNING: R9 goes to +3.3V, NOT GND. This means:
+*   V_AIN7 = (VBAT * 100k + 3.3V * 100k) / 200k = (VBAT + 3.3V) / 2
+*   At VBAT=3.7V: AIN7 = 3.5V → EXCEEDS 3.3V AVDD!
+*   At VBAT=4.2V: AIN7 = 3.75V → SIGNIFICANT OVERVOLTAGE!
+*==============================================================================
+
+.include ../../models/custom/tla2518_afe.lib
+
+*------------------------------------------------------------------------------
+* Test 1: Actual PCB circuit (R9 → +3.3V) — OVERVOLTAGE RISK
+*------------------------------------------------------------------------------
+VAVDD N_AVDD 0 DC 3.3
+
+* VBAT source (sweep 2.5V ~ 4.5V)
+VBAT N_VBAT 0 DC 3.7
+
+* Actual PCB: R8=100k series, R9=100k to +3.3V, C3=100nF to +3.3V
+R8_actual  N_VBAT N_AIN7_ACT  100k
+R9_actual  N_AIN7_ACT N_AVDD  100k
+C3_actual  N_AIN7_ACT N_AVDD  100nF
+
+* TLA2518 AIN7 input (with ESD clamp)
+XADC_ACT N_AIN7_ACT N_AVDD 0 TLA2518_AIN7_BAT
+
+*------------------------------------------------------------------------------
+* Test 2: Corrected circuit (R9 → GND) — SAFE
+*------------------------------------------------------------------------------
+R8_fix  N_VBAT N_AIN7_FIX  100k
+R9_fix  N_AIN7_FIX 0       100k
+C3_fix  N_AIN7_FIX 0       100nF
+XADC_FIX N_AIN7_FIX N_AVDD 0 TLA2518_AIN7_BAT
+
+*------------------------------------------------------------------------------
+* Analysis
+*------------------------------------------------------------------------------
+.control
+
+echo "============================================"
+echo "SP01: VBAT → AIN7 Analysis (rev 0.3.0 PCB)"
+echo "============================================"
+echo ""
+echo "Actual PCB: R8=100k (VBAT→AIN7), R9=100k (AIN7→+3.3V)"
+echo "Result: V_AIN7 = (VBAT + 3.3V) / 2"
+echo ""
+
+* DC sweep: VBAT 2.5V → 4.5V
+dc VBAT 2.5 4.5 0.01
+
+echo "VBAT    V(AIN7_actual)  ESD_current"
+echo "--- Actual circuit (R9→+3.3V) ---"
+print V(N_VBAT) V(N_AIN7_ACT) i(VBAT)
+
+echo ""
+echo "VBAT    V(AIN7_fixed)   Safe?"
+echo "--- Fixed circuit (R9→GND) ---"
+print V(N_VBAT) V(N_AIN7_FIX)
+
+echo ""
+echo "===== SP01 CONCLUSIONS ====="
+echo ""
+echo "CRITICAL FINDING: R9 connects to +3.3V, not GND!"
+echo ""
+echo "  VBAT=3.7V nominal → AIN7=3.50V > AVDD(3.3V)"
+echo "  VBAT=4.2V fully charged → AIN7=3.75V → ~0.45V over AVDD"
+echo "  This will forward-bias the internal ESD diode"
+echo "  Long-term: risk of ADC degradation or failure"
+echo ""
+echo "FIX: Change R9 connection from +3.3V to GND"
+echo "  Then: V_AIN7 = VBAT/2 (safe up to VBAT=6.6V)"
+echo "  VBAT=4.2V → AIN7=2.1V (1.2V margin below AVDD)"
+echo ""
+echo "Alternatively: keep R9 to +3.3V but change ratio"
+echo "  E.g., R8=200k, R9=100k: V_AIN7 = (VBAT+6.6)/3"
+echo "  VBAT=4.2V → AIN7=3.6V → still > AVDD"
+echo "  Only a divider to GND is truly safe"
+echo ""
+echo "Firmware workaround (if no PCB fix):"
+echo "  Clamp ADC reading at 3.3V in software"
+echo "  BUT: ESD diode still conducts during overvoltage"
+
+.endc
+
+.end

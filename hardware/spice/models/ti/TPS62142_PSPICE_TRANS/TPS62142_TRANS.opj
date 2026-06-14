@@ -1,0 +1,43 @@
+(ExpressProject "TPS62142_TRANS"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\tps62142_trans.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\tps62142_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tps62142_trans-pspicefiles\startup\startup.sim"
+        (DisplayName "Startup-startup")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\tps62142_trans-pspicefiles\startup\startup.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\tps62142_trans.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\tps62142_trans.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (GlobalState
+    (FileView
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -30 0 200 0 561"))
+      (Tab 0)))
+  (MPSSessionName "x0093500"))

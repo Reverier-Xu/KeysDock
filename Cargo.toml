@@ -8,8 +8,8 @@ edition      = "2024"
 homepage     = "https://keys.woooo.tech/"
 publish      = false
 repository   = "https://github.com/Reverier-Xu/KeysDock"
-rust-version = "1.92"
-version      = "0.2.7"
+rust-version = "1.96"
+version      = "0.3.0"
 
 [workspace.dependencies]
 critical-section = "1.2"
@@ -17,27 +17,27 @@ defmt            = "1.0"
 rtt-target       = { version = "0.6.2", features = ["defmt"] }
 static_cell      = "2.1"
 
-embassy-executor = "0.9"
+embassy-executor = "0.10"
 embassy-futures  = "0.1"
 embassy-time     = { version = "0.5", features = ["defmt"] }
-embassy-usb      = { version = "0.5", default-features = false }
+embassy-usb      = { version = "0.6", default-features = false }
 
 embedded-io       = { version = "0.7", features = ["defmt"] }
 embedded-io-async = { version = "0.7", features = ["defmt"] }
 
-esp-alloc              = { version = "0.9", features = ["esp32c6", "defmt"] }
-esp-backtrace          = { version = "0.18", features = ["esp32c6", "colors", "defmt"] }
-esp-bootloader-esp-idf = { version = "0.4", features = ["esp32c6", "defmt"] }
-esp-config             = { version = "0.6", features = ["build", "tui"] }
+esp-alloc              = { version = "0.10", features = ["esp32c6", "defmt"] }
+esp-backtrace          = { version = "0.19", features = ["esp32c6", "colors", "defmt"] }
+esp-bootloader-esp-idf = { version = "0.5", features = ["esp32c6", "defmt"] }
+esp-config             = { version = "0.7", features = ["build", "tui"] }
 esp-hal                = { version = "1.0", features = ["esp32c6", "defmt", "unstable"] }
-esp-hal-ota            = { version = "0.4", features = ["esp32c6", "defmt"] }
-esp-hal-procmacros     = { version = "0.21" }
+esp-hal-ota            = { version = "0.5", features = ["esp32c6", "defmt"] }
+esp-hal-procmacros     = { version = "0.22" }
 esp-metadata           = { version = "0.10", features = ["clap"] }
-esp-metadata-generated = { version = "0.3" }
-esp-phy                = { version = "0.1", features = ["esp32c6", "defmt"] }
-esp-println            = { version = "0.16", features = ["esp32c6", "defmt-espflash"] }
-esp-riscv-rt           = { version = "0.13", features = ["defmt"] }
-esp-storage            = { version = "0.8", features = ["esp32c6", "defmt"] }
+esp-metadata-generated = { version = "0.4" }
+esp-phy                = { version = "0.2", features = ["esp32c6", "defmt"] }
+esp-println            = { version = "0.17", features = ["esp32c6", "defmt-espflash"] }
+esp-riscv-rt           = { version = "0.14", features = ["defmt"] }
+esp-storage            = { version = "0.9", features = ["esp32c6", "defmt"] }
 
 
 [workspace.dependencies.bleps]
@@ -48,15 +48,15 @@ rev      = "a5148d8ae679e021b78f53fd33afb8bb35d0b62e"
 
 [workspace.dependencies.embassy-net]
 features = ["defmt", "dhcpv4", "medium-ethernet", "tcp", "udp"]
-version  = "0.8"
+version  = "0.9"
 
 [workspace.dependencies.esp-radio]
 features = ["ble", "coex", "defmt", "esp-alloc", "esp32c6", "unstable", "wifi"]
-version  = "0.17"
+version  = "0.18"
 
 [workspace.dependencies.esp-rtos]
 features = ["defmt", "embassy", "esp-alloc", "esp-radio", "esp32c6"]
-version  = "0.2"
+version  = "0.3"
 
 [profile.dev]
 lto       = "fat"
