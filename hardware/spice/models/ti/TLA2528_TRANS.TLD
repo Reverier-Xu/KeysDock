@@ -1,2 +1,0 @@
-Texas Instruments
-SUBCKT TLA2528_TRANS AIN0_GPIO0 AIN1_GPIO1 Vsamp BUSY Channel_Sequence AVDD Convert_Start  Texas:TLA2528_TRANS [ADConverters] 
