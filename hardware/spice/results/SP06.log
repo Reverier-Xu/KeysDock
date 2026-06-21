@@ -26,16 +26,16 @@ vref#branch                       -3.26733e-06
 No. of Data Rows : 50027
 .print line ignored since rawfile was produced.
 
-Total analysis time (seconds) = 0.0678225
+Total analysis time (seconds) = 0.0721932
 
-Total elapsed time (seconds) = 0.070 
+Total elapsed time (seconds) = 0.075 
 
-Total DRAM available = 31708.289 MB.
-DRAM currently available = 10351.121 MB.
+Total DRAM available = 31708.285 MB.
+DRAM currently available = 1008.715 MB.
 Maximum ngspice program size =   19.836 MB.
-Current ngspice program size =   11.855 MB.
+Current ngspice program size =   12.039 MB.
 
-Shared ngspice pages =   10.062 MB.
+Shared ngspice pages =   10.246 MB.
 Text (code) pages =    6.449 MB.
 Stack = 0 bytes.
 Library pages =    1.887 MB.

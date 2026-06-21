@@ -23,17 +23,17 @@ vbat#branch                         -0.0669678
 No. of Data Rows : 508
 .print line ignored since rawfile was produced.
 
-Total analysis time (seconds) = 0.000625902
+Total analysis time (seconds) = 0.00108162
 
-Total elapsed time (seconds) = 0.001 
+Total elapsed time (seconds) = 0.003 
 
-Total DRAM available = 31708.289 MB.
-DRAM currently available = 10353.258 MB.
-Maximum ngspice program size =   19.836 MB.
-Current ngspice program size =   12.160 MB.
+Total DRAM available = 31708.285 MB.
+DRAM currently available = 1006.633 MB.
+Maximum ngspice program size =   19.832 MB.
+Current ngspice program size =   12.203 MB.
 
-Shared ngspice pages =   10.359 MB.
+Shared ngspice pages =   10.402 MB.
 Text (code) pages =    6.449 MB.
 Stack = 0 bytes.
-Library pages =    1.887 MB.
+Library pages =    1.883 MB.
 

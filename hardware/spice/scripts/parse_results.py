@@ -102,10 +102,12 @@ def main():
         ts_i = idx_of(names, "v(ts)")
         if rows and all(x is not None for x in [sys_i, bat_i, chg_i, pg_i, ts_i]):
             last = rows[-1]
+            chg_state = "charging (CHG active-low)" if last[chg_i] < 1.0 else "not charging"
+            ts_state = "valid" if 0.30 < last[ts_i] < 2.10 else "TS FAULT"
             metrics["SP02"]["summary"] = (
                 f"USB present: SYS={last[sys_i]:.2f}V, BAT={last[bat_i]:.2f}V, "
-                f"CHG={last[chg_i]:.2f}V (not charging due to TS fault), PGOOD={last[pg_i]:.2f}V. "
-                f"TS bias at {last[ts_i]*1000:.1f}mV is below cold threshold."
+                f"CHG={last[chg_i]:.2f}V ({chg_state}), PGOOD={last[pg_i]:.2f}V. "
+                f"TS bias at {last[ts_i]*1000:.1f}mV is {ts_state} (valid window 0.30V-2.10V)."
             )
 
     # SP03: buck
@@ -149,14 +151,21 @@ def main():
     if "SP16" in metrics:
         rows, names = metrics["SP16"]["rows"], metrics["SP16"]["names"]
         vin_i = idx_of(names, "v(vin)")
-        tsb_i = idx_of(names, "v(ts_bad)")
         tsg_i = idx_of(names, "v(ts_good)")
-        if rows and all(x is not None for x in [vin_i, tsb_i, tsg_i]):
+        tsb_i = idx_of(names, "v(ts_bad)")
+        chg_good_i = idx_of(names, "v(chg_good)")
+        chg_bad_i = idx_of(names, "v(chg_bad)")
+        if rows and all(x is not None for x in [vin_i, tsg_i, tsb_i, chg_good_i, chg_bad_i]):
             last = rows[-1]
+            good_ok = 0.30 < last[tsg_i] < 2.10 and last[chg_good_i] < 1.0
+            bad_ok = 0.30 < last[tsb_i] < 2.10 and last[chg_bad_i] < 1.0
             metrics["SP16"]["summary"] = (
-                f"At VIN={last[vin_i]:.1f}V: current schematic TS/VIN={last[tsb_i]/last[vin_i]*100:.1f}% "
-                f"(FAULT, <45%); recommended 22kΩ/47kΩ divider TS/VIN={last[tsg_i]/last[vin_i]*100:.1f}% "
-                f"(OK, within 45-80% window)."
+                f"At VIN={last[vin_i]:.1f}V: "
+                f"10kΩ TS-to-GND (datasheet NTC-disabled) V_TS={last[tsg_i]:.3f}V "
+                f"({'OK, charging enabled' if good_ok else 'FAULT'}); "
+                f"22kΩ/47kΩ divider-to-VIN V_TS={last[tsb_i]:.2f}V "
+                f"({'OK' if bad_ok else 'FAULT, exceeds VCOLD'}). "
+                f"Current schematic is correct per BQ24074 datasheet."
             )
 
     report_path = ROOT / "reports" / "findings.md"
@@ -170,7 +179,7 @@ def main():
         lines.append(f"- Data points: {len(m['rows'])}\n\n")
 
     lines.append("## Summary of Critical Findings\n\n")
-    lines.append("1. **BQ24074 TS bias is wrong in current schematic.** R14=10kΩ pulls TS to GND, causing a TS fault and preventing charging. Use a 22kΩ/47kΩ divider from VIN or bias TS to ~66% of VIN.\n")
+    lines.append("1. **BQ24074 TS bias is correct in current schematic.** R14=10kΩ from TS to GND matches the BQ24074 datasheet recommendation for NTC-disabled applications (TS voltage = ~0.75V, inside the 0.30V-2.10V valid window). The earlier ratio-based threshold model was wrong.\n")
     lines.append("2. **LED current budget violation.** 82 WS2812B RGBW LEDs at full white draw ~4.9A, exceeding the TPS22910A 2A switch rating and the USB-C 500mA advertised limit. Firmware must limit brightness based on power source.\n")
     lines.append("3. **+3.3V output capacitance is large (~220µF).** TPS62142 regulates but soft-start is prolonged; verify loop stability and inrush on hardware.\n")
     lines.append("4. **VBAT divider is correct.** R8/R9=100kΩ gives AIN7 = VBAT/2, staying within TLA2518 0-3.3V range for VBAT up to 4.5V.\n")

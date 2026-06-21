@@ -1,5 +1,5 @@
 # KeysDock SPICE Simulation Summary
-Date: 2026-06-20T22:36:47+08:00
+Date: 2026-06-22T02:31:30+08:00
 | Sim | File | Status | Notes |
 |-----|------|--------|-------|
 | SP01 | sp01_vbat_divider.cir | OK |  |

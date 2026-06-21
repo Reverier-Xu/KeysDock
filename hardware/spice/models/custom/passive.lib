@@ -61,11 +61,10 @@ R1 n3 n2 0.1
 R1 n1 n2 {R}
 .ENDS R0402
 
-* Li-ion battery model: voltage source + internal resistance + small capacitance
+* Li-ion battery model: voltage source + internal resistance
 .SUBCKT BATTERY n_plus n_minus PARAMS: V=3.7 R=0.1
 V1 n_plus n_int DC {V}
 R1 n_int n_minus {R}
-C1 n_plus n_minus 10u
 .ENDS BATTERY
 
 * USB 5V source with cable resistance

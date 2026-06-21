@@ -1,19 +1,23 @@
 * SP16: BQ24074 TS bias compliance
-* Compare current schematic (10k to GND) with recommended NTC-disabled bias
+* Verify datasheet recommendation: 10k from TS to VSS for NTC-disabled apps.
+* Also show a divider-to-VIN configuration triggers TS fault.
+
+.include models/custom/bq24074.lib
+.include models/custom/passive.lib
 
 VUSB vin 0 DC 5.0
+XU4 vin bat sys ts_good 0 0 0 0 0 chg_good pg_good 0 BQ24074
+XU5 vin bat sys ts_bad  0 0 0 0 0 chg_bad  pg_bad  0 BQ24074
+XBAT bat 0 BATTERY PARAMS: V=3.5 R=0.1
 
-* Current schematic: TS pulled to GND via R14=10k
-RTS_BAD vin ts_bad 10k
-R2_BAD ts_bad 0 1
+* Correct NTC-disabled bias per datasheet: 10k from TS to GND
+RTS_GOOD ts_good 0 10k
 
-* Recommended NTC-disabled bias: TS = 66% of VIN (47k to +3.3V, 10k to GND approx)
-* Using a divider from VIN: Rtop=10k, Rbot=47k gives TS/VIN = 47/(10+47)=82% (slightly high)
-* Better: Rtop=22k, Rbot=47k -> 47/69=68%
-R_TOP vin ts_good 22k
-R_BOT ts_good 0 47k
+* Incorrect divider from VIN: TS sits at ~68% of VIN -> exceeds VCOLD (2.1 V)
+R_TOP vin ts_bad 22k
+R_BOT ts_bad 0 47k
 
 .op
 .dc VUSB 4.5 6.0 0.1
-.print dc v(ts_bad) v(ts_good) {v(ts_bad)/v(vin)} {v(ts_good)/v(vin)}
+.print dc v(vin) v(ts_good) v(ts_bad) v(chg_good) v(chg_bad)
 .end

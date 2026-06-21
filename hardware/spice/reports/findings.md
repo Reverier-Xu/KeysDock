@@ -9,7 +9,7 @@
 ## SP02
 
 - Variables: time, v(vusb), v(vin), v(bat), v(xbat.n_int), v(xu4.vin_ok)...
-- **Result:** USB present: SYS=4.38V, BAT=3.50V, CHG=3.30V (not charging due to TS fault), PGOOD=0.00V. TS bias at 5000.0mV is below cold threshold.
+- **Result:** USB present: SYS=4.38V, BAT=3.55V, CHG=0.00V (charging (CHG active-low)), PGOOD=0.00V. TS bias at 750.0mV is valid (valid window 0.30V-2.10V).
 - Data points: 826
 
 ## SP03
@@ -72,13 +72,13 @@
 
 ## SP16
 
-- Variables: v(v-sweep), v(vin), v(ts_bad), v(ts_good), i(vusb)
-- **Result:** At VIN=6.0V: current schematic TS/VIN=0.0% (FAULT, <45%); recommended 22kΩ/47kΩ divider TS/VIN=68.1% (OK, within 45-80% window).
+- Variables: v(v-sweep), v(vin), v(xu4.vin_ok), v(ts_good), v(xu4.gts_int1), v(xu4.ts_ok)...
+- **Result:** At VIN=6.0V: 10kΩ TS-to-GND (datasheet NTC-disabled) V_TS=0.750V (OK, charging enabled); 22kΩ/47kΩ divider-to-VIN V_TS=5.21V (FAULT, exceeds VCOLD). Current schematic is correct per BQ24074 datasheet.
 - Data points: 16
 
 ## Summary of Critical Findings
 
-1. **BQ24074 TS bias is wrong in current schematic.** R14=10kΩ pulls TS to GND, causing a TS fault and preventing charging. Use a 22kΩ/47kΩ divider from VIN or bias TS to ~66% of VIN.
+1. **BQ24074 TS bias is correct in current schematic.** R14=10kΩ from TS to GND matches the BQ24074 datasheet recommendation for NTC-disabled applications (TS voltage = ~0.75V, inside the 0.30V-2.10V valid window). The earlier ratio-based threshold model was wrong.
 2. **LED current budget violation.** 82 WS2812B RGBW LEDs at full white draw ~4.9A, exceeding the TPS22910A 2A switch rating and the USB-C 500mA advertised limit. Firmware must limit brightness based on power source.
 3. **+3.3V output capacitance is large (~220µF).** TPS62142 regulates but soft-start is prolonged; verify loop stability and inrush on hardware.
 4. **VBAT divider is correct.** R8/R9=100kΩ gives AIN7 = VBAT/2, staying within TLA2518 0-3.3V range for VBAT up to 4.5V.

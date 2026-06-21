@@ -23,16 +23,16 @@ vesd#branch                       -1.13596e-27
 No. of Data Rows : 524
 .print line ignored since rawfile was produced.
 
-Total analysis time (seconds) = 0.00116241
+Total analysis time (seconds) = 0.000716309
 
 Total elapsed time (seconds) = 0.002 
 
-Total DRAM available = 31708.289 MB.
-DRAM currently available = 10347.578 MB.
+Total DRAM available = 31708.285 MB.
+DRAM currently available = 1009.781 MB.
 Maximum ngspice program size =   19.832 MB.
-Current ngspice program size =   11.914 MB.
+Current ngspice program size =   12.094 MB.
 
-Shared ngspice pages =   10.125 MB.
+Shared ngspice pages =   10.305 MB.
 Text (code) pages =    6.449 MB.
 Stack = 0 bytes.
 Library pages =    1.883 MB.

@@ -8,7 +8,7 @@ binary raw file "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP
 Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
 
 Using SPARSE 1.3 as Direct Linear Solver
-No. of Data Columns : 28  
+No. of Data Columns : 30  
 
 Initial Transient Solution
 --------------------------
@@ -18,18 +18,19 @@ Node                                   Voltage
 vusb                                         0
 vin                                          0
 bat                                        3.5
-xbat.n_int                                   0
+xbat.n_int                         2.12418e-19
 xu4.vin_ok                                   0
-xu4.ts_ok                                    0
 ts                                           0
-xu4.gchg_int1                                0
-iset                                         0
+xu4.gts_int1                                 0
+xu4.ts_ok                                    0
+xu4.gchg_int1                     -2.12418e-18
 xu4.sys_ctrl                               3.5
 xu4.sys_int                                3.5
 xu4.evout_int1                             3.5
 sys                                    3.48659
 pg                                         3.3
 chg                                        3.3
+iset                                         0
 ilim                                         0
 iterm                                        0
 b.xu4.bchg#branch                     -3.3e-07
@@ -38,26 +39,27 @@ b.xu4.bevout#branch                          0
 b.xu4.bsysv#branch                           0
 b.xu4.bgchg#branch                           0
 b.xu4.bts_ok#branch                          0
+b.xu4.bgts#branch                            0
 b.xu4.bvin_ok#branch                         0
 e.xu4.evout#branch                   -0.268199
-v.xbat.v1#branch                             0
+v.xbat.v1#branch                   2.12418e-18
 vusb#branch                                  0
 
 
 No. of Data Rows : 826
 .print line ignored since rawfile was produced.
 
-Total analysis time (seconds) = 0.00314539
+Total analysis time (seconds) = 0.00591146
 
-Total elapsed time (seconds) = 0.004 
+Total elapsed time (seconds) = 0.007 
 
-Total DRAM available = 31708.289 MB.
-DRAM currently available = 10357.953 MB.
-Maximum ngspice program size =   19.969 MB.
-Current ngspice program size =   12.098 MB.
+Total DRAM available = 31708.285 MB.
+DRAM currently available = 1011.129 MB.
+Maximum ngspice program size =   19.965 MB.
+Current ngspice program size =   12.074 MB.
 
-Shared ngspice pages =   10.234 MB.
+Shared ngspice pages =   10.199 MB.
 Text (code) pages =    6.449 MB.
 Stack = 0 bytes.
-Library pages =    2.020 MB.
+Library pages =    2.016 MB.
 

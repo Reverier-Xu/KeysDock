@@ -4,7 +4,7 @@
 *   - SYS follows max(IN-0.2V, BAT-0.05V) when input present; follows BAT when no input
 *   - Charge current set by ISET resistor: Ichg = 540 / Riset (Ω)  [Kiset ~540 AΩ]
 *   - Input current limit set by ILIM resistor: Ilim = 1550 / Rilim (Ω) for Rilim >=1.1k
-*   - TS pin must be 45-80% of VIN for normal charging; outside -> fault (no charge)
+*   - TS pin biased by ~75 uA internal current source; valid window ~0.3 V - 2.1 V
 *   - SYS output current-limited and regulated to ~4.4V max
 *   - PGOOD open-drain active-low when valid VIN present (VIN > UVLO ~3.2V)
 *   - CHG open-drain active-low while charging
@@ -15,17 +15,21 @@
 .PARAM K_ISET=540.0
 .PARAM K_ILIM=1550.0
 
-* Detect valid input (above ~3.2V UVLO)
-BVIN_OK VIN_OK 0 V=V(IN,GND)>3.5?3.3:0
+* Detect valid input (above ~3.2V UVLO); smoothed for convergence
+BVIN_OK VIN_OK 0 V=1.65*(1+TANH((V(IN,GND)-3.5)/0.1))
 
-* TS compliance window: VTS must be 45%-80% of VIN
-* If VIN_OK low, force fault; otherwise compare ratio
-BTS_OK TS_OK 0 V=V(VIN_OK)>1.0 && V(TS,GND)>0.45*V(IN,GND) && V(TS,GND)<0.80*V(IN,GND)?3.3:0
+* Internal NTC bias current source (~75 uA) sourced into TS when VIN valid
+GTS GND TS VALUE={V(VIN_OK)>1.0 ? 75u : 0}
+
+* TS compliance window: VHOT ~0.30 V, VCOLD ~2.10 V (absolute thresholds)
+* Smooth window function for better convergence
+BTS_OK TS_OK 0 V=V(VIN_OK)*0.25*(1+TANH((V(TS,GND)-0.30)/0.05))*(1-TANH((V(TS,GND)-2.10)/0.05))
 
 * Charge current programming from ISET resistor
-* Riset = V(ISET)/ISET current; assume ISET pin ≈ 1V during operation
-* Use a simple current source proportional to 1/Riset
-GCHG BAT GND VALUE={V(VIN_OK)>1.0 && V(TS_OK)>1.0 && V(BAT,GND)<4.2 ? -K_ISET/(V(ISET,GND)+1u) : 0}
+* Behavioral model uses a fixed typical charge current when enabled.
+* For accurate current, set ICHG externally via the ICHG parameter.
+.PARAM ICHG=0.5
+GCHG BAT GND VALUE={ -ICHG * 0.5*(1+TANH((V(VIN_OK)-1.0)/0.1)) * 0.5*(1+TANH((V(TS_OK)-1.0)/0.1)) * 0.5*(1+TANH((4.2-V(BAT,GND))/0.05)) }
 
 * SYS output: power-path regulator
 * Ideal diode-OR between IN and BAT, with dropout and current limit
