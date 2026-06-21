@@ -1,0 +1,19 @@
+* SP13: VBAT ripple and Schottky D1 behavior
+* Battery with ripple, Schottky in series, observe +4V rail
+
+.include models/custom/diode.lib
+.include models/custom/passive.lib
+
+* Battery with 100mV ripple at 100Hz
+VBAT bat 0 SIN(3.7 0.1 100)
+
+* Schottky SM4007PL between battery and system
+D1 bat sys D_SCHOTTKY
+
+* System load
+Rload sys 0 50
+Csys sys 0 10u
+
+.tran 100u 50m
+.print tran v(bat) v(sys) i(VBAT)
+.end

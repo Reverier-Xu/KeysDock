@@ -1,0 +1,23 @@
+* SC4823S6-TR linear hall-effect sensor behavioral model
+* Pin order: H1=VDD, H2=GND, H3=VOUT, H4=SLEEP, H5=GND2, H6=AWAKE, MAG
+* Supply current active ~1.4mA, sleep ~3uA
+* Sensitivity ~3.3mV/Gs; output centered ~0.5*VDD (~1.65V at 3.3V)
+* AWAKE is modeled as open-drain active-low wake (pulled up externally by 10k).
+
+.SUBCKT SC4823S6 VDD GND VOUT SLEEP GND2 AWAKE MAG
+
+* Sleep state: active when SLEEP is high (RANA high = active)
+BSLEEP SLEEP_INT 0 V=V(SLEEP,GND)>1.5?3.3:0
+
+* Quiescent current
+GIDD VDD GND VALUE={V(SLEEP_INT)>1.5?1.4m:3u}
+
+* Hall output voltage: 1.65V + sensitivity * B(t) (B in Gauss)
+EVOUT VOUT GND VALUE={(1.65 + 3.3m*V(MAG,GND) < 0.05 ? 0.05 : (1.65 + 3.3m*V(MAG,GND) > V(VDD,GND)-0.05 ? V(VDD,GND)-0.05 : 1.65 + 3.3m*V(MAG,GND)))}
+
+* AWAKE open-drain output: asserted low when |B| exceeds ~30G (wake threshold)
+* If in sleep, AWAKE is high-impedance (pulled up externally).
+BAWAKE AWAKE GND V=V(SLEEP_INT)>1.5 && ABS(V(MAG,GND))>30?0:3.3
+RPD AWAKE GND 1MEG
+
+.ENDS SC4823S6

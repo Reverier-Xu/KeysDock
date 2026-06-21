@@ -1,0 +1,27 @@
+* SP04: Hall sensor -> mux -> ADC signal chain settling and scan time
+* Simplified ideal mux + ADC AFE model for convergence
+
+.include models/custom/sc4823s6.lib
+.include models/custom/tla2518_afe.lib
+.include models/custom/passive.lib
+
+V3V3 vdd 0 DC 3.3
+
+* Hall sensor with magnetic field step (sleep tied active-high = running)
+VH mag 0 PWL(0 0 1u 0 2u 100 20u 100 21u 0)
+VSLEEP sleep 0 DC 3.3
+XHALL vdd 0 hall_out sleep 0 awake mag SC4823S6
+
+* Ideal mux switch: 200Ω Ron, enabled when eb is low
+VEN  eb 0 PWL(0 3.3 5u 3.3 6u 0 25u 0 26u 3.3)
+Rmux hall_out adc_in 200
+Gmux adc_in 0 VALUE={V(hall_out,adc_in)/200 * (V(eb)<1.0?1:0.001)}
+Ccom adc_in 0 20p
+
+* ADC sample/hold with sampling pulse
+VSAMP samp 0 PWL(0 0 15u 0 15.1u 3.3 15.5u 3.3 15.6u 0 25u 0)
+XADC adc_in samp vdd 0 adc_code TLA2518_AFE
+
+.tran 10n 30u
+.print tran v(hall_out) v(adc_in) v(samp) v(adc_code)
+.end

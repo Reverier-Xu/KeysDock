@@ -1,0 +1,30 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * sp07: +3.3v pdn impedance vs frequency
+
+binary raw file "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP07.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+Note: iac: has no value, DC 0 assumed
+No. of Data Columns : 18  
+
+No. of Data Rows : 141
+.print line ignored since rawfile was produced.
+
+Total analysis time (seconds) = 0.00017357
+
+Total elapsed time (seconds) = 0.001 
+
+Total DRAM available = 31708.289 MB.
+DRAM currently available = 10351.324 MB.
+Maximum ngspice program size =   19.965 MB.
+Current ngspice program size =   12.133 MB.
+
+Shared ngspice pages =   10.320 MB.
+Text (code) pages =    6.449 MB.
+Stack = 0 bytes.
+Library pages =    2.016 MB.
+

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "SP01",
+    "file": "sp01_vbat_divider.cir",
+    "returncode": 0,
+    "success": true,
+    "log": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP01.log",
+    "raw": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP01.raw",
+    "errors": "",
+    "metrics": {
+      "has_error_keyword": false
+    }
+  },
+  {
+    "id": "SP02",
+    "file": "sp02_charger.cir",
+    "returncode": 0,
+    "success": true,
+    "log": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP02.log",
+    "raw": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP02.raw",
+    "errors": "",
+    "metrics": {
+      "has_error_keyword": false
+    }
+  },
+  {
+    "id": "SP03",
+    "file": "sp03_buck.cir",
+    "returncode": 0,
+    "success": true,
+    "log": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP03.log",
+    "raw": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP03.raw",
+    "errors": "",
+    "metrics": {
+      "has_error_keyword": false
+    }
+  },
+  {
+    "id": "SP04",
+    "file": "sp04_hall_mux_adc.cir",
+    "returncode": 0,
+    "success": true,
+    "log": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP04.log",
+    "raw": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP04.raw",
+    "errors": "",
+    "metrics": {
+      "has_error_keyword": false
+    }
+  },
+  {
+    "id": "SP05",
+    "file": "sp05_mux_crosstalk.cir",
+    "returncode": 0,
+    "success": true,
+    "log": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP05.log",
+    "raw": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP05.raw",
+    "errors": "",
+    "metrics": {
+      "has_error_keyword": false
+    }
+  },
+  {
+    "id": "SP06",
+    "file": "sp06_ground_noise.cir",
+    "returncode": 0,
+    "success": true,
+    "log": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP06.log",
+    "raw": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP06.raw",
+    "errors": "",
+    "metrics": {
+      "has_error_keyword": false
+    }
+  },
+  {
+    "id": "SP07",
+    "file": "sp07_pdn_impedance.cir",
+    "returncode": 0,
+    "success": true,
+    "log": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP07.log",
+    "raw": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP07.raw",
+    "errors": "",
+    "metrics": {
+      "has_error_keyword": false
+    }
+  },
+  {
+    "id": "SP08",
+    "file": "sp08_sleep_wake.cir",
+    "returncode": 0,
+    "success": true,
+    "log": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP08.log",
+    "raw": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP08.raw",
+    "errors": "",
+    "metrics": {
+      "has_error_keyword": false
+    }
+  },
+  {
+    "id": "SP09",
+    "file": "sp09_usb_vbus_tvs.cir",
+    "returncode": 0,
+    "success": true,
+    "log": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP09.log",
+    "raw": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP09.raw",
+    "errors": "",
+    "metrics": {
+      "has_error_keyword": false
+    }
+  },
+  {
+    "id": "SP10",
+    "file": "sp10_usb_data_tvs.cir",
+    "returncode": 0,
+    "success": true,
+    "log": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP10.log",
+    "raw": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP10.raw",
+    "errors": "",
+    "metrics": {
+      "has_error_keyword": false
+    }
+  },
+  {
+    "id": "SP11",
+    "file": "sp11_adc_sampling.cir",
+    "returncode": 0,
+    "success": true,
+    "log": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP11.log",
+    "raw": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP11.raw",
+    "errors": "",
+    "metrics": {
+      "has_error_keyword": true
+    }
+  },
+  {
+    "id": "SP12",
+    "file": "sp12_led_load_switch.cir",
+    "returncode": 0,
+    "success": true,
+    "log": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP12.log",
+    "raw": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP12.raw",
+    "errors": "",
+    "metrics": {
+      "has_error_keyword": false
+    }
+  },
+  {
+    "id": "SP13",
+    "file": "sp13_vbat_ripple.cir",
+    "returncode": 0,
+    "success": true,
+    "log": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP13.log",
+    "raw": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP13.raw",
+    "errors": "",
+    "metrics": {
+      "has_error_keyword": false
+    }
+  },
+  {
+    "id": "SP16",
+    "file": "sp16_ts_bias.cir",
+    "returncode": 0,
+    "success": true,
+    "log": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP16.log",
+    "raw": "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP16.raw",
+    "errors": "",
+    "metrics": {
+      "has_error_keyword": false
+    }
+  }
+]

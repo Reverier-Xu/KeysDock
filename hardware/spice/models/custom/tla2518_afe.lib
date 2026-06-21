@@ -1,0 +1,21 @@
+* TLA2518 8-channel 12-bit SAR ADC analog-front-end behavioral model
+* Models input switch resistance, sample cap, and sampling timing.
+* Pins: AIN, SAMP (sampling clock high=sample), DVDD, DGND, DOUT
+* Output DOUT is a voltage representing the sampled input.
+
+.SUBCKT TLA2518_AFE AIN SAMP DVDD DGND DOUT
+
+* Input switch: Ron ~500Ω
+R1 AIN SAMP_NODE 500
+
+* Sample capacitor 12pF
+C1 SAMP_NODE DGND 12p
+
+* Sampling switch: when SAMP high, capacitor tracks AIN; when low, holds
+* Modeled as a voltage-controlled conductance
+G1 AIN SAMP_NODE VALUE={V(AIN,SAMP_NODE)/500 * (V(SAMP,DGND)>1.5?1:0.001)}
+
+* Output: sampled voltage
+BDOUT DOUT 0 V={V(SAMP_NODE,DGND)}
+
+.ENDS TLA2518_AFE

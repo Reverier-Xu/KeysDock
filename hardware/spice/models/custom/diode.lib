@@ -1,0 +1,35 @@
+* KeysDock custom diode / TVS models for ngspice
+
+* Generic Schottky rectifier (SM4007PL-ish, SOD-123FL, 1A 40V Schottky)
+* Forward ~0.3-0.5V, low reverse leakage
+.MODEL D_SCHOTTKY D(IS=1u N=1.2 RS=0.1 CJO=50p VJ=0.4 M=0.35 TT=10n BV=40 IBV=1m)
+
+* Generic small-signal silicon diode
+.MODEL D_SILICON D(IS=1f N=1.0 RS=0.5 CJO=2p VJ=0.6 M=0.33 TT=4n BV=75 IBV=1u)
+
+* TPD4E05U06DQAR behavioral model:
+* 4-channel unidirectional TVS array for USB D+/D- / high-speed data.
+* Clamp ~6V, very low capacitance 0.42-0.5pF, low leakage ~10nA.
+.SUBCKT TPD4E05U06 IO GND
+D1 IO GND D_TVS_5V5
+C1 IO GND 0.5p
+.ENDS TPD4E05U06
+
+.MODEL D_TVS_5V5 D(IS=10n N=1.0 RS=0.5 CJO=0.5p VJ=0.6 M=0.3 BV=6.0 IBV=1m)
+
+* TPD1E10B06DPYR behavioral model:
+* Single-channel unidirectional TVS for VBAT / sensitive lines.
+* Vrwm 5.5V, clamp ~9V typical, low leakage.
+.SUBCKT TPD1E10B06 IO GND
+D1 IO GND D_TVS_5V5
+C1 IO GND 15p
+.ENDS TPD1E10B06
+
+* TS24CA bidirectional TVS (behavioral)
+* Datasheet indicates working voltage ~24V, clamp ~40V+. Used on VBUS path.
+.SUBCKT TS24CA A B
+D1 A B D_TVS_24V_BI
+D2 B A D_TVS_24V_BI
+.ENDS TS24CA
+
+.MODEL D_TVS_24V_BI D(IS=10n N=1.0 RS=0.5 CJO=50p VJ=0.6 M=0.3 BV=27.0 IBV=1m)

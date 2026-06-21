@@ -1,0 +1,15 @@
+* SP01: VBAT divider accuracy and ADC input range
+* Schematic: R8=100k from VBAT to AIN7, R9=100k from AIN7 to GNDA
+* Test VBAT from 3.0V to 4.5V
+
+.include models/custom/passive.lib
+
+VBAT vin 0 DC 3.7
+R8 vin aout 100k
+R9 aout 0 100k
+C3 aout 0 100n
+
+.op
+.dc VBAT 3.0 4.5 0.1
+.print dc v(aout) i(VBAT)
+.end

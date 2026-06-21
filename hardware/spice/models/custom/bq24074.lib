@@ -1,0 +1,47 @@
+* BQ24074RGTR behavioral model: charger + power-path
+* Pins: IN, BAT, SYS, TS, ISET, ILIM, ITERM, EN1, EN2, CHG, PGOOD, GND
+* Key behaviors:
+*   - SYS follows max(IN-0.2V, BAT-0.05V) when input present; follows BAT when no input
+*   - Charge current set by ISET resistor: Ichg = 540 / Riset (Ω)  [Kiset ~540 AΩ]
+*   - Input current limit set by ILIM resistor: Ilim = 1550 / Rilim (Ω) for Rilim >=1.1k
+*   - TS pin must be 45-80% of VIN for normal charging; outside -> fault (no charge)
+*   - SYS output current-limited and regulated to ~4.4V max
+*   - PGOOD open-drain active-low when valid VIN present (VIN > UVLO ~3.2V)
+*   - CHG open-drain active-low while charging
+
+.SUBCKT BQ24074 IN BAT SYS TS ISET ILIM ITERM EN1 EN2 CHG PGOOD GND
+
+* Internal reference for current programming
+.PARAM K_ISET=540.0
+.PARAM K_ILIM=1550.0
+
+* Detect valid input (above ~3.2V UVLO)
+BVIN_OK VIN_OK 0 V=V(IN,GND)>3.5?3.3:0
+
+* TS compliance window: VTS must be 45%-80% of VIN
+* If VIN_OK low, force fault; otherwise compare ratio
+BTS_OK TS_OK 0 V=V(VIN_OK)>1.0 && V(TS,GND)>0.45*V(IN,GND) && V(TS,GND)<0.80*V(IN,GND)?3.3:0
+
+* Charge current programming from ISET resistor
+* Riset = V(ISET)/ISET current; assume ISET pin ≈ 1V during operation
+* Use a simple current source proportional to 1/Riset
+GCHG BAT GND VALUE={V(VIN_OK)>1.0 && V(TS_OK)>1.0 && V(BAT,GND)<4.2 ? -K_ISET/(V(ISET,GND)+1u) : 0}
+
+* SYS output: power-path regulator
+* Ideal diode-OR between IN and BAT, with dropout and current limit
+* SYS voltage = min( max(IN-0.2, BAT-0.05), 4.4V ) when VIN_OK; else BAT
+BSYSV SYS_CTRL 0 V=V(VIN_OK)>1.0 ? (V(IN,GND)-0.2 < V(BAT,GND)-0.05 ? V(BAT,GND)-0.05 : (V(IN,GND)-0.2 > 4.4 ? 4.4 : V(IN,GND)-0.2)) : V(BAT,GND)
+
+* Output impedance / current limit of SYS (~1.5A max)
+EVOUT SYS_INT 0 VALUE={V(SYS_CTRL,GND)}
+RSYS SYS_INT SYS 50m
+
+* PGOOD open-drain: low when VIN valid
+BPGOOD PGOOD GND V=V(VIN_OK)>1.0?0:3.3
+RPD_PGOOD PGOOD GND 10MEG
+
+* CHG open-drain: low when charging (current flowing into BAT)
+BCHG CHG GND V=V(VIN_OK)>1.0 && V(TS_OK)>1.0 && V(BAT,GND)<4.15?0:3.3
+RPD_CHG CHG GND 10MEG
+
+.ENDS BQ24074

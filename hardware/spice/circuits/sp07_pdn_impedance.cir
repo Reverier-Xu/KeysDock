@@ -1,0 +1,24 @@
+* SP07: +3.3V PDN impedance vs frequency
+* Includes TPS62142 output capacitance bank and ESL/ESR
+
+.include models/custom/passive.lib
+
+* AC current source injecting into +3.3V node
+IAC 0 vout AC 1
+
+* Output capacitance bank with ESL/ESR
+XC1 vout 0 C0402_22U
+XC2 vout 0 C0402_10U
+XC3 vout 0 C0402_1U
+XC4 vout 0 C0402_4U7
+XC5 vout 0 C0402_4U7
+XC6 vout 0 C1206_100U
+XC7 vout 0 C1206_100U
+
+* Buck regulator modeled as ideal 3.3V with output impedance
+VREG vreg 0 DC 3.3
+RREG vreg vout 50m
+
+.ac dec 20 10 100MEG
+.print ac v(vout)
+.end

@@ -1,0 +1,19 @@
+* SP16: BQ24074 TS bias compliance
+* Compare current schematic (10k to GND) with recommended NTC-disabled bias
+
+VUSB vin 0 DC 5.0
+
+* Current schematic: TS pulled to GND via R14=10k
+RTS_BAD vin ts_bad 10k
+R2_BAD ts_bad 0 1
+
+* Recommended NTC-disabled bias: TS = 66% of VIN (47k to +3.3V, 10k to GND approx)
+* Using a divider from VIN: Rtop=10k, Rbot=47k gives TS/VIN = 47/(10+47)=82% (slightly high)
+* Better: Rtop=22k, Rbot=47k -> 47/69=68%
+R_TOP vin ts_good 22k
+R_BOT ts_good 0 47k
+
+.op
+.dc VUSB 4.5 6.0 0.1
+.print dc v(ts_bad) v(ts_good) {v(ts_bad)/v(vin)} {v(ts_good)/v(vin)}
+.end

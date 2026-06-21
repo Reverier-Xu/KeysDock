@@ -1,0 +1,52 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * sp08: sc4823s6 hall sensor sleep / wake timing
+
+binary raw file "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP08.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+No. of Data Columns : 17  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+mag                                          0
+sleep                                      3.3
+xhall.sleep_int                            3.3
+xhall.gidd_int1                         0.0014
+vout                                      1.65
+xhall.evout_int1                          1.65
+awake                                      3.3
+b.xhall.bawake#branch                 -3.3e-06
+b.xhall.bevout#branch                        0
+b.xhall.bgidd#branch                         0
+b.xhall.bsleep#branch                        0
+e.xhall.evout#branch                         0
+vsleep#branch                                0
+vmag#branch                                  0
+v3v3#branch                            -0.0014
+
+
+No. of Data Rows : 1529
+.print line ignored since rawfile was produced.
+
+Total analysis time (seconds) = 0.00374671
+
+Total elapsed time (seconds) = 0.005 
+
+Total DRAM available = 31708.289 MB.
+DRAM currently available = 10350.969 MB.
+Maximum ngspice program size =   19.957 MB.
+Current ngspice program size =   11.980 MB.
+
+Shared ngspice pages =   10.156 MB.
+Text (code) pages =    6.449 MB.
+Stack = 0 bytes.
+Library pages =    2.008 MB.
+

@@ -1,0 +1,27 @@
+* TPS22910AYZVR behavioral model: 5.5V 2A load switch, active-low enable
+* Pins: VIN, VOUT, GND, ON
+* On-resistance ~60mΩ; controlled turn-on slew ~1V/µs at 3.3V; reverse-current protection
+
+.SUBCKT TPS22910A VIN VOUT GND ON
+
+* Active-low enable: switch on when ON < ~0.5V
+BEN EN_INT 0 V=V(ON,GND)<0.6?3.3:0
+
+* Slew-limited output voltage (simple RC representation)
+R_SLEW EN_INT VOUT_CTRL 1k
+C_SLEW VOUT_CTRL GND 300p
+
+* On-state: voltage-controlled resistor between VIN and VOUT
+* Uses a VCCS with parallel high resistance for off-state; limited to 2A
+GOUT VOUT VIN VALUE={(V(VOUT,VIN)/60m < -2 ? -2 : (V(VOUT,VIN)/60m > 2 ? 2 : V(VOUT,VIN)/60m)) * (V(VOUT_CTRL,GND)>1.0?1:0)}
+R_OFF VIN VOUT 1G
+
+* Body diode / output clamp to GND (prevents negative output when off)
+DCLAMP GND VOUT D_SW_CLAMP
+
+* Reverse current protection: disable switch if VOUT > VIN + 44mV
+BREV REV_FLAG 0 V=V(VOUT,GND)>V(VIN,GND)+0.044?0:3.3
+
+.ENDS TPS22910A
+
+.MODEL D_SW_CLAMP D(IS=1u N=1.0 RS=0.1 CJO=10p VJ=0.3 M=0.3 BV=6 IBV=1m)

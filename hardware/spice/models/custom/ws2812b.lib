@@ -1,0 +1,17 @@
+* XL-6028RGBW-WS2812B behavioral current-load model
+* Each LED has 100nF decoupling and draws ~18-60mA depending on color/brightness.
+* Full white (R+G+B+W max) ~60mA per LED typical.
+* Current is zero below ~2V LED forward threshold (smooth transition).
+
+* Single LED model with data passthrough
+.SUBCKT WS2812B VCC GND DIN DOUT PARAMS: ICC=18m
+C1 VCC GND 100n
+GLED VCC GND VALUE={ICC * ((V(VCC,GND)-2.0)/0.2 < 0 ? 0 : ((V(VCC,GND)-2.0)/0.2 > 1 ? 1 : (V(VCC,GND)-2.0)/0.2))}
+BDOUT DOUT 0 V=V(DIN,GND)
+.ENDS WS2812B
+
+* 82-LED chain equivalent for power simulations
+.SUBCKT LED_CHAIN_82 VCC GND PARAMS: ICC=18m
+Ceq VCC GND 8.2u
+Gchain VCC GND VALUE={82*ICC * ((V(VCC,GND)-2.0)/0.2 < 0 ? 0 : ((V(VCC,GND)-2.0)/0.2 > 1 ? 1 : (V(VCC,GND)-2.0)/0.2))}
+.ENDS LED_CHAIN_82

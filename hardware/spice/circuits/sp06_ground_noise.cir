@@ -1,0 +1,25 @@
+* SP06: Ground noise coupling across GNDA/GNDD split and NetTie
+* LED load switching injects noise into GNDD; measure GNDA bounce
+
+.include models/custom/passive.lib
+
+* NetTie model: small resistance between GNDD and GNDA
+RNT gndd gnda 1m
+
+* Clean analog source reference
+VREF ref 0 DC 3.3
+
+* LED switch current: 1A pulse returning through GNDD
+ILED gndd 0 PWL(0 0 1m 0 1.01m 1.0 2m 1.0 2.01m 0)
+
+* Shared PCB inductance in GNDD return path
+LRET gndd 0 5n
+
+* Analog sensor tied to GNDA
+RADC ref ain 10k
+CADC ain gnda 10p
+RLOAD ain gnda 1MEG
+
+.tran 100n 5m
+.print tran v(gndd) v(gnda) v(ain)
+.end

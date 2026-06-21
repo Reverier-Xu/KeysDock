@@ -1,0 +1,37 @@
+* TPS62142RGTR behavioral model: 3-17V input, 2A synchronous buck, fixed 3.3V output
+* Simplification: ideal 3.3V source with output resistance and RC soft-start.
+
+.SUBCKT TPS62142 PVIN1 PVIN2 AVIN EN SS_TR DEF FSW PGND1 PGND2 PG FB VOS1 VOS2 VOS3 SW1 SW2 SW3 AGND
+
+* Combine inputs
+RIN1 AVIN VIN_INT 1m
+RIN2 PVIN1 VIN_INT 1m
+RIN3 PVIN2 VIN_INT 1m
+
+* Enable detection with UVLO
+BEN EN_OK 0 V=V(AVIN,AGND)>2.0 && V(EN,AGND)>1.0?1:0
+
+* Soft-start: current source charges SS_TR cap when enabled
+* 1uA * 3.3nF -> ~3.3V in 10ms
+GSS 0 SS_TR VALUE={V(EN_OK)>0.5?1u:0}
+CSS SS_TR AGND 3.3n
+
+* Regulated output: 3.3V with soft-start and 50mΩ output resistance
+EVOUT OUT_INT AGND VALUE={((3.3*(V(SS_TR,AGND)/3.3 < 1.0 ? V(SS_TR,AGND)/3.3 : 1.0)) < V(VIN_INT,AGND) ? (3.3*(V(SS_TR,AGND)/3.3 < 1.0 ? V(SS_TR,AGND)/3.3 : 1.0)) : V(VIN_INT,AGND))}
+ROUT OUT_INT VOS_INT 50m
+
+* Tie outputs together
+RVO1 VOS_INT VOS1 1m
+RVO2 VOS_INT VOS2 1m
+RVO3 VOS_INT VOS3 1m
+
+* Switch node approximated as output
+EVSW1 SW1 AGND VALUE={V(VOS_INT,AGND)}
+EVSW2 SW2 AGND VALUE={V(VOS_INT,AGND)}
+EVSW3 SW3 AGND VALUE={V(VOS_INT,AGND)}
+
+* Power Good: high when output > 95% of 3.3V
+BPG PG AGND V=V(VOS_INT,AGND)>3.135?3.3:0
+RPD_PG PG AGND 10MEG
+
+.ENDS TPS62142

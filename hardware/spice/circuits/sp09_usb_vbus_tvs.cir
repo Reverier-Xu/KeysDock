@@ -1,0 +1,18 @@
+* SP09: USB VBUS TVS clamping (TS24CA behavioral model)
+* Apply ESD-like pulse and observe clamp voltage
+
+.include models/custom/diode.lib
+
+* USB VBUS line with 1µF decoupling
+C1 vbus 0 1u
+
+* TVS from VBUS to GND
+XS1 vbus 0 TS24CA
+
+* ESD surge source with 1Ω coupling
+VESD esd 0 PWL(0 0 1n 0 2n 100 20n 100 21n 0)
+R_ESD esd vbus 1
+
+.tran 100p 50n
+.print tran v(vbus) i(VESD)
+.end

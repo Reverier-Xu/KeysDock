@@ -1,0 +1,15 @@
+* SP11: TLA2518 ADC sampling acquisition error vs source impedance
+* Sweep source resistance and observe sampled voltage vs actual input
+
+.include models/custom/tla2518_afe.lib
+
+VIN vin 0 DC 2.0
+RSRC vin adc_in {Rsrc}
+XS1 adc_in samp 3.3 0 adc_code TLA2518_AFE
+VSAMP samp 0 PWL(0 0 1u 0 1.01u 3.3 1.5u 3.3 1.51u 0)
+
+.PARAM Rsrc=1k
+
+.tran 1n 3u
+.print tran v(vin) v(adc_in) v(adc_code)
+.end

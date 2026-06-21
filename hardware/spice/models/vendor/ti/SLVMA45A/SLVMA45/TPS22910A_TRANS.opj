@@ -1,0 +1,96 @@
+(ExpressProject "TPS22910A_TRANS"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\tps22910a_trans.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "tps22910a_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tps22910a_trans-pspicefiles\tps22910a_sim\trans.sim"
+        (DisplayName "TPS22910A_sim-TRANS")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\tps22910a_trans-pspicefiles\tps22910a_sim\trans.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\tps22910a_trans.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\tps22910a_trans.lib"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (TPS22910A
+      (FullPartName "TPS22910A.Normal")
+      (LibraryName
+         "C:\USERS\ADMIN\DESKTOP\LOAD_SWITCH\TPS22910A\ACTIVE_WORK_KARMIC\PSPICE\TPS22910A_PSPICE_TRANS\TPS22910A_TRANS.OLB")
+      (DeviceIndex "0"))
+    (IRFZ24N
+      (FullPartName "IRFZ24N.Normal")
+      (LibraryName "C:\USERS\ADMIN\DESKTOP\IRFZ24N_TEST\IRFZ24N.OLB")
+      (DeviceIndex "0"))
+    (INV_BASIC_GEN
+      (FullPartName "INV_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\USERS\ADMIN\DESKTOP\INTERNALLIBRARIES\SB0101_LOGIC\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\admin\Desktop\Load_Switch\TPS22910A\Active_Work_KarMic\PSPICE\TPS22910A_PSPICE_TRANS")
+  (MPSSessionName "admin")
+  (GlobalState
+    (FileView
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 229"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 1161 25 334")
+        (Scroll "0 60")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ADMIN\DESKTOP\LOAD_SWITCH\TPS22910A\RELEASE_KARMIC\PSPICE\TPS22910A_PSPICE_TRANS\TPS22910A_TRANS.DSN")
+      (Schematic "TPS22910A_sim")
+      (Page "PAGE1"))))

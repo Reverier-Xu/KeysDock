@@ -1,0 +1,38 @@
+* SP05: XL4067TS mux crosstalk between adjacent channels
+* Channel 0 driven with 1V 1MHz sine, channel 1 quiet; measure coupling
+
+.include models/custom/passive.lib
+
+V3V3 vdd 0 DC 3.3
+
+* Active channel 0 and quiet channel 1
+V0 s0 0 SIN(1.65 1 1MEG)
+V1 s1 0 DC 1.65
+
+* Mux model: 200Ω Ron, 5pF channel capacitance, 20pF output capacitance
+* Enable always on (eb=0), address 0 selected (a0=0, a1=a2=a3=0)
+VEN eb 0 DC 0
+VA0 a0 0 DC 0
+VA1 a1 0 DC 0
+VA2 a2 0 DC 0
+VA3 a3 0 DC 0
+
+* Channel 0 switch
+R0 s0 com 200
+G0 com 0 VALUE={V(s0,com)/200}
+C0 s0 0 5p
+
+* Channel 1 switch (off, but parasitic coupling)
+R1 s1 com 200
+G1 com 0 VALUE={V(s1,com)/200 * 0.001}
+C1 s1 0 5p
+
+* Output capacitance
+Ccom com 0 20p
+
+* Load
+Rload com 0 1MEG
+
+.tran 10n 5u
+.print tran v(s0) v(s1) v(com)
+.end

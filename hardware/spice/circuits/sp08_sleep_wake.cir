@@ -1,0 +1,22 @@
+* SP08: SC4823S6 hall sensor sleep / wake timing
+* Drive RANA (sleep) low then high; observe SAKI_MOVE wake pulse
+
+.include models/custom/sc4823s6.lib
+.include models/custom/passive.lib
+
+V3V3 vdd 0 DC 3.3
+
+* Magnetic field present after 10us
+VMAG mag 0 PWL(0 0 10u 0 11u 100 100u 100)
+
+* Sleep control: high (active) initially, low (sleep) from 50us to 80us
+VSLEEP sleep 0 PWL(0 3.3 50u 3.3 51u 0 80u 0 81u 3.3 150u 3.3)
+
+XHALL vdd 0 vout sleep 0 awake mag SC4823S6
+
+* SAKI_MOVE pull-up (10k to +3.3V)
+RPU awake vdd 10k
+
+.tran 100n 150u
+.print tran v(sleep) v(mag) v(vout) v(awake)
+.end

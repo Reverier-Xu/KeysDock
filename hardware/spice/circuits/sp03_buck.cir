@@ -1,0 +1,28 @@
+* SP03: TPS62142 buck regulation, load transient, and inrush
+* Models the ~220µF total output capacitance and system load steps
+* The buck is modeled as a ramped 3.3V source with 50mΩ output resistance.
+
+.include models/custom/passive.lib
+
+* +4V input rail
+VIN vin 0 DC 4.4
+
+* Buck output with soft-start ramp and output resistance
+VBUCK vreg 0 PWL(0 0 1u 0 2u 3.3 100m 3.3)
+ROUT vreg vout 50m
+
+* Total output capacitance on +3.3V rail
+Cout1 vout 0 22u
+Cout2 vout 0 10u
+Cout3 vout 0 1u
+Cout4 vout 0 4.7u
+Cout5 vout 0 4.7u
+Cout6 vout 0 100u
+Cout7 vout 0 100u
+
+* Load: stepped from 100mA to 1A to show transient response
+ILOAD vout 0 PWL(0 0 5m 100m 10m 100m 11m 1.0 30m 1.0 31m 100m 60m 100m)
+
+.tran 1u 70m
+.print tran v(vout) I(VIN) I(VBUCK)
+.end

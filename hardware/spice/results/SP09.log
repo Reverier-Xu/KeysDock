@@ -1,0 +1,39 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * sp09: usb vbus tvs clamping (ts24ca behavioral model)
+
+binary raw file "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP09.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+No. of Data Columns : 4  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vbus                              -1.13596e-27
+esd                                          0
+vesd#branch                       -1.13596e-27
+
+
+No. of Data Rows : 524
+.print line ignored since rawfile was produced.
+
+Total analysis time (seconds) = 0.00116241
+
+Total elapsed time (seconds) = 0.002 
+
+Total DRAM available = 31708.289 MB.
+DRAM currently available = 10347.578 MB.
+Maximum ngspice program size =   19.832 MB.
+Current ngspice program size =   11.914 MB.
+
+Shared ngspice pages =   10.125 MB.
+Text (code) pages =    6.449 MB.
+Stack = 0 bytes.
+Library pages =    1.883 MB.
+

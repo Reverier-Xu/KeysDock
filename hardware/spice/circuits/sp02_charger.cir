@@ -1,0 +1,30 @@
+* SP02: BQ24074 power-path and charger behavior
+* Tests: USB plugged/unplugged, battery charge current, SYS voltage, TS fault
+
+.include models/custom/bq24074.lib
+.include models/custom/passive.lib
+
+* USB input with connector resistance; pulsed to show plug/unplug
+VUSB vusb 0 PWL(0 0 1m 0 2m 5.0 30m 5.0 31m 0 60m 0 61m 5.0)
+RUSB vusb vin 100m
+
+* Battery model
+XBAT bat 0 BATTERY PARAMS: V=3.5 R=0.1
+
+* Charger IC
+XU4 vin bat sys ts iset ilim iterm 0 0 chg pg 0 BQ24074
+
+* Programming resistors
+Riset 0 iset 750
+Rilim vin ilim 1.1k
+Riterm 0 iterm 3k
+
+* SYS load: ~250mA system
+Rsys sys 0 13
+
+* TS bias test: current schematic has 10k to GND (faulty)
+RTS vin ts 10k
+
+.tran 100u 80m
+.print tran v(vin) v(bat) v(sys) v(ts) i(XU4.GCHG) v(chg) v(pg)
+.end

@@ -1,0 +1,23 @@
+* SP12: LED load-switch inrush and current budget
+* Simplified model: 60mΩ switch + 8.2µF LED decoupling + 82-LED static load
+* VIN ramped from 0 to 3.3V; source resistance 0.1Ω
+
+.include models/custom/tps22910a.lib
+.include models/custom/ws2812b.lib
+.include models/custom/passive.lib
+
+* Ramp +3.3V rail from 0 to 3.3V at t=1ms, with 0.1Ω source resistance
+V3V3ramp src 0 PWL(0 0 1m 0 1.01m 3.3 50m 3.3)
+Rsrc src vin 0.1
+
+* TPS22910A load switch modelled as 60mΩ Ron + controlled turn-on
+* Turn-on ramp modelled by voltage-controlled resistor using soft-start cap
+XU6 vin vout 0 on TPS22910A
+RON on 0 1
+
+* LED chain equivalent: 8.2µF + up to 60mA per LED full white
+XLED vout 0 LED_CHAIN_82 PARAMS: ICC=60m
+
+.tran 1u 50m
+.print tran v(src) v(vin) v(vout) I(V3V3ramp)
+.end

@@ -1,0 +1,18 @@
+* SP10: USB D+/D- ESD clamping (TPD4E05U06 behavioral model)
+* Apply ESD pulse to data line and observe clamping and loading
+
+.include models/custom/diode.lib
+
+* Data line with 22Ω series resistor and 90Ω differential load
+Rseries src dp 22
+Rterm dp 0 45
+
+* TPD4E05U06: IO to GND
+XS1 dp 0 TPD4E05U06
+
+* ESD pulse on data line
+VESD src 0 PWL(0 0 1n 0 2n 8 10n 8 11n 0)
+
+.tran 50p 20n
+.print tran v(dp) i(VESD)
+.end

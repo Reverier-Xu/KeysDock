@@ -1,0 +1,68 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * sp04: hall sensor -> mux -> adc signal chain settling and scan time
+
+binary raw file "/home/reverier/Code/Hardware/KeysDock/hardware/spice/results/SP04.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+No. of Data Columns : 29  
+Warning: singular matrix:  check node xadc.samp_node
+
+Note: Starting dynamic gmin stepping
+Note: Dynamic gmin stepping completed
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+mag                                          0
+sleep                                      3.3
+xhall.sleep_int                            3.3
+xhall.gidd_int1                         0.0014
+hall_out                                  1.65
+xhall.evout_int1                          1.65
+awake                                      3.3
+eb                                         3.3
+adc_in                                    1.65
+gmux_int1                                    0
+samp                                         0
+xadc.samp_node                            1.65
+xadc.g1_int1                                 0
+adc_code                                  1.65
+b.xadc.bdout#branch                          0
+b.xadc.bg1#branch                            0
+bgmux#branch                                 0
+b.xhall.bawake#branch                 -3.3e-06
+b.xhall.bevout#branch                        0
+b.xhall.bgidd#branch                         0
+b.xhall.bsleep#branch                        0
+e.xhall.evout#branch                         0
+vsamp#branch                                 0
+ven#branch                                   0
+vsleep#branch                                0
+vh#branch                                    0
+v3v3#branch                            -0.0014
+
+
+No. of Data Rows : 3044
+.print line ignored since rawfile was produced.
+
+Total analysis time (seconds) = 0.0110041
+
+Total elapsed time (seconds) = 0.012 
+
+Total DRAM available = 31708.289 MB.
+DRAM currently available = 10352.688 MB.
+Maximum ngspice program size =   19.965 MB.
+Current ngspice program size =   12.027 MB.
+
+Shared ngspice pages =   10.172 MB.
+Text (code) pages =    6.449 MB.
+Stack = 0 bytes.
+Library pages =    2.016 MB.
+
