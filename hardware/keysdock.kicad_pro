@@ -76,16 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|40000000|183800000|1b05e726-2343-439d-acad-59b401b246d8|56674fcd-eef6-4a8b-9392-d2845d41c193",
-          ""
-        ],
-        [
-          "silk_edge_clearance|58000000|183800000|1b05e726-2343-439d-acad-59b401b246d8|c120df14-7e77-494e-82af-59774a50f505",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -266,7 +257,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.3.0"
+      "sch_revision": "0.3.2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -552,6 +543,7 @@
       "netlist": "./",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": "kicad-embed://sheet.kicad_wks"
@@ -1268,7 +1260,7 @@
         "uuid": "1dbf2a4e-9b9b-4b09-9979-c8b99f6b5d2a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "S1-2,R1-6,R21-22,R24-31,U1,U7-8,PC1,C1,#PWR1-8,#PWR11,#PWR34,#PWR76-80",
     "variants": []
   },
   "sheets": [
@@ -1299,6 +1291,10 @@
     [
       "d823985e-ad41-434d-bf20-2561a17f7aaf",
       "leds"
+    ],
+    [
+      "b7250679-e942-4760-9cf3-b74a7efc1c34",
+      "mcu"
     ]
   ],
   "text_variables": {},

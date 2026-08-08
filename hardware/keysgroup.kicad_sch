@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "KeysDock KeysGroup")
-		(date "2026-04-24")
-		(rev "0.3.0")
+		(date "2026-07-23")
+		(rev "0.3.2")
 		(company "keys.woooo.tech")
 		(comment 1 "Idealism is that you will never receive something back but nonetheless still decide to give.")
 	)
