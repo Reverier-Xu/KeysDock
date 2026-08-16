@@ -543,7 +543,7 @@
       "netlist": "./",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "keysdock.step",
       "vrml": ""
     },
     "page_layout_descr_file": "kicad-embed://sheet.kicad_wks"
