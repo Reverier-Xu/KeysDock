@@ -16890,7 +16890,7 @@
 		)
 		(uuid "0b30455a-0069-4a2f-b1ce-b9abe0d35ead")
 	)
-	(label "CHG_EN2"
+	(label "BAT_CHG_EN2"
 		(at 245.11 191.77 180)
 		(effects
 			(font
@@ -17160,7 +17160,7 @@
 		)
 		(uuid "7ad129bc-9eae-4387-87f7-f9f472884d98")
 	)
-	(label "CHG_EN1"
+	(label "BAT_CHG_EN1"
 		(at 245.11 189.23 180)
 		(effects
 			(font

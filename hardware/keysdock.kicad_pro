@@ -168,7 +168,7 @@
       "teardrop_options": [
         {
           "td_onpthpad": true,
-          "td_onroundshapesonly": true,
+          "td_onroundshapesonly": false,
           "td_onsmdpad": true,
           "td_ontrackend": false,
           "td_onvia": true
